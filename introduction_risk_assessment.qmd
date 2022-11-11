@@ -5,15 +5,15 @@ institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
 date: "10 November 2022"
 editor: visual
 format: 
-   pdf:
+   revealjs:
     slide-number: c/t
     width: 1600
     height: 900
     logo: "images/USU_logo_color.png"
     footer: "PMO601 Environmental Health Risk Assessment"
     theme: simple
- #   pdf-page-height-offset: 0.5
- #   self-contained: true
+    pdf-page-height-offset: 0.5
+    self-contained: true
 ---
 
 ## Course Description
