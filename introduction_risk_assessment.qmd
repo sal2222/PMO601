@@ -1,0 +1,276 @@
+---
+title: "Introduction to Risk Assessment"
+author: "LTC Stephen Lewandowski, PhD, CPH"
+institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
+date: "10 November 2022"
+editor: visual
+format: 
+   pdf:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: "images/USU_logo_color.png"
+    footer: "PMO601 Environmental Health Risk Assessment"
+    theme: simple
+ #   pdf-page-height-offset: 0.5
+ #   self-contained: true
+---
+
+## Course Description
+
+> Risk assessment involves many disciplines and tools that are used to evaluate and quantify/qualify risks. Environmental risk assessments typically fall into one of two areas: (1) Human Health; and (2) Ecological.\
+> Focusing on human health, we will cover the fundamentals of environmental health risk assessment in-depth. This course provides the tools for understanding the science and art of the risk assessment process to effectively manage and communicate risk.
+
+## Course Lesson Objectives
+
+1.  Identify and apply fundamental risk assessment concepts and principles.
+2.  Describe the basic steps in the risk assessment process.
+3.  Perform fundamental cancer and noncancer calculations used in human health risk assessments.
+4.  Understand and determine sources of uncertainty and variability in risk assessments.
+5.  Understand ethical dilemmas inherent to human health risk assessment.
+6.  Analyze regulatory applications of risk assessment and decision making.
+
+## Course Schedule
+
+![](images/pmo601_schedule2022.png){fig-align="center"}
+
+## Readings
+
+*Risk Assessment in the Federal Government: Managing the Process* (1983) <https://www.nap.edu/read/366/>
+
+*Science and Judgement in Risk Assessment* (1994) <https://www.nap.edu/read/2125/>
+
+*Science and Decisions - Advancing Risk Assessment* (2009) <https://www.nap.edu/catalog/12209/science-and-decisions-advancing-risk-assessment>
+
+*Exposure Science in the 21st Century: A Vision and a Strategy* (2012) <http://nap.nationalacademies.org/13507>
+
+*Risk Assessment Guidance for Superfund Volume I, Human Health Evaluation Manual (Part A)* <https://www.epa.gov/sites/default/files/2015-09/documents/rags_a.pdf>
+
+*EPA Exposure Factors Handbook: 2011 Edition* <https://www.epa.gov/expobox/about-exposure-factors-handbook>
+
+*EPA Guidelines for Human Exposure Assessment* <https://www.epa.gov/risk/guidelines-human-exposure-assessment>
+
+## Supplementary Textbook
+
+*Environmental Risk Assessment: A Toxicological Approach, 2nd Edition* by Ted Simon, CRC Press, 2020, ISBN 9780367250973
+
+Available online through the USU James A. Zimble Learning Resource Center (LRC) at: <https://usuhs.primo.exlibrisgroup.com/permalink/01USUHS_INST/38vr5c/alma991000620119206626>
+
+![](images/simon_text.png){fig-align="center"}
+
+## Lesson Objectives
+
+1.  Define basic risk assessment terms and definitions.
+
+2.  Understand how risk assessment is used in different contexts.
+
+3.  Understand the regulatory basis for human health risk assessments.
+
+## Risk Assessment
+
+Risk assessment is a **scientific process**.
+
+Factors:
+
+-   *How much of a stressor is present in an environmental medium (e.g., soil, water, air) over what geographic area?*
+
+-   *How much contact (exposure) a person or ecological receptor has with the contaminated environmental medium?*
+
+-   *How does a hazard affect the health of humans (e.g., toxicity) or ecological receptors (e.g., fish killed by lack of oxygen)?*
+
+<https://www.epa.gov/risk/about-risk-assessment#whatisrisk>
+
+## Risk Assessment Framework
+
+![](images/risk_framework.png){fig-align="center" fig-alt="A framework for risk-based decision-making that maximizes the utility of risk assessment."}
+
+## EPA Risk Assessment Framework
+
+![](images/epa_framework.png){fig-align="center" fig-alt="Framework for Human Health Risk Assessment to Inform Decision Making."}
+
+## EPA Superfund Risk Assessment Video
+
+{{< video https://clu-in.org/video/sf_risk_assessment.htm width="100%" height="85%" >}}
+
+<https://clu-in.org/video/sf_risk_assessment_overview.htm>\
+View 0:00 - 6:00 minutes
+
+## Risk assessment is a dominant public-policy tool
+
+-   Informs risk managers and the public about different policy options for protecting public health and the environment
+
+-   Instrumental in fulfilling the missions of the U.S. Environmental Protection Agency (EPA) and other federal and state agencies
+
+    -   Evaluating public health concerns
+
+    -   Informing regulatory and technological decisions
+
+    -   Setting priorities for research and funding
+
+    -   Developing approaches for cost-benefit analyses
+
+*Science and Decisions*
+
+## Risk Assessment Challenges
+
+-   Subject to considerable scientific, political, and public scrutiny
+-   The science is increasingly complex
+    -   Multiple chemical exposures
+    -   Multiple risks
+    -   Susceptibility in populations
+    -   Life-cycle analysis
+    -   Costs, benefits, and risk trade-offs
+-   Process is bogged down: major risk assessments for some chemicals take more than 10 years *(e.g., trichloroethylene,formaldehyde, dioxin)*
+-   Tens of thousands of chemical in commerce
+
+## Risk Assessment Development History
+
+![](images/red_book.png) ![](images/blue_book.png) ![](images/silver_book.png)
+
+## "Red Book" (1983)
+
+::: {layout-ncol="2"}
+-   Defines risk assessment as: the use of the factual base to define the health effects of exposure of individuals and populations to hazardous materials and situations
+
+-   Advocated for the separation of risk assessment from risk management
+
+![](images/red_book.png)
+:::
+
+## "Blue Book" (1994)
+
+::: {layout-ncol="2"}
+-   Addressed issues from Clean Air Act Amendments
+-   Themes:
+    -   Default values
+    -   Validation of data and models
+    -   Information and data needs
+    -   Uncertainty
+    -   Variability
+    -   Aggregation of Risks
+
+![](images/blue_book.png)
+:::
+
+## "Silver Book" (2009)
+
+::: {layout-ncol="2"}
+-   Recommendations to improve quality of the technical analysis and utility of risk assessments
+-   Encouraged inclusion of quantitative estimates of uncertainty and variability at all key computational steps
+
+![](images/silver_book.png)
+:::
+
+## Statutes and Regulatory Structure
+
+-   Statutes provide various standards and procedures related to the scientific analyses used to evaluate the risk potential of pollutants subject to the statutes
+
+-   Provide agencies authority to regulate many forms of pollution
+
+-   Enabling legislation for major EPA program offices:
+
+    -   Air and radiation
+    -   Water
+    -   Solid waste
+    -   Pesticides
+    -   Toxic substances
+
+-   Enacted prior to the emergence of risk analysis as an integrative discipline in the late 1970s and early 1980s
+
+## Major U.S. environmental and occupational health laws
+
+![](images/env_laws.png)
+
+## Statutory Language Examples
+
+## Clean Water Act
+
+> “adequate to protect public health and the
+environment from any reasonably anticipated adverse effects” (CWA § 405 (d)(2)(D))
+
+## Clean Air Act
+Addressing criteria pollutants:
+
+
+> “reflecting the latest scientific knowledge”
+
+> “national primary ambient air quality standards to . . . protect public health with
+an adequate margin of safety” (CAA §§ 108,109)
+
+
+## Toxic Substances Control Act
+Primary purpose: 
+
+> “to assure [that technologic]
+innovation and commerce in such chemical substances and mixtures do not present
+an unreasonable risk of injury to health or the environment” (TSCA § 2 (b)(3))
+
+
+## Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA)
+Criterion for registering a pesticide:
+
+> “it will perform its intended function without
+unreasonable adverse effects on human health and the environment” (FIFRA § 3)
+
+
+## 1996 Safe Drinking Water Act Amendments
+
+
+> “The Administrator shall, in a document made
+available to the public in support of a regulation promulgated under this section, specify, to
+the extent practicable
+– Each population addressed by any estimate of public health effects
+– The expected risk or central estimate of risk for the specific populations
+– Each appropriate upper-bound or lower-bound estimate of risk” (SDWA § 300g-1
+(b)(3)).
+
+
+
+## Risk Assessment Vocabulary {.scrollable}
+
+-   Agent-based risk assessments
+-   Benchmark Concentration
+-   Benchmark Concentration Limit
+-   Benchmark Dose
+-   Benchmark Dose Limit
+-   Benchmark response
+-   Dose-response assessment
+-   Exposure assessment
+-   Hazard identification
+-   Inhalation unit risk
+-   Lifestage
+-   Lowest-observed-adverse-effect level
+-   No-observed-adverse-effect level
+-   Place-based risk assessments
+-   Probabilistic modeling
+-   Reference concentration
+-   Reference dose
+-   Risk characterization
+-   Risk description
+-   Risk estimation
+-   Sensitivity
+-   Slope factor
+-   Stressor
+-   Susceptibility
+-   Uncertainty
+-   Uncertainty/variability factor
+-   Variability
+-   Vulnerability
+
+
+
+## Risk Assessment in the News
+
+- EPA published the Final Fifth Drinking Water Contaminant Candidate List (CCL 5)
+<https://www.asdwa.org/2022/11/02/epa-publishes-final-fifth-contaminant-candidate-list-for-potential-drinking-water-regulations/>
+<https://www.epa.gov/ccl/contaminant-candidate-list-5-ccl-5>
+
+- European exposure science strategy published
+<https://doi.org/10.1016/j.envint.2022.107555>
+
+- Sharm-El-Sheikh Adaptation Agenda launched  
+<https://unfccc.int/cop27>
+
+
+
+
