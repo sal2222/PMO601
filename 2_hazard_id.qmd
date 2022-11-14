@@ -1,0 +1,115 @@
+---
+title: "Hazard Identification and Risk Perception"
+author: "LTC Stephen Lewandowski, PhD, CPH"
+institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
+date: "17 November 2022"
+editor: visual
+format: 
+   revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: "images/USU_logo_color.png"
+    footer: "PMO601 Environmental Health Risk Assessment"
+    theme: simple
+    pdf-page-height-offset: 0.5
+    self-contained: true
+---
+
+## Admin Notes
+
+-   Presentation Topics
+
+<https://docs.google.com/document/d/1uvCxMa2H0ZKzfi4c3fwpb4wP9tAKo3kYQOUGvrjx7Ss/edit?usp=share_link>
+
+-   Homework #1 (due 08 December)
+
+## Review: What is Risk Assessment?
+
+> Human-health risk assessment entails the evaluation of scientific information on the hazardous properties of environmental agents and on the extent of human exposure to those agents. The product of the evaluation is a statement regarding the probability that populations so exposed will be harmed, and to what degree.
+
+*Science and Judgment in Risk Assessment (1994, "Blue Book")*
+
+## Lesson Outline
+
+-   Risk Perception
+
+-   Planning & Scoping / Problem Formulation
+
+-   Hazard Identification
+
+## Lesson Objectives
+
+-   Recognize how **risk perception** affects a person's assessment of a risk
+-   Describe the purpose of **planning & scoping** and **problem formulation**
+-   Discuss key considerations in the planning and scoping process
+-   Describe the role **stakeholders** play in the risk assessment process
+-   Discuss the **purpose of hazard identification**
+-   Discuss the **types of evidence** used in hazard identification
+-   Discuss strengths and limitations of epidemiological studies
+-   Discuss strengths and limitations of animal testing
+
+## Risk Perception
+
+> Risk perceptions are beliefs about potential harm or the possibility of a loss. It is a subjective judgment that people make about the characteristics and severity of a risk.
+
+*Darker C. (2013) Risk Perception. In: Gellman M.D., Turner J.R. (eds) Encyclopedia of Behavioral Medicine. Springer, New York, NY*
+
+## Risk Perception Dimensions
+
+-   **Cognitive**: "Knowledge and understanding of risks"
+
+-   **Emotional**: "Feelings about the risks"
+
+*Peak and Hove, 2017*
+
+## Risk Evaluations
+
+-   Layperson:
+    -   subjective
+    -   intuition
+    -   influenced by media
+    -   low information
+-   Experts:
+    -   research
+    -   statistical evidence
+
+*Peak and Hove, 2017*
+
+## Public Risk Perception {.scrollable}
+
+-   Dreaded vs. not dreaded
+-   Uncontrollable vs. controllable
+-   Fatal consequences vs. not fatal consequences
+-   Not equitable vs. equitable
+-   High risk to future generations vs. low risk to future generations
+-   Involuntary vs. voluntary
+-   Affects me vs. doesn't affect me
+-   Not preventable vs. preventable
+-   Not observable vs. observable
+-   Delayed vs. immediate effect
+-   New risk vs. old risk
+-   Risks unknown to science vs. risks known to science
+
+*Slovic et al. (1980)*
+
+## Risk Factors and Characteristics
+
+![](images/risk_factors.png)
+
+*Slovic et al. (1980)*
+
+## Risk Hazards
+
+![](images/risk_hazards81.png) Location of 81 hazards on factors 1 and 2 derived from the relationships among 18 risk characteristics.
+
+*Slovic et al. (1980)*
+
+## Unknown and dreaded risks (in 1980)
+
+![](images/dread_unknown_quad.png)
+
+
+
+
+## Risk Assessment in the News
