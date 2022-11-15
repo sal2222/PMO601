@@ -121,7 +121,9 @@ Location of 81 hazards on factors 1 and 2 derived from the relationships among 1
 
 ## Risk of death and acceptability
 
-![](images/risk_death.png) *Richard Wilson, Science, Technology, & Human Values Vol. 9, No. 2 (Spring, 1984), pp. 11-22*
+![](images/risk_death.png) 
+
+*Richard Wilson, Science, Technology, & Human Values Vol. 9, No. 2 (Spring, 1984), pp. 11-22*
 
 ## Risk Comparison {.scrollable}
 
@@ -208,7 +210,9 @@ Richard Wilson (1979): risks that increase a person's chance of death by one in 
 
 ## Stakeholders: Industry
 
-![](images/industry.png){fig-align="center"} \## Stakeholders: Environmental Group
+![](images/industry.png){fig-align="center"} 
+
+## Stakeholders: Environmental Group
 
 ![](images/env_group.png){fig-align="center"}
 
@@ -232,11 +236,16 @@ Richard Wilson (1979): risks that increase a person's chance of death by one in 
 
 ## Planning and Scoping Considerations
 
-• What decision is informed by risk assessment, when is decision anticipated, what are the risk management options? • What legal/statutory requirements affect risk management options and level/type of analysis? • What other considerations (e.g., environmental justice, life stage, cumulative risk, sustainability) or countervailing risks may influence risk management options and analyses? • What assessments (e.g., risk, economic) are needed to address decision-making needs? • What expertise, resources and timelines are available to conduct the assessments(s)?
+- What decision is informed by risk assessment, when is decision anticipated, what are the risk management options? 
+- What legal/statutory requirements affect risk management options and level/type of analysis? 
+- What other considerations (e.g., environmental justice, life stage, cumulative risk, sustainability) or countervailing risks may influence risk management options and analyses? • What assessments (e.g., risk, economic) are needed to address decision-making needs? 
+- What expertise, resources and timelines are available to conduct the assessments(s)?
 
 ## Examples of EPA Planning and Scoping
 
-• National Ambient Air Quality Standards: an Integrated Review Plan developed that describes all phases of the review, including the risk/exposure assessment • National Emissions Standards for Hazardous Air Pollutants residual risk review: encompasses a set of emissions source categories for which risk assessments are of generally similar scope and basic design, while differing in specific aspects of the sources and the chemicals emitted • CERCLA / Superfund human health risk assessments
+- National Ambient Air Quality Standards: an Integrated Review Plan developed that describes all phases of the review, including the risk/exposure assessment
+- National Emissions Standards for Hazardous Air Pollutants residual risk review: encompasses a set of emissions source categories for which risk assessments are of generally similar scope and basic design, while differing in specific aspects of the sources and the chemicals emitted
+- CERCLA / Superfund human health risk assessments
 
 ## Problem Formulation
 
