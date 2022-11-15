@@ -1,0 +1,69 @@
+---
+title: "pmo601_hw1"
+format: pdf
+editor: visual
+---
+
+# PMO601 Homework 1
+
+25 Points, Due: 08 December 2022
+
+**Instructions**: Complete this assignment independently. Document any assistance received from sources other than the instructor. Responses may be hand-written or typed. Submit the assignment as a Word document or PDF on Canvas.
+
+## Hazard Identification
+
+1.  *(6 points)*. At a complex site, an initial conceptual site model was developed to understand the potential sources of contamination, contaminants of potential concern, potentially affected media (soil gas, soil, and ground water), and transport and exposure pathways that could potentially impact human receptors. The conceptual site model synthesizes what is known to date into a snapshot that communicates the site physical setting and contaminants of potential concern discharge or exposure mechanisms. Based on the findings of the site investigation, the initial conceptual site model was updated and the current conceptual site model is presented as described and depicted below.\
+
+    Results obtained from previous investigations indicated that there are contaminants of potential concern in soil in all parcels, and in ground water. Metals, Extractable Petroleum, Polycyclic Aromatic Hydrocarbons, and Polychlorinated Biphenyls have been detected in subsurface soil. Metals, Extractable Petroleum Hydrocarbons, Polycyclic Aromatic Hydrocarbons, and Volatile Organic Compounds (VOCs) have also been detected in ground water. Soil gas samples had not been collected previously. The likely sources of these contaminants of potential concern are the historic fill material, former fuel use and storage, and shipbuilding and other industrial operations located at the site. Chemicals may have been placed during bay infilling, spilled on the ground surface or released in the subsurface soil and leached into shallow ground water. Some contaminants of potential concern including arsenic, cadmium, copper, chromium, nickel, thallium, vanadium, and zinc are also naturally occurring in the native rock and soil. Ground water contaminants may have spread following the direction of the shallow ground water gradient. VOCs in soil and ground water also may have volatilized into the soil pore space above the ground water table.
+
+![](images/hw/csm_complex.png) ![](images/hw/csm_legend.png)
+
+Based on this scenario, produce a **CSM flow chart** (box model) that includes:
+
+-   Sources (at least 2),
+
+-   Stressors (at least 2),
+
+-   Exposure Media (at least 3 types),
+
+-   Exposure Routes (at least 2 types), and
+
+-   Receptors (at least 2 groups)\
+    \
+    \
+    \
+    \
+    \
+    \
+    \
+    \
+    \
+    \
+
+    \
+    \
+
+## Dose - Response
+
+2.  *(5 points)*. Atrazine is a chlorinated triazine systemic herbicide that used to selectively control annual grasses and broadleaf weeds. Pesticide products containing atrazine are registered for use on several agricultural crops, with the highest use on field corn, sweet corn, sorghum, and sugarcane.
+
+-   What is the Reference Dose for Chronic Oral Exposure (RfD) for atrazine, based on a critical effect of decreased body weight gain?\
+
+-   Briefly explain how the EPA derived the atrazine RfD from experimental dose data.\
+
+-   When did the EPA last revise the atrazine RfD for Chronic Oral Exposure?\
+
+## Exposure Assessment
+
+3.  *(4 points)*. Log your vegetable consumption over a 2 day period.
+
+-   What is your 2-Day Average Intake of Total Vegetables (edible portion, uncooked weight) in **g/kg-day**?\
+    \
+    \
+
+-   How does your vegetable intake compare to the EPA *Per Capita* recommended mean for your age group? (Refer to *Exposure Factors Handbook*).
+
+    \
+    \
+4. The following concentrations of Chemical X were measured in an elementary school’s drinking water:  
+
