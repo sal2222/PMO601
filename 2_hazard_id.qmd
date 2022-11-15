@@ -101,15 +101,290 @@ format:
 
 ## Risk Hazards
 
-![](images/risk_hazards81.png) Location of 81 hazards on factors 1 and 2 derived from the relationships among 18 risk characteristics.
+::: {layout-ncol="2"}
+![](images/risk_hazards81.png)
 
-*Slovic et al. (1980)*
+Location of 81 hazards on factors 1 and 2 derived from the relationships among 18 risk characteristics. *Slovic et al. (1980)*
+:::
 
 ## Unknown and dreaded risks (in 1980)
 
 ![](images/dread_unknown_quad.png)
 
+## What is an acceptable lifetime excess cancer risk?
+
+-   1 in 1,000 (10^-3^)
+-   1 in 10,000 (10^-4^)
+-   1 in 100,000 (10^-5^)
+-   **1 in 1 million (10^-6^)**
+-   1 in 100 million (10^-8^)
+
+## Risk of death and acceptability
+
+![](images/risk_death.png) *Richard Wilson, Science, Technology, & Human Values Vol. 9, No. 2 (Spring, 1984), pp. 11-22*
+
+## Risk Comparison {.scrollable}
+
+Richard Wilson (1979): risks that increase a person's chance of death by one in one million
+
+-   Smoking 1.4 cigarettes (cancer, heart disease)
+-   Drinking ½ liter of wine (cirrhosis of the liver)
+-   Spending 1 hour in a coal mine (black lung disease)
+-   Spending 3 hours in a coal mine (accident)
+-   Living 2 days in New York or Boston (air pollution)
+-   Traveling 6 minutes by canoe (accident)
+-   Traveling 10 miles by bicycle (accident)
+-   Traveling 300 miles by jet (accident)
+-   Flying 1,000 miles by jet (accident)
+-   Flying 6,000 miles by jet (cancer caused by cosmic radiation)
+-   Living 2 months in Denver (cancer caused by cosmic radiation)
+-   One chest X-ray taken in a good hospital (cancer caused by radiation)
+-   Living 2 months with a cigarette smoker (cancer, heart disease)
+-   Eating 40 tablespoons of peanut butter (liver cancer caused by aflatoxin B)
+
+## Acceptable Levels of Risk
+
+-   Delaney Clause:
+
+    -   Zero tolerance guidance:
+
+    > the Secretary of the Food and Drug Administration shall not approve for use in food any chemical additive found to induce cancer in man, or, after tests, found to induce cancer in animals
+
+    -   "*De minimis*" exception: carcinogenic food additive present at a concentration of less than 1 part in 1,000,000 --\> risk considered negligible
+
+    -   Applied to diethylstilbestrol (DES) in meat
+
+-   Comprehensive Environmental Response, Compensation, and Liability Act of 1980 (CERCLA / Superfund): 10^-4^ to 10^-6^
+
+-   OSHA: 10^-3^
+
+## Initiation of Risk Assessment Process: Planning & Scoping / Problem Formulation
+
+> If you don't know where you are going, you'll end up someplace else.
+
+-   Yogi Berra (Seaman Second Class, 1943-1945)
+
+![1953 Bowman Color Yogi Berra #121](images/yogi.png){fig-align="center" width="147"}
+
+## EPA Framework for Human Health Risk Assessment to Inform Decision Making
+
+![](images/epa_framework.png){fig-align="center"}
+
+## Overall Risk Assessment Process
+
+![EPA, 2014](images/overall_process.png)
+
+## Formative stages schematic
+
+![](images/formative_schematic.png){fig-align="center"}
+
+## Comparison: NATO Problem Formulation
+
+![<http://www.dodccrp.org/files/NATO_COBP.pdf>](images/nato_formulation.png){width="619"}
+
+## Risk Assessment Stakeholders
+
+::: {layout-ncol="2"}
+-   Public
+-   Community
+-   Scientists
+-   Industry
+-   States and Tribal nations
+-   Interest groups
+-   Other Government Agencies
+-   Internal Stakeholders
+-   Legal
+:::
+
+## Example Stakeholders: Sulfur Dioxide National Ambient Air Quality Standard Docket
+
+![](images/so2_docket.png){fig-align="center"}
+
+<https://www.regulations.gov/docket?D=EPA-HQ-OAR-2013-0566>
+
+## Stakeholders: Interest Group
+
+![](images/interest_group.png){fig-align="center"}
+
+## Stakeholders: Industry
+
+![](images/industry.png){fig-align="center"} \## Stakeholders: Environmental Group
+
+![](images/env_group.png){fig-align="center"}
+
+## Stakeholders: Public
+
+![](images/public_comment.png){fig-align="center"}
+
+## Planning and Scoping
+
+::: {layout-ncol="2"}
+-   Relatively new to human health risk assessment
+-   Establishes the goals and focus of the assessment
+-   Scope includes:
+    -   hazards
+    -   exposures
+    -   conditions of use
+    -   potentially exposed or susceptible subpopulations
+
+![](images/scope.png)
+:::
+
+## Planning and Scoping Considerations
+
+• What decision is informed by risk assessment, when is decision anticipated, what are the risk management options? • What legal/statutory requirements affect risk management options and level/type of analysis? • What other considerations (e.g., environmental justice, life stage, cumulative risk, sustainability) or countervailing risks may influence risk management options and analyses? • What assessments (e.g., risk, economic) are needed to address decision-making needs? • What expertise, resources and timelines are available to conduct the assessments(s)?
+
+## Examples of EPA Planning and Scoping
+
+• National Ambient Air Quality Standards: an Integrated Review Plan developed that describes all phases of the review, including the risk/exposure assessment • National Emissions Standards for Hazardous Air Pollutants residual risk review: encompasses a set of emissions source categories for which risk assessments are of generally similar scope and basic design, while differing in specific aspects of the sources and the chemicals emitted • CERCLA / Superfund human health risk assessments
+
+## Problem Formulation
+
+-   Translation of the planning and scoping phase
+-   Generates two products:
+    -   Conceptual model
+    -   Analysis plan
+
+## Conceptual Model
+
+-   Identifies:
+    -   Known or potential sources of contamination (soil, groundwater, surface water, air)
+    -   Release mechanisms and receptor routes
+    -   All potential exposure pathways
+    -   Media and receptors associated with each
+-   Maps out a framework that demonstrates the theoretical links between the pollutant source or agent and exposure points
+-   Provides a convenient format to present an overall understanding of the problem and organizes available information in a structure that facilitates identifying missing data or uncertainty
+-   Has features of both a scientific hypothesis and a work plan
+
+## Generalized Conceptual Model
+
+![EPA, 2014](images/generalized_conceptual.png)
+
+## Conceptual Site Model
+
+![](images/csm.png)
+
+## Analysis Plan
+
+-   Intentions and technical aspect of the risk assessment
+-   Determines how conceptional model hypotheses will be assessed
+-   May determine the level of confidence needed
+-   Uncertainty and variability analysis
+-   Addresses assessments of the hazard, dose-response, exposure and characterization
+
+## Hazard Identification
+
+> The determination of whether a particular chemical is or is not causally linked to particular health effects
+
+> Process of determining whether exposure to an agent can cause an increase in the incidence of a health condition
+
+*Risk Assessment in the Federal Government: Managing the Process*, 1983 ("Red Book")
+
+## Hazard Identification (Blue Book Definition)
+
+> identification of the contaminates that are suspected to pose health hazards, quantification on the concentration which they are present in the environment, a description of specific forms of toxicity that can be caused by the contaminates of concern, and an evaluation of the conditions in which these forms of toxicity be be expressed in exposed humans
+
+*Science and Judgment in Risk Assessment*, 1994 ("Blue Book")
+
+## Hazard Identification Questions
+
+-   Can an exposure increase the incidence of specific adverse health effects?
+-   Is it likely to occur in humans?
+-   What **evidence** is there to characterize the link between the agent and effects?
+
+## Sources of Evidence
+
+-   Epidemiologic
+-   Toxicity Testing
+    -   *In vitro*: Under glass (i.e. cells)
+    -   *In vivo*: Whole animal
+-   Quantitative Structure-Activity Relationships
+
+## Epidemiological Studies
+
+-   May provide evidence linking chemical exposure and human adverse health effect
+-   Statistical associations
+-   Limitations
+    -   Difficult to prove causation
+    -   Mechanism of disease
+    -   Latency periods
+    -   Generalizable
+    -   Confounding and bias
+    -   Exposure characterization
+
+## In-Vivo Testing (Animal models)
+
+-   Toxicity testing by endpoint
+    -   Acute (7-14 days)
+    -   Sub chronic (2-4 months)
+    -   Chronic (at least 12 months)
+-   Limitations:
+    -   High doses are used, which may not reflect true mechanism or exposure
+    -   May not reflect human response
+    -   Extrapolation from high to low dose
+    -   Life span of animal
+    -   Cost
+
+![](images/mouse.png){fig-align="right" width="138"}
+
+## In-Vitro Testing
+
+::: {layout-ncol="2"}
+-   Bioassay (i.e., Ames test for Genotoxicity)
+-   Low cost, fast
+-   Chemical screening
+-   Used for mechanism of toxicity
+-   Limitations:
+    -   Biological interactions
+    -   Predictive value
+    -   Toxicity pathway
+
+![](images/ames.png)
+:::
+
+## Tox21 Program
+
+-   Developed and validated *in-vitro* cell-based assays using quantitative high-throughput screening
+-   More than 70 assays developed
+
+![](images/tox21.png){fig-align="center" width="389"}
+
+<https://tox21.gov/overview/>
+
+## Weight of Evidence (Predictive Validity)
+
+-   Used to characterize the hazardous properties, mode of action (MOA), and dose response relationships using scientific data
+-   Approaches:
+    -   *Metaphorical*: examination of scientific evidence without prescribed methods
+    -   *Methodological*: e.g., systematic review, quality criteria, meta-analysis, causal criteria
+    -   *Theoretical*: serves as a label for a conceptual framework  
+    
+Weed, D. L. (2005). Weight of evidence: a review of concept and methods.*Risk Analysis: An International Journal*,25(6), 1545-1557.
+
+## Weight of Evidence: Conﬁdence of Causation 
+
+![](images/woe_causation.png)
+
+Weed, D. L. (2005)
+
+
+## Summary: Planning and scoping
+
+> Systematic and transparent planning and scoping promotes efficient time and resource management; agreement on the assessment’s purpose; communication within the team and with stakeholders; stakeholder buy-in and realistic expectations; better-informed decisions with high-quality data based on established objectives and using sound methods; participation from multiple disciplines; and documentation of decisions made and the rationales.
+
+EPA *Guidelines for Human Exposure Assessment*
 
 
 
-## Risk Assessment in the News
+## Summary: Problem formulation
+
+> Problem formulation has three key components: (1) identification of the individual, lifestage(s), group(s) or population(s) of concern; (2) a conceptual model presenting the anticipated pathway of the agent from the source to receptor of concern; and (3) an analysis plan that charts the approach for conducting the assessment. 
+
+EPA *Guidelines for Human Exposure Assessment*
+
+## Hazard Identification
+
+> Hazard Identification entails identification of the contaminants that are suspected to pose health hazards, quantification of the concentrations at which they are present in the environment, a description of the specific forms of toxicity (neurotoxicity, carcinogenicity, etc.) that can be caused by the contaminants of concern, and an evaluation of the conditions under which these forms of toxicity might be expressed in exposed humans.
+
+EPA *Guidelines for Human Exposure Assessment*
+
