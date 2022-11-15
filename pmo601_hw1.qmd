@@ -1,14 +1,13 @@
 ---
-title: "pmo601_hw1"
+title: "PMO601 Homework 1"
 format: pdf
 editor: visual
+title-block-banner: true
 ---
 
-# PMO601 Homework 1
+### 25 Points, Due: 08 December 2022
 
-25 Points, Due: 08 December 2022
-
-**Instructions**: Complete this assignment independently. Document any assistance received from sources other than the instructor. Responses may be hand-written or typed. Submit the assignment as a Word document or PDF on Canvas.
+**Instructions**: Complete this assignment independently. Document any assistance received from sources other than the instructor. Responses may be legibly hand-written or typed. Submit the assignment as a Word document or PDF on Canvas.
 
 ## Hazard Identification
 
@@ -16,7 +15,9 @@ editor: visual
 
     Results obtained from previous investigations indicated that there are contaminants of potential concern in soil in all parcels, and in ground water. Metals, Extractable Petroleum, Polycyclic Aromatic Hydrocarbons, and Polychlorinated Biphenyls have been detected in subsurface soil. Metals, Extractable Petroleum Hydrocarbons, Polycyclic Aromatic Hydrocarbons, and Volatile Organic Compounds (VOCs) have also been detected in ground water. Soil gas samples had not been collected previously. The likely sources of these contaminants of potential concern are the historic fill material, former fuel use and storage, and shipbuilding and other industrial operations located at the site. Chemicals may have been placed during bay infilling, spilled on the ground surface or released in the subsurface soil and leached into shallow ground water. Some contaminants of potential concern including arsenic, cadmium, copper, chromium, nickel, thallium, vanadium, and zinc are also naturally occurring in the native rock and soil. Ground water contaminants may have spread following the direction of the shallow ground water gradient. VOCs in soil and ground water also may have volatilized into the soil pore space above the ground water table.
 
-![](images/hw/csm_complex.png) ![](images/hw/csm_legend.png)
+![](images/hw/csm_complex.png){width="667"}
+
+![](images/hw/csm_legend.png)
 
 Based on this scenario, produce a **CSM flow chart** (box model) that includes:
 
@@ -30,18 +31,7 @@ Based on this scenario, produce a **CSM flow chart** (box model) that includes:
 
 -   Receptors (at least 2 groups)\
     \
-    \
-    \
-    \
-    \
-    \
-    \
-    \
-    \
-    \
-
-    \
-    \
+    {{< pagebreak >}}
 
 ## Dose - Response
 
@@ -65,5 +55,49 @@ Based on this scenario, produce a **CSM flow chart** (box model) that includes:
 
     \
     \
-4. The following concentrations of Chemical X were measured in an elementary school’s drinking water:  
+    {{< pagebreak >}}
 
+4.  *(5 points)*.The following concentrations of *Chemical X* were measured in an elementary school's drinking water over 12 sampling periods:
+
+```{r}
+#| echo: false
+#| warning: false
+#| tbl-cap: "Concentrations of Chemical X (mg/L) at Sampling Locations A, B, C"
+
+library(tidyverse)
+
+set.seed(15)
+
+chemx_a <- rnorm(n = 12, mean = 0.15, sd = 0.06) %>% as_tibble() 
+chemx_b <- rnorm(n = 12, mean = 0.25, sd = 0.08) %>% as_tibble()
+chemx_c <- rnorm(n = 12, mean = 0.11, sd = 0.05) %>% as_tibble()
+
+
+
+
+chemx <- chemx_a %>% 
+  bind_cols(chemx_b, chemx_c) %>% 
+  rename(A = value...1, B = value...2, C = value...3) %>% 
+  mutate(across(where(is.numeric), round, 3))
+
+knitr::kable(chemx)
+
+
+
+```
+
+Calculate the **average daily dose** of Chemical X from ingestion of contaminated drinking water (mg/kg-day) for the population of elementary school children, ages 5-11, using a [central tendency]{.underline} approach.
+
+Assume that the children's home drinking water supplies are not contaminated with this chemical. The associated endpoint of concern is non-carcinogenic.
+
+*Show all work, include all units, and provide rationale/justification for each of the parameters.*\
+\
+\
+
+{{< pagebreak >}}
+
+5.  *(5 points)*. Residential soil in a neighborhood has been found to be contaminated with Chemical Y at a concentration of 1.8 mg/kg. Calculate the potential lifetime average daily dose (mg/kg-day) and absorbed lifetime average daily dose (mg/kg-day) from dermal contact with contaminated soil for residential adult gardeners in this community. The endpoint of concern is carcinogenic.
+
+Assume that 20% of the body is exposed and the soil adherence factor (AFsoil) is 0.080 mg/cm^2^. The absorption fraction (ABS) for Chemical Y is 0.15. On average, individuals work in their gardens once per month.
+
+*Show all work, include all units, and provide rationale/justification for each of the parameters.*
