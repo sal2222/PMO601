@@ -1,0 +1,77 @@
+---
+title: "Dose-Response"
+author: "LTC Stephen Lewandowski, PhD, CPH"
+institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
+date: "01 December 2022"
+editor: visual
+format: 
+   pdf:
+ #   slide-number: c/t
+ #   width: 1600
+ #   height: 900
+    logo: "images/USU_logo_color.png"
+    footer: "PMO601 Environmental Health Risk Assessment"
+    theme: simple
+ #   pdf-page-height-offset: 0.5
+ #   self-contained: true
+---
+
+## Admin Notes
+
+-   Presentations (15 December)
+
+<https://docs.google.com/document/d/1uvCxMa2H0ZKzfi4c3fwpb4wP9tAKo3kYQOUGvrjx7Ss/edit?usp=share_link>
+
+-   Homework #1 (due **16 December**)
+
+## Lesson Outline
+
+## Lesson Objectives
+
+-   Know toxicological acronyms and key terms
+-   Analyze and compare dose-response curves
+-   Understand basic dose-response calculations and concepts
+-   Understand the "threshold" assumption and when its used
+-   Describe the difference between a slope factor and unit risk
+
+## Overall Risk Assessment Process
+
+![](images/risk_framework.png)
+
+## Dose-Response
+
+-   Quantification of the relationship between the dose of an environmental contaminant and the human response (adverse health effect)
+-   Knowledge of the dose-response relationship establishes:
+    -   Causality: that the chemical has induced the observed effects
+    -   Threshold effect: the lowest dose where an induced effect occurs
+    -   Slope for the dose-response: the rate at which injury builds up
+
+![*Acute Effects of Carbon Monoxide*](images/co.png)
+
+## Dose-Response Assessment Step
+
+For each determining adverse effect, what is the relationship between dose and the probability of the occurance of the adverse effect in the range of doses identified in the exposure assessment?
+
+
+## Mode of Action (MOA)
+
+- “Central organizing principle for understanding the biological underpinnings of toxicity”
+- Sequence of key events and processes, starting with interaction of an agent with a cell, proceeding through operational and anatomical changes, and resulting in cancer formation
+- Consideration of MOA guides dose-response approach
+
+
+## MOA: Key events, D-R, and temporal relationships
+
+::: {layout-ncol="2"}
+![](images/dt_concordance.png)
+- Understand dose–response and temporal relationships between the key events and the apical event
+
+
+:::
+
+
+
+## Mechanism of Action
+
+- Specific sequence of events at the molecular, cellular, organ, and organism level leading from the absorption of an effective dose of a chemical to the production of a specific biological response in the target organ
+- More specific description of the toxic action of a chemical action than Mode of Action
