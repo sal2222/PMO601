@@ -5,15 +5,15 @@ institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
 date: "01 December 2022"
 editor: visual
 format: 
-   pdf:
- #   slide-number: c/t
- #   width: 1600
- #   height: 900
+   revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
     logo: "images/USU_logo_color.png"
     footer: "PMO601 Environmental Health Risk Assessment"
     theme: simple
- #   pdf-page-height-offset: 0.5
- #   self-contained: true
+    pdf-page-height-offset: 0.5
+    self-contained: true
 ---
 
 ## Admin Notes
@@ -25,6 +25,17 @@ format:
 -   Homework #1 (due **16 December**)
 
 ## Lesson Outline
+
+-   Dose-Response overview
+    -   Mode of Action
+    -   Mechanism of Action
+-   Dose-Response Curves
+    -   Non-linear Threshold
+    -   Linear No-Threshold
+-   Uncertainty Factors
+-   Quantification
+    -   Reference Dose
+    -   Slope Factors
 
 ## Lesson Objectives
 
@@ -40,6 +51,7 @@ format:
 
 ## Dose-Response
 
+::: {layout-ncol="2"}
 -   Quantification of the relationship between the dose of an environmental contaminant and the human response (adverse health effect)
 -   Knowledge of the dose-response relationship establishes:
     -   Causality: that the chemical has induced the observed effects
@@ -47,31 +59,154 @@ format:
     -   Slope for the dose-response: the rate at which injury builds up
 
 ![*Acute Effects of Carbon Monoxide*](images/co.png)
+:::
 
 ## Dose-Response Assessment Step
 
-For each determining adverse effect, what is the relationship between dose and the probability of the occurance of the adverse effect in the range of doses identified in the exposure assessment?
-
+For each determining adverse effect, what is the relationship between dose and the probability of the occurrence of the adverse effect in the range of doses identified in the exposure assessment?
 
 ## Mode of Action (MOA)
 
-- “Central organizing principle for understanding the biological underpinnings of toxicity”
-- Sequence of key events and processes, starting with interaction of an agent with a cell, proceeding through operational and anatomical changes, and resulting in cancer formation
-- Consideration of MOA guides dose-response approach
-
+-   Central organizing principle for understanding the biological underpinnings of toxicity
+-   Sequence of key events and processes, starting with interaction of an agent with a cell, proceeding through operational and anatomical changes, and resulting in cancer formation
+-   Consideration of MOA guides dose-response approach, enabling:
+    -   understanding of the human relevance of tumor responses observed in animals
+    -   identification of potentially sensitive sub-groups or life stages
+    -   determination of whether low-dose extrapolation should be conducted using a linear non-threshold approach or a nonlinear approach that uses a presumed threshold
+    -   application of safety factors
 
 ## MOA: Key events, D-R, and temporal relationships
 
 ::: {layout-ncol="2"}
 ![](images/dt_concordance.png)
-- Understand dose–response and temporal relationships between the key events and the apical event
 
-
+\- Understand dose--response and temporal relationships between the key events and the apical event
 :::
-
-
 
 ## Mechanism of Action
 
-- Specific sequence of events at the molecular, cellular, organ, and organism level leading from the absorption of an effective dose of a chemical to the production of a specific biological response in the target organ
-- More specific description of the toxic action of a chemical action than Mode of Action
+-   More specific description of the toxic action of a chemical action than Mode of Action
+-   Specific sequence of events at the molecular, cellular, organ, and organism level leading from the absorption of an effective dose of a chemical to the production of a specific biological response in the target organ
+
+## Mechanism of Action: Data needed
+
+![\*Simon, pg. 194\*](images/mechanism_of_action_data.png){fig-align="center" width="480"}
+
+## Dose-Response Curves: Risk Bites Intro
+
+{{< video https://www.youtube.com/embed/yyvX5hDBPBY >}}
+
+"What is dose response, and what's a dose response model? \| Andrew Maynard"
+
+<https://www.youtube.com/watch?v=yyvX5hDBPBY>
+
+## Dose-Response Curves: Dependent Variable Types
+
+-   Continuous data
+    -   Single dose-response curves
+    -   Multiple dose-response curves
+-   Binary / binomial data
+-   Count data
+-   Time-to-event data
+
+## Dose-Response Curve Example
+
+![](images/dr_curve.png){width="399"}
+
+## Dose-Response Curve: Key Points
+
+![](images/dr_curve_label.png){width="551"}
+
+## Non-linear / Threshold Curves
+
+-   Generally **non-carcinogenic** endpoints
+-   No Observed Adverse Effect Level (**NOAEL**): Highest dose without an adverse effect over background
+-   Lowest Observed Adverse Effect Level (**LOAEL**): Lowest dose with an observed adverse effect
+
+## Limitations of NOAEL and LOAEL
+
+-   Limited to one of the doses (single data point)
+-   Dependent on study design
+-   Does not account for slope of the dose-response curve
+-   LOAEL used in absence of a NOAEL
+
+## Non-cancer reference values
+
+-   Exposure level that is likely below the threshold for adverse health effects
+
+-   Reference Concentration (**RfC**): Inhalation exposure (mg/m^3^)
+
+-   Reference Dose (**RfD**): Oral and Dermal (mg/kg-BW/day)
+
+-   General Approach
+
+    -   Requires epidemiological or toxicological data
+    -   Point of Departure (POD) -- NOAEL, LOAEL, BMDL\*
+    -   Uncertainty Factors (UF) applied $$  RfD = POD / (UF1 * UF2 * ...UFn) $$
+
+## Uncertainty Factors
+
+![](images/uf.png)
+
+## Uncertainty Factor Default Values
+
+-   Variation in human sensitivity (10)
+-   Extrapolative animal data to humans (10)
+-   Extrapolation from less than chronic studies (3 or 10)
+-   Use of LOAEL rather than NOAEL (3 or 10)
+-   Incomplete toxicity database (up to 10)
+
+## Linear / No-Threshold Curves
+
+-   Generally **carcinogenic** endpoints
+-   Linear low-dose extrapolation to predict cancer risk
+-   Used to develop a *cancer slope factor* or *inhalation unit risk*
+-   May be extrapolated from a **Point of Departure**
+-   Adjustments:
+    -   Human equivalent dose (HED)
+    -   Timing (hours/day, days/week)
+    -   Animal-to-human (PBPK Modeling and Epidemiology)
+
+## Cancer slope factor (CSF)
+
+-   Upper-bound estimate of the probability of developing cancers per unit intake of a chemical over a lifetime
+
+-   Used to predict cancer risk based on a measured or estimated dose
+
+-   Units: (mg/kg/day)^-1^
+
+    ![](images/csf.png){width="552"}
+
+## Inhalation unit risk (IUR)
+
+-   Upper-bound excess lifetime cancer risk estimated to result from continuous exposure to a chemical at a concentration of 1 microgram per cubic meter in air
+
+## Benchmark Dose (BMD)
+
+-   Chemical dose or concentration that produces a predetermined change in the response rate of an adverse effect, such as weight loss or tumor incidence
+-   Alternative to NOAEL and LOAEL to fit dose-response data
+-   Calculated from the curve fit to the data, including confidence intervals
+-   Used to estimate RfD, RfC, and cancer slope factors
+-   Many modeling tools available, including *BMDS* from EPA <https://www.epa.gov/bmds>
+
+## BMD: Example model fit to dichotomous data (non-threshold) {.scrollable}
+
+![](images/bmd_example.png)
+
+-   Fraction of animals affected in each group is indicated by diamonds, and the error bars indicate 95% confidence intervals for the fraction affected
+
+-   Benchmark response (BMR) in this example is an extra risk of 10% (or 0.1 fraction responding)
+
+-   Fitted model shown by the solid curve, and the BMD corresponding to 10% extra risk on this curve is notated BMD~10~
+
+-   Lower bound on BMD~10~, (BMDL~10~), comes from the dashed curve to the left of the fitted model curve, indicating the estimated lower bound on doses for a range of BMRs
+
+    <https://www.epa.gov/risk/benchmark-dose-technical-guidance>
+
+## BMD: Example model fit (Threshold)
+
+![](images/bmd_threshold.png)
+
+## Summary: current D-R Assessment
+
+![*SCIENCE AND DECISIONS: ADVANCING RISK ASSESSMENT*](images/dr_summary.png)
