@@ -5,10 +5,10 @@ institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
 date: "01 December 2022"
 editor: visual
 format: 
-   revealjs:
-    slide-number: c/t
-    width: 1600
-    height: 900
+   pdf:
+#    slide-number: c/t
+#    width: 1600
+#    height: 900
     logo: "images/USU_logo_color.png"
     footer: "PMO601 Environmental Health Risk Assessment"
     theme: simple
@@ -24,6 +24,12 @@ format:
 
 -   Homework #1 (due **16 December**)
 
+## HW1, Question 1 Example
+
+![](images/exposure_pathways_highway.png) <https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/14021/012.cfm>
+
+• Sources (at least 2) • Stressors (at least 2) • Exposure Media (at least 3 types) • Exposure Routes (at least 2 types) • Receptors (at least 2 groups)
+
 ## Lesson Outline
 
 -   Dose-Response overview
@@ -36,6 +42,7 @@ format:
 -   Quantification
     -   Reference Dose
     -   Slope Factors
+-   Toxicology Advancements
 
 ## Lesson Objectives
 
@@ -49,6 +56,10 @@ format:
 
 ![](images/risk_framework.png)
 
+## Dose-Response Assessment Step
+
+> For each determining adverse effect, what is the relationship between dose and the probability of the occurrence of the adverse effect in the range of doses identified in the exposure assessment?
+
 ## Dose-Response
 
 ::: {layout-ncol="2"}
@@ -58,12 +69,8 @@ format:
     -   Threshold effect: the lowest dose where an induced effect occurs
     -   Slope for the dose-response: the rate at which injury builds up
 
-![*Acute Effects of Carbon Monoxide*](images/co.png)
+![*Acute Effects of Carbon Monoxide*](images/co.png){width="624"}
 :::
-
-## Dose-Response Assessment Step
-
-For each determining adverse effect, what is the relationship between dose and the probability of the occurrence of the adverse effect in the range of doses identified in the exposure assessment?
 
 ## Mode of Action (MOA)
 
@@ -90,7 +97,7 @@ For each determining adverse effect, what is the relationship between dose and t
 
 ## Mechanism of Action: Data needed
 
-![\*Simon, pg. 194\*](images/mechanism_of_action_data.png){fig-align="center" width="480"}
+![\*Simon, pg. 194\*](images/mechanism_of_action_data.png){fig-align="center" width="410"}
 
 ## Dose-Response Curves: Risk Bites Intro
 
@@ -130,6 +137,68 @@ For each determining adverse effect, what is the relationship between dose and t
 -   Does not account for slope of the dose-response curve
 -   LOAEL used in absence of a NOAEL
 
+## Example: Nicotine
+
+```{r}
+#| warning: false
+
+devtools::install_github("DoseResponse/drcData")
+library(tidyverse)
+library(drc)
+# drcData::nicotine
+
+nicotine <- drcData::nicotine %>%
+  mutate(mortality = num.dead/total)
+  
+nicotine
+
+```
+
+## Example: Nicotine Plot
+
+```{r}
+#| warning: false
+ggplot2::ggplot(nicotine, aes(x = conc, y = mortality)) +
+  geom_point(size = 1.5) +
+  ylab("Mortality (%)") +
+  xlab ("Nicotine Concentration")
+```
+
+## Model Selection
+
+-   Log logistic: Symmetrical about the midpoint
+
+-   Weibull type 1: Asymmetrical, its first shoulder (at the EC05-EC10) starts later than a log-logistic
+
+-   Weibull type 2: Asymmetrical, its first shoulder (at the EC05-EC10) starts earlier than a log-logistic model
+
+-   Parameters:
+
+    -   Slope (between the EC10 and EC90)
+    -   Upper limit
+    -   Lower limit
+    -   Mid point (ED50)
+
+## Nicotine model fit
+
+```{r}
+#| warning: false
+
+model.LL3 <- drm(mortality~conc, data = nicotine, fct = LL.3(fixed = c(NA, 100, NA), names = c("Slope", "Upper Limit", "ED50")))
+mselect(model.LL3, fctList = list(W1.3(fixed=c(NA, 100, NA)),W1.4(), W2.3(fixed=c(NA, 100, NA)), W2.4(),  LL.4()),linreg=TRUE) 
+
+model.W23 <-  drm(mortality~conc, data = nicotine, fct = W2.3(names = c("Slope", "Upper Limit",  "ED50")))
+model.W24 <-  drm(mortality~conc, data = nicotine, fct = W2.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+model.LL4 <-  drm(mortality~conc, data = nicotine, fct = LL.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+model.W14 <-  drm(mortality~conc, data = nicotine, fct = W1.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+
+plot(model.LL3, broken = TRUE, xlab = "Concentration", ylab = "Percent Mortality", type='all',lty = 1, lwd = 2)
+plot(model.W23, add = TRUE, col = "orange",lty = 1, lwd = 2)
+plot(model.W24, add = TRUE, col = "blue",lty = 2, lwd = 2)
+plot(model.LL4, add = TRUE, col = "forestgreen",lty = 2, lwd = 2)
+plot(model.W14, add = TRUE, col = "pink",lty = 2 , lwd = 2)
+```
+
 ## Non-cancer reference values
 
 -   Exposure level that is likely below the threshold for adverse health effects
@@ -167,6 +236,59 @@ For each determining adverse effect, what is the relationship between dose and t
     -   Timing (hours/day, days/week)
     -   Animal-to-human (PBPK Modeling and Epidemiology)
 
+## Example: TCDD
+
+Liver tumor incidence in Sprague-Dawley rats exposed to 2,3,7,8-tetrachlorodibenzo-pdioxin (TCDD).
+
+```{r}
+#| warning: false
+
+# devtools::install_github("DoseResponse/drcData")
+
+# drcData::TCDD
+
+tcdd <- drcData::TCDD %>%
+  mutate(pct_tumor = incidence/total)
+  
+tcdd
+
+```
+
+Source: R. Kociba, D. Keyes, J. Beyer, R. Carreon, C. Wade, D. Dittenber, R. Kalnins, L. Frauson, C. Park, S. Barnard, R. Hummel, and C. Humiston (1978). Results of a two-year chronic toxicity and oncogenicity study of 2,3,7,8-tetrachlorodibenzo-p-dioxin in rats. Toxicology and Applied Pharmacology, 46(2):279--303.
+
+<https://doseresponse.github.io/drcData/reference/TCDD.html>
+
+## Example: TCDD Plot
+
+```{r}
+
+ggplot2::ggplot(tcdd, aes(x = conc, y = pct_tumor)) +
+  geom_point(size = 1.5) +
+  ylab("Liver tumor (%)") +
+  xlab ("TCDD Concentration")
+
+```
+
+## TCDD model fit
+
+```{r}
+#| warning: false
+
+model.LL3 <- drm(pct_tumor~conc, data = tcdd, fct = LL.3(fixed = c(NA, 100, NA), names = c("Slope", "Upper Limit", "ED50")))
+mselect(model.LL3, fctList = list(W1.3(fixed=c(NA, 100, NA)),W1.4(), W2.3(fixed=c(NA, 100, NA)), W2.4(),  LL.4()),linreg=TRUE) 
+
+model.W23 <-  drm(pct_tumor~conc, data = tcdd, fct = W2.3(names = c("Slope", "Upper Limit",  "ED50")))
+model.W24 <-  drm(pct_tumor~conc, data = tcdd, fct = W2.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+model.LL4 <-  drm(pct_tumor~conc, data = tcdd, fct = LL.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+model.W14 <-  drm(pct_tumor~conc, data = tcdd, fct = W1.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+
+plot(model.LL3, broken = TRUE, xlab = "TCDD Concentration", ylab = "Liver Tumor %", type='all',lty = 1, lwd = 2)
+plot(model.W23, add = TRUE, col = "orange",lty = 1, lwd = 2)
+plot(model.W24, add = TRUE, col = "blue",lty = 2, lwd = 2)
+plot(model.LL4, add = TRUE, col = "forestgreen",lty = 2, lwd = 2)
+plot(model.W14, add = TRUE, col = "pink",lty = 2 , lwd = 2)
+```
+
 ## Cancer slope factor (CSF)
 
 -   Upper-bound estimate of the probability of developing cancers per unit intake of a chemical over a lifetime
@@ -175,7 +297,7 @@ For each determining adverse effect, what is the relationship between dose and t
 
 -   Units: (mg/kg/day)^-1^
 
-    ![](images/csf.png){width="552"}
+    ![](images/csf.png){width="665"}
 
 ## Inhalation unit risk (IUR)
 
@@ -189,9 +311,11 @@ For each determining adverse effect, what is the relationship between dose and t
 -   Used to estimate RfD, RfC, and cancer slope factors
 -   Many modeling tools available, including *BMDS* from EPA <https://www.epa.gov/bmds>
 
-## BMD: Example model fit to dichotomous data (non-threshold) {.scrollable}
+## BMD: Example model fit to dichotomous data (non-threshold)
 
 ![](images/bmd_example.png)
+
+## BMD: Example model fit to dichotomous data (non-threshold) \[Previous slide\]
 
 -   Fraction of animals affected in each group is indicated by diamonds, and the error bars indicate 95% confidence intervals for the fraction affected
 
@@ -207,6 +331,29 @@ For each determining adverse effect, what is the relationship between dose and t
 
 ![](images/bmd_threshold.png)
 
+## Toxicology in the 21st Century (Tox21) {.scrollable}
+
+-   Collaboration between several federal agencies to develop new ways to rapidly test whether substances adversely affect human health
+-   Testing diverse range of substances:
+    -   commercial chemicals
+    -   pesticides
+    -   food additives/contaminants
+    -   medical compounds
+
+<https://youtu.be/CjQTVfXQ8N4>
+
+<https://ntp.niehs.nih.gov/whatwestudy/tox21/index.html>
+
+## Predictive Toxicology
+
+-   Develop and apply innovative approaches to predict human-relevant health effects from agents of interest
+-   Development, validation, and application of computational tools, dose-response models, and systems toxicology models
+    -   Alternative toxicological methods (to animal use for chemical safety testing)
+    -   Spatiotemporal methods and applications in exposure science and toxicology
+    -   Toxicoinformatics
+
+<https://www.niehs.nih.gov/research/atniehs/labs/ptb/index.cfm>
+
 ## Summary: current D-R Assessment
 
-![*SCIENCE AND DECISIONS: ADVANCING RISK ASSESSMENT*](images/dr_summary.png)
+![*SCIENCE AND DECISIONS: ADVANCING RISK ASSESSMENT*](images/dr_summary.png){width="684"}
