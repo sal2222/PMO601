@@ -27,7 +27,7 @@ format:
 
 ## Overall Risk Assessment Process
 
-![](images/risk_framework.png)
+![](images/risk_framework.png){fig-align="center"}
 
 ## Exposure Science
 
@@ -37,7 +37,7 @@ format:
 
 ## Exposure Assessment
 
-> Process of measuring or estimating the intensity, frequency, and durationof human exposures to an agent currently present in the environment or of estimating hypothetical exposures that might arise from the release of new chemicals into the environment.
+> Process of measuring or estimating the intensity, frequency, and duration of human exposures to an agent currently present in the environment or of estimating hypothetical exposures that might arise from the release of new chemicals into the environment.
 
 *Risk Assessment in the Federal Government: Managing the Process, 1983*
 
@@ -102,11 +102,11 @@ grid.draw(v)
 
 ## Exposure Pathways
 
-![](images/exposure_pathways_old.png)
+![](images/exposure_pathways_old.png){fig-align="center"}
 
 ## Exposure-effect continuum
 
-![](images/exposure_effect.png)
+![](images/exposure_effect.png){fig-align="center"}
 
 *2011 Exposure Factors Handbook*
 
@@ -143,7 +143,7 @@ grid.draw(v)
 
 ## Dose Illustration
 
-![](images/inhalation_dose.png){width="574"}
+![](images/inhalation_dose.png){width="536"}
 
 <https://www.epa.gov/expobox/exposure-assessment-tools-routes-inhalation>
 
@@ -174,15 +174,15 @@ grid.draw(v)
 
 ## Estimation of Potential Dose (General Equation)
 
-![](images/dose_estimation.png)
+![](images/dose_estimation.png){fig-align="center" width="581"}
 
 ## Potential Dose General Equation
 
-![](images/potential_dose.png)
+![](images/potential_dose.png){fig-align="center" width="642"}
 
 ## Exposure Descriptors
 
-![](images/expo_descriptors.gif)
+![](images/expo_descriptors.gif){fig-align="center" width="615"}
 
 ## Central Tendency Estimates
 
@@ -204,7 +204,7 @@ grid.draw(v)
 
 ## Calculating Daily Intake
 
-![](images/intake_calc.png)
+![](images/intake_calc.png){width="635"}
 
 *Formulas in Risk Assessment Guidance for Superfund(RAGS)*
 
@@ -222,7 +222,7 @@ grid.draw(v)
 -   Total days over which the exposure is averaged
 -   Based on toxic effect
 
-![](images/at_calc.png)
+![](images/at_calc.png){width="645"}
 
 ## Multiple Routes/Pathways and Resources
 
@@ -244,13 +244,37 @@ grid.draw(v)
 
 -   [RAGS Part A](https://www.epa.gov/sites/default/files/2015-09/documents/rags_a.pdf) \[Download\]
 
-## Example Scenario: Drinking Water Intake (arsenic)
+## Dermal contact doses {.scrollable}
+
+-   Absorption factors (ABS): used to reflect the desorption of the chemical from soil and the absorption of the chemical across the skin and into the bloodstream
+
+-   RAGS equation used to estimate exposure from dermal contact with soil:
+
+$AD = ( CS x CF x SA x AF x ABS x EF x ED)/(BW x AT)$
+
+**AD** = Absorbed dose (mg/kg/day)\
+**CS** = Chemical concentration in soil (mg/kg)\
+**CF** = Conversion factor (10^-6^ kg/mg)\
+**SA** = Skin surface area available for contact (cm^2^/event)\
+**AF** = Soil-to-skin adherence factor (mg/cm^2^)\
+**ABS** = Absorption factor (unitless)\
+**EF** = Exposure frequency (events/year)\
+**ED** = Exposure duration (years)\
+**BW** = Body weight (kg)\
+**AT** = Averaging time (period over which exposure is averaged-days)
+
+-   Potential lifetime average daily dose (mg/kg-day): *without ABS*
+-   Absorbed lifetime average daily dose (mg/kg-day): *with ABS*
+
+## Example Scenario: Drinking Water Intake (arsenic) {.scrollable}
 
 Estimate the **average daily potential dose (mg/kg-day)** of arsenic from drinking water intake of a water supply with an arsenic concentration of 0.010 mg/L over a 24 year period for a bladder cancer endpoint.
 
-![](images/dwir_arguments.png)
+![](images/dwir_arguments.png){width="566"}
 
 ```{r}
+#| echo: true
+#| code-fold: true
 
 DWIR <- function ( CW = CW, IRW = 2, EF = 350, ED = 24, BW = 80, AT = 365 * 70){
   
@@ -269,11 +293,13 @@ DWIR (CW = 0.01, AT = 24 * 365)
 
 *Ref: <https://rdrr.io/cran/EnviroPRA/man/DWIR.html>*
 
-## Example Scenario: Drinking Water Intake (xylenes)
+## Example Scenario: Drinking Water Intake (xylenes) {.scrollable}
 
 Estimate the **average daily potential dose (mg/kg-day)** of xylenes (total) from drinking water intake of a water supply with a xylene concentration of 10 mg/L over a 24 year period for a non-cancer (nervous system damage) endpoint.
 
 ```{r}
+#| echo: true
+#| code-fold: true
 
 DWIR <- function ( CW = CW, IRW = 2, EF = 350, ED = 24, BW = 80, AT = 365 * 70){
   
@@ -288,17 +314,15 @@ DWIR (CW = 10, AT = 24 * 365, BW = 70, IRW = 2.5)
 
 ```
 
-## Example Scenario: Dermal contact with chemicals in soil
-
-Potential lifetime average daily dose (mg/kg-day):
-
-Absorbed lifetime average daily dose (mg/kg-day): 
-
+## Example Scenario: Dermal contact with chemicals in soil {.scrollable}
 
 Estimate the **absorbed dose (mg/kg-day)** due to dermal contact with soil for carcinogenic effects using the default variables (EPA 2011) for a chemical soil concentration of 0.2 mg/Kg.
 
-![](images/ad_arguments.png)
+![](images/ad_arguments.png){width="598"}
+
 ```{r}
+#| echo: true
+#| code-fold: true
 
 AD <- function (CS = 1, SA = 2800, AF = 0.2, ABS = 0.001, EF = 350, ED = 24, BW = 70, AT = 365*70){
   CF = 1e-06
@@ -315,10 +339,38 @@ AD(CS = 0.2)
 
 
 
+## Example Scenario: Inhalation {.scrollable}
+
+Estimate the **average daily potential dose (mg/kg-day)** of mercury from inhalation of indoor air in a home contaminated with a mercury concentration of 50 micrograms per cubic meter.
+
+![](images/air_arguments.png){width="598"}
+
+```{r}
+#| echo: true
+#| code-fold: true
+
+AIR <- function (CA =1, IR= 20, ET=24, EF=350, ED=24, BW=70, AT=365*70){
+  I = ( CA * IR * ET*  EF * ED ) / ( BW * AT )
+  return (I)
+}
+
+# For a non-carcinogenic effect:
+
+AIR(CA = 50 / 1000, ET = 8, EF = 30, ED = 1, BW = 32, IR = 0.9, AT = 30)
+
+```
+
+
+
+
 ## Uncertainty and Variability
 
-![](images/uncertainty_variability.png)
+![](images/uncertainty_variability.png){width="636"}
 
 ## Uncertainty and Variability Example
 
-![](images/uncertainty_water_intake.png)
+![](images/uncertainty_water_intake.png){width="609"}
+
+## 12.10.2022
+
+![](images/beat_navy.png){fig-align="center" width="550"}
