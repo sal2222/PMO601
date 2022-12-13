@@ -1,0 +1,74 @@
+---
+title: "PMO601 Homework 2"
+format: pdf
+editor: visual
+title-block-banner: true
+---
+
+### 25 Points, Due: 19 January 2022
+
+**Instructions**: Complete this assignment independently. Document any assistance received from sources other than the instructor. Responses may be legibly hand-written or typed. Submit the assignment as a Word document or PDF on Canvas.
+
+## Background
+
+Drinking water is a significant source of exposure to inorganic arsenic in some populations. Inorganic arsenic (a metalloid) is a known human carcinogen and is ranked number one on the Centers for Disease Control and Prevention (CDC)/Agency for Toxic Substances and Disease Registry's (ATSDR) Substance Priority List. Arsenic is also associated with adverse birth outcomes, diabetes, metabolic disease, and cardiovascular disease, even at low- to moderate- levels of exposure common in the US population.
+
+The U.S. EPA compiles compliance monitoring data from public water supplies for regulated drinking water contaminants every 6 y as required by the Safe Drinking Water Act (SDWA).
+
+Nigra et al. (2020) assigned counties-served for each community water system and merged Third Six-Year Review (2006-2011) arsenic monitoring data with system inventory information extracted from the U.S. EPA Safe Drinking Water Information System (SDWIS), including counties served, number of people served, type of system, and source water type. They averaged available water arsenic monitoring records to 3-year periods (2006--2008 and 2009--2011).
+
+**Table 1**. Water arsenic concentration estimates for Socorro County, New Mexico.
+
+|                           |                      |
+|---------------------------|----------------------|
+| **PWSID**                 | NM3523728            |
+| **County FIPS**           | 35053                |
+| **State Code**            | NM                   |
+| **PWS Name**              | SOCORRO WATER SYSTEM |
+| **Zip Code**              | 87801                |
+| **Source Water Type**     | GW                   |
+| **As 2006-2008 (μg/L)**   | 29.83                |
+| **As 2009-2011 (μg/L)**   | 28.63                |
+| **Adj Population Served** | 10255                |
+
+> Reference: Nigra, A. E., Chen, Q., Chillrud, S. N., Wang, L., Harvey, D., Mailloux, B., Factor-Litvak, P., & Navas-Acien, A. (2020). Inequalities in Public Water Arsenic Concentrations in Counties and Community Water Systems across the United States, 2006--2011. In Environmental Health Perspectives (Vol. 128, Issue 12, p. 127001). Environmental Health Perspectives. https://doi.org/10.1289/ehp7313
+
+## Hazard Identification (3 points)
+
+1.  What is (are) the likely source(s) of inorganic arsenic in Socorro County, NM groundwater? \[1 point\]
+
+2.  How do the arsenic water concentrations in Table 1 compare to the US EPA arsenic Maximum Contaminant Level (MCL)? \[1 point\]
+
+3.  How do the arsenic water concentrations in Table 1 compare to the US EPA arsenic Maximum Contaminant Level Goal (MCLG)? \[1 point\]
+
+## Exposure Assessment (8 points)
+
+4.  Calculate the average daily potential dose (exposure dose, mg/kg-day) of arsenic from PWS-supplied drinking water for adults using reasonable maximum exposure (RME) inputs over a reasonable and justified exposure duration period for chronic non-carcinogenic outcomes. Provide the source for each exposure factors used. \[4 points\]
+
+5.  Calculate the average daily potential dose (exposure dose, mg/kg-day) of arsenic from PWS-supplied drinking water for adults using reasonable maximum exposure (RME) inputs over a reasonable and justified exposure duration period for carcinogenic outcomes. Provide the source for each exposure factors used. \[4 points\]
+
+## Dose -- Response (6 points)
+
+6.  What is the Reference Dose (RfD) for Oral exposure to inorganic arsenic? \[1 point\]
+
+7.  What non-carcinogenic health effects (critical effects) are associated with inorganic arsenic as a basis for the RfD? \[1 point\]
+
+8.  Describe the Point of Departure and Uncertainty Factor(s) applied for the inorganic arsenic Oral RfD determination. \[1 point\]
+
+9.  What is inorganic arsenic's Weight of Evidence for cancer characterization (classification)? \[1 point\]
+
+10. What is the Oral Slope Factor for inorganic arsenic? \[1 point\]
+
+11. What tumor site/type is the slope factor based on? \[1 point\]
+
+## Risk Characterization (8 points)
+
+12. Calculate the hazard quotient (HQ) for non-carcinogenic effects to Socorro County adults from potential exposure to arsenic due to ingested drinking water. \[2 points\]
+
+13. What does your calculated hazard quotient indicate about the level of concern related to non-carcinogenic effects from arsenic in drinking water? \[1 point\]
+
+14. Calculate the cancer risk from arsenic in drinking water for Socorro County adults. \[2 points\]
+
+15. What does your cancer risk value indicate (how do you interpret the result)? \[1 point\]
+
+16. Highlight a source of uncertainty or variability in your calculations. What impact does this uncertainty or variability have on your estimate? \[2 points\]
