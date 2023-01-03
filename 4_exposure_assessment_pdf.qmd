@@ -1,0 +1,378 @@
+---
+title: "Exposure Assessment"
+author: "LTC Stephen Lewandowski, PhD, CPH"
+institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
+date: "08 December 2022"
+editor: visual
+format: 
+   pdf:
+    #slide-number: c/t
+    #width: 1600
+    #height: 900
+    logo: "images/USU_logo_color.png"
+    footer: "PMO601 Environmental Health Risk Assessment"
+    theme: simple
+    pdf-page-height-offset: 0.5
+    self-contained: true
+---
+
+## Lesson Objectives
+
+-   Describe the **exposure pathway model**
+-   Discuss methods to measure exposure concentrations in environmental media
+-   Understand the difference between **absorbed dose** and **exposure dose**
+-   Understand general daily intake formulas and their inputs
+-   Contrast formulas for **carcinogens** and **non-carcinogens**
+-   Describe **uncertainty** and **variability** in exposure assessment
+
+## Overall Risk Assessment Process
+
+![](images/risk_framework.png){fig-align="center"}
+
+## Exposure Science
+
+> Describes the environment, behaviors of the the agent in the environment, characteristic and activities of human receptors and processes that lead to contact and uptake of an agent by humans.
+
+*EPA Guidelines for Human Exposure Assessment, 2016*
+
+## Exposure Assessment
+
+> Process of measuring or estimating the intensity, frequency, and duration of human exposures to an agent currently present in the environment or of estimating hypothetical exposures that might arise from the release of new chemicals into the environment.
+
+*Risk Assessment in the Federal Government: Managing the Process, 1983*
+
+## Exposure Assessment Components
+
+```{r}
+#| echo: false
+
+library(VennDiagram)
+
+# your data
+A <- c('Fate and Transport','Exposure Assessment')
+B <- c('Human Behavior','Exposure Assessment')
+
+# Generate plot
+v <- venn.diagram(list(A=A, B=B),
+                  fill = c("orange", "blue"),
+                  alpha = c(0.5, 0.5), cat.cex = 1.5, cex=1.5,
+                  filename=NULL)
+
+
+# Over-write labels (5 to 7 chosen by manual check of labels)
+# in A only
+v[[5]]$label  <- paste(setdiff(A, B), collapse="\n")  
+# in B only
+v[[6]]$label <- paste(setdiff(B, A)  , collapse="\n")  
+# intesection
+v[[7]]$label <- paste(intersect(A, B), collapse="\n")  
+
+# plot  
+grid.newpage()
+grid.draw(v)
+```
+
+## Physical Environment
+
+> How does the concentration and composition of the pollutant vary over spatially and temporally?
+
+::: {layout-ncol="2"}
+-   **Subsurface**: water table, hydraulic gradient, soil type
+
+-   **Atmosphere**: climate, prevailing winds, average precipitation and temperature
+
+-   **Terrain**: topography, presence of water, forests
+
+![](images/windrose.png)
+:::
+
+## Potentially Exposed Populations
+
+-   Worker, adults, children, and other susceptible populations
+
+-   Consider land use (homes, schools, business, parks, access)
+
+-   Populations down wind or water drawn down gradient
+
+-   Proximity of agriculture, dairy, fish
+
+-   Strategies:
+
+    -   Log activities of each population (child, adult, worker)
+    -   Use published "Exposure Factors" for defined population
+    -   Best judgement (drinks X liters of water/day)
+
+## Exposure Pathways
+
+![](images/exposure_pathways_old.png){fig-align="center"}
+
+## Exposure-effect continuum
+
+![](images/exposure_effect.png){fig-align="center"}
+
+*2011 Exposure Factors Handbook*
+
+## Measuring Exposures
+
+-   **Sample size**: Statistical power
+-   **Sampling location**: Purposive, Random, Systematic
+-   **Media**: Air, Water, Soil
+-   **Method**: Grab, Composite
+-   **Timing**: One-time, Longitudinal, Continuous
+-   **Design**: Systematic, Random, Field screening
+
+## Measuring Exposures: Detection
+
+::: {layout-ncol="2"}
+-   **Quantification limit (QL)** --\> Trusted
+
+-   **Trace** --\> Observed but not quantified
+
+-   **Detection limit** --\> "Seen"
+
+-   **Not detected** --\> Not seen
+
+![](images/data_qualifiers.png)
+:::
+
+## Dose Terms
+
+-   **Exposure Dose**: Amount in the outer boundary (Air sampling)
+-   **Potential Dose**: Amount contained in a material that enters the body (Air, ingestion, skin)
+-   **Applied Dose**: Amount available at absorption barrier (Skin, lungs, GI)
+-   **Internal Dose**: Amount penetrating across an absorption barrier
+-   **Delivered Dose (biologically effective dose)**: Amount available for interaction at an organ or cell
+
+## Dose Illustration
+
+![](images/inhalation_dose.png){width="536"}
+
+<https://www.epa.gov/expobox/exposure-assessment-tools-routes-inhalation>
+
+## Exposure Time
+
+-   Duration
+    -   Short-term (acute) vs. Long-term (chronic)
+    -   Default assumptions:
+        -   350 days/year at home
+        -   30 years of residence
+        -   Occupational
+            -   40-60 hours/week
+            -   Military operations: 24 hours/day(?)
+-   Match Dose/Toxicity and Exposure timescales
+
+![](images/time.png)
+
+## Scenario Evaluation
+
+-   Indirect estimation method: Relies on an exposure scenario to estimate exposures or doses
+-   **Exposure scenario**: set of facts, assumptions, and inferences about how exposure takes place
+-   Relies on data or assumptions about:
+    -   sources and releases of a stressor of interest
+    -   fate and transport mechanisms
+    -   concentrations of contaminants at the point of exposure
+    -   information about receptor populations
+    -   exposure factors (e.g., activities and time frame over which exposure occurs)
+
+## Estimation of Potential Dose (General Equation)
+
+![](images/dose_estimation.png){fig-align="center" width="581"}
+
+## Potential Dose General Equation
+
+![](images/potential_dose.png){fig-align="center" width="642"}
+
+## Exposure Descriptors
+
+![](images/expo_descriptors.png){fig-align="center" width="615"}
+
+## Central Tendency Estimates
+
+-   Represents the exposure of the average or typical individual in a population, usually the mean or median of the population distribution
+
+-   **Arithmetic mean**: uses average values for all of the factors that comprise the exposure of interest
+
+-   **Median**: useful descriptor of central tendency, especially when data on the receptor or exposure of interest are skewed as they are in a log normal distribution
+
+## High-end Estimates
+
+-   Intended to assess exposures that are higher than average, but still within a realistic, reasonable anticipated range
+
+-   **Reasonable maximum exposure (RME)**: the highest exposure reasonably likely to occur, generally assumed to be in the range of the 90th and 99.9th percentiles
+
+-   **Reasonable worst-case exposure**: the lower part of the high-end exposure range, which is above the 90th percentile but below the 98th percentile
+
+-   **Maximum exposure**: the range above the 98th percentile
+
+## Calculating Daily Intake
+
+![](images/intake_calc.png){width="635"}
+
+*Formulas in Risk Assessment Guidance for Superfund(RAGS)*
+
+## Time Variables
+
+-   **Frequency**
+    -   Usually 350 days/yr for residence (2 wk vacations)
+    -   Usually 250 days/yr for worker exposure frequency
+-   **Duration**
+    -   Chronic (carcinogen or non-carcinogen)
+    -   Acute, Short-term, sub-chronic (non-carcinogen)
+
+## Averaging Time
+
+-   Total days over which the exposure is averaged
+-   Based on toxic effect
+
+![](images/at_calc.png){width="645"}
+
+## Multiple Routes/Pathways and Resources
+
+**ATSDR**:\
+
+-   [Estimating Site-Specific Ingestion and Dermal Exposure Doses](https://www.atsdr.cdc.gov/pha-guidance/conducting_scientific_evaluations/epcs_and_exposure_calculations/estimating-site-specific-ingestion-and-dermal-exposure-doses.html)
+
+-   [Estimating Site-Specific Inhalation Exposures](https://www.atsdr.cdc.gov/pha-guidance/conducting_scientific_evaluations/epcs_and_exposure_calculations/estimating_inhalation_exposures.html)
+
+**EPA**:\
+
+-   [Exposure Factors Handbook](https://www.epa.gov/expobox/about-exposure-factors-handbook)
+
+-   [Exposure Assessment Tools by Routes - Inhalation](https://www.epa.gov/expobox/exposure-assessment-tools-routes-inhalation)
+
+-   [Exposure Assessment Tools by Routes - Ingestion](https://www.epa.gov/expobox/exposure-assessment-tools-routes-ingestion)
+
+-   [Exposure Assessment Tools by Routes - Dermal](https://www.epa.gov/expobox/exposure-assessment-tools-routes-dermal)
+
+-   [RAGS Part A](https://www.epa.gov/sites/default/files/2015-09/documents/rags_a.pdf) \[Download\]
+
+## Dermal contact doses {.scrollable}
+
+-   Absorption factors (ABS): used to reflect the desorption of the chemical from soil and the absorption of the chemical across the skin and into the bloodstream
+
+-   RAGS equation used to estimate exposure from dermal contact with soil:
+
+$AD = ( CS x CF x SA x AF x ABS x EF x ED)/(BW x AT)$
+
+**AD** = Absorbed dose (mg/kg/day)\
+**CS** = Chemical concentration in soil (mg/kg)\
+**CF** = Conversion factor (10^-6^ kg/mg)\
+**SA** = Skin surface area available for contact (cm^2^/event)\
+**AF** = Soil-to-skin adherence factor (mg/cm^2^)\
+**ABS** = Absorption factor (unitless)\
+**EF** = Exposure frequency (events/year)\
+**ED** = Exposure duration (years)\
+**BW** = Body weight (kg)\
+**AT** = Averaging time (period over which exposure is averaged-days)
+
+-   Potential lifetime average daily dose (mg/kg-day): *without ABS*
+-   Absorbed lifetime average daily dose (mg/kg-day): *with ABS*
+
+## Example Scenario: Drinking Water Intake (arsenic) {.scrollable}
+
+Estimate the **average daily potential dose (mg/kg-day)** of arsenic from drinking water intake of a water supply with an arsenic concentration of 0.010 mg/L over a 24 year period for a bladder cancer endpoint.
+
+![](images/dwir_arguments.png){width="566"}
+
+```{r}
+#| echo: true
+#| code-fold: true
+
+DWIR <- function ( CW = CW, IRW = 2, EF = 350, ED = 24, BW = 80, AT = 365 * 70){
+  
+  I = ( CW * IRW * EF * ED ) / ( BW * AT )
+  return (I)
+}
+
+# For a carcinogenic effect:
+DWIR (CW = 0.01)
+
+# For a systemic (non-carcinogenic) effect:
+
+DWIR (CW = 0.01, AT = 24 * 365)
+
+```
+
+*Ref: <https://rdrr.io/cran/EnviroPRA/man/DWIR.html>*
+
+## Example Scenario: Drinking Water Intake (xylenes) {.scrollable}
+
+Estimate the **average daily potential dose (mg/kg-day)** of xylenes (total) from drinking water intake of a water supply with a xylene concentration of 10 mg/L over a 24 year period for a non-cancer (nervous system damage) endpoint.
+
+```{r}
+#| echo: true
+#| code-fold: true
+
+DWIR <- function ( CW = CW, IRW = 2, EF = 350, ED = 24, BW = 80, AT = 365 * 70){
+  
+  I = ( CW * IRW * EF * ED ) / ( BW * AT )
+  return (I)
+}
+
+
+# For a non-carcinogenic effect:
+
+DWIR (CW = 10, AT = 24 * 365, BW = 70, IRW = 2.5)
+
+```
+
+## Example Scenario: Dermal contact with chemicals in soil {.scrollable}
+
+Estimate the **absorbed dose (mg/kg-day)** due to dermal contact with soil for carcinogenic effects using the default variables (EPA 2011) for a chemical soil concentration of 0.2 mg/Kg.
+
+![](images/ad_arguments.png){width="598"}
+
+```{r}
+#| echo: true
+#| code-fold: true
+
+AD <- function (CS = 1, SA = 2800, AF = 0.2, ABS = 0.001, EF = 350, ED = 24, BW = 70, AT = 365*70){
+  CF = 1e-06
+  I = ( CS * SA * AF* ABS* EF * ED * CF ) / ( BW * AT )
+  return (I)
+}
+
+
+# For a non-carcinogenic effect:
+
+AD(CS = 0.2)
+
+```
+
+
+
+## Example Scenario: Inhalation {.scrollable}
+
+Estimate the **average daily potential dose (mg/kg-day)** of mercury from inhalation of indoor air in a home contaminated with a mercury concentration of 50 micrograms per cubic meter.
+
+![](images/air_arguments.png){width="598"}
+
+```{r}
+#| echo: true
+#| code-fold: true
+
+AIR <- function (CA =1, IR= 20, ET=24, EF=350, ED=24, BW=70, AT=365*70){
+  I = ( CA * IR * ET*  EF * ED ) / ( BW * AT )
+  return (I)
+}
+
+# For a non-carcinogenic effect:
+
+AIR(CA = 50 / 1000, ET = 8, EF = 30, ED = 1, BW = 32, IR = 0.9, AT = 30)
+
+```
+
+
+
+
+## Uncertainty and Variability
+
+![](images/uncertainty_variability.png){width="636"}
+
+## Uncertainty and Variability Example
+
+![](images/uncertainty_water_intake.png){width="609"}
+
+## 12.10.2022
+
+![](images/beat_navy.png){fig-align="center" width="550"}

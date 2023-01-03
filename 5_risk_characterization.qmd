@@ -1,0 +1,98 @@
+---
+title: "Risk Characterization"
+author: "LTC Stephen Lewandowski, PhD, CPH"
+institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
+date: "05 January 2023"
+editor: visual
+format: 
+   revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: "images/USU_logo_color.png"
+    footer: "PMO601 Environmental Health Risk Assessment"
+    theme: simple
+    pdf-page-height-offset: 0.5
+    self-contained: true
+---
+
+## Lesson Objectives
+
+-   Calculate hazard quotient / hazard index and cancer risk given the daily intake and appropriate toxicological values (RfD or slope factor)
+-   Interpret hazard index and cancer risk values
+-   Describe the uncertainty associated with risk estimates
+-   Discuss potential ethical dilemmas involved with risk assessment
+
+## Risk Assessment Overview
+
+![](images/4_steps.png){fig-align="center"}
+
+## Risk Characterization
+
+EPA's risk-characterization step has four elements:
+
+-   generation of a quantitative estimate of risk
+-   qualitative description of uncertainty
+-   presentation of the risk estimate
+-   communication of the results of risk analysis
+
+*Science and Judgement in Risk Assessment*, 1994
+
+## Principles of Conducting Risk Characterizations
+
+**TCCR:**
+
+::: incremental
+-   **Transparent** with methods, assumptions, logic, rational, extrapolations, and uncertainty
+-   **Clear**: understood by readers internal and external to the process
+-   **Consistent** with the RA policies of the organization and program
+-   **Reasonable**: based on sound judgment and current science
+:::
+
+## Quantitative Estimates of Risk
+
+::: incremental
+-   **Threshold**
+
+    -   Traditionally noncarcinogens
+
+    -   Ratio that compares the exposure dose to the RfD
+
+-   **Non-threshold**
+
+    -   Traditionally carcinogens
+
+    -   Probability of the incremental risk of developing cancer over a lifetime of exposure
+:::
+
+## Risk Characterization: Threshold
+
+::: incremental
+$Hazard Quotient = [\frac{Daily Intake}{RfD}]$
+
+$HQ=[\frac{0.07 [\frac{mg}{kg-day}]}{0.14[\frac{mg}{kg-day}]}] = 0.5$
+
+-   HQ: the ratio of the environmental exposure to the RfD or RfC
+    -   Values greater than unity indicate the potential for systemic toxicity leading to adverse effects
+
+    -   Less than 1: Generally considered "safe"
+:::
+
+## Example: Ethyl Benzene
+
+![](images/ethyl_benzene.png){fig-align="center"} UF: Interspecies; Intraspecies; Less than Chronic
+
+<https://cfpub.epa.gov/ncea/iris2/chemicalLanding.cfm?substance_nmbr=51>
+
+## Example: Ethyl Benzene Exposure
+
+![](images/dw_eqn.png){fig-align="center" width="442"}
+
+$Intake= \frac{\frac{0.00375 mg}{L} * \frac{1L}{day} * 6 years * \frac{350 days}{year} } {15 kg * 6 years * \frac{365 days}{year}} = 2.4*10^{-4} \frac{mg}{kg-day}$
+
+## Example: Ethyl Benzene Risk Characterization
+
+$HQ=\frac{2.4*10^{-4} [\frac{mg}{kg-day}]}{1*10^{-1}[\frac{mg}{kg-day}]} = 0.0024$
+
+
+
