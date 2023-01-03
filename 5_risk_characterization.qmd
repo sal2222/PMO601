@@ -25,18 +25,11 @@ format:
 
 ## Risk Assessment Overview
 
-![](images/4_steps.png){fig-align="center"}
+![](images/4_steps.png){fig-align="center" width="506"}
 
 ## Risk Characterization
 
-EPA's risk-characterization step has four elements:
-
--   generation of a quantitative estimate of risk
--   qualitative description of uncertainty
--   presentation of the risk estimate
--   communication of the results of risk analysis
-
-*Science and Judgement in Risk Assessment*, 1994
+EPA's risk-characterization step has four elements: ::: incremental - Generation of a quantitative estimate of risk - Qualitative description of uncertainty - Presentation of the risk estimate - Communication of the results of risk analysis ::: *Science and Judgement in Risk Assessment*, 1994
 
 ## Principles of Conducting Risk Characterizations
 
@@ -70,7 +63,7 @@ EPA's risk-characterization step has four elements:
 ::: incremental
 $Hazard Quotient = [\frac{Daily Intake}{RfD}]$
 
-$HQ=[\frac{0.07 [\frac{mg}{kg-day}]}{0.14[\frac{mg}{kg-day}]}] = 0.5$
+$HQ=\frac{0.07 [\frac{mg}{kg-day}]}{0.14[\frac{mg}{kg-day}]} = 0.5$
 
 -   HQ: the ratio of the environmental exposure to the RfD or RfC
     -   Values greater than unity indicate the potential for systemic toxicity leading to adverse effects
@@ -80,7 +73,8 @@ $HQ=[\frac{0.07 [\frac{mg}{kg-day}]}{0.14[\frac{mg}{kg-day}]}] = 0.5$
 
 ## Example: Ethyl Benzene
 
-![](images/ethyl_benzene.png){fig-align="center"} UF: Interspecies; Intraspecies; Less than Chronic
+![](images/ethyl_benzene.png){fig-align="center"}  
+UF: Interspecies; Intraspecies; Less than Chronic
 
 <https://cfpub.epa.gov/ncea/iris2/chemicalLanding.cfm?substance_nmbr=51>
 
@@ -88,11 +82,12 @@ $HQ=[\frac{0.07 [\frac{mg}{kg-day}]}{0.14[\frac{mg}{kg-day}]}] = 0.5$
 
 ![](images/dw_eqn.png){fig-align="center" width="442"}
 
+## Example: Ethyl Benzene Exposure
+  
+  
 $Intake= \frac{\frac{0.00375 mg}{L} * \frac{1L}{day} * 6 years * \frac{350 days}{year} } {15 kg * 6 years * \frac{365 days}{year}} = 2.4*10^{-4} \frac{mg}{kg-day}$
 
 ## Example: Ethyl Benzene Risk Characterization
-
+  
+  
 $HQ=\frac{2.4*10^{-4} [\frac{mg}{kg-day}]}{1*10^{-1}[\frac{mg}{kg-day}]} = 0.0024$
-
-
-
