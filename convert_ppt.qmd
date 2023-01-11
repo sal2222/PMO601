@@ -1,0 +1,22 @@
+---
+title: "convert_PP"
+format: html
+editor: visual
+---
+
+```{r}
+
+#devtools::install_github("datalorax/slidex")
+
+library(slidex)
+
+```
+
+```{r}
+#pptx <- system.file("examples", "slidedemo.pptx", package = "slidex")
+
+convert_pptx(path = 'G:/My Drive/PMO601 Risk Assessment/6_Probabilistic_RiskW2022.pptx',
+  author = "Stephen Lewandowski",
+  out_dir = "output")
+```
+

@@ -1,0 +1,355 @@
+---
+title: "Probabilistic Risk Assessment"
+author: "LTC Stephen Lewandowski, PhD, CPH"
+institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
+date: "10 November 2022"
+editor: visual
+format: 
+   revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: "images/USU_logo_color.png"
+    footer: "PMO601 Environmental Health Risk Assessment"
+    theme: simple
+    pdf-page-height-offset: 0.5
+    self-contained: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## Lesson Objectives
+
+-   Explain rational for the use of probabilistic risk assessment
+-   Describe the tiered approach for risk assessment
+-   Understand the basics of Monte Carlo sampling
+-   Discuss the advantages and disadvantages of using probabilistic assessments compared to deterministic assessments
+
+## Probabilistic Risk Assessment
+
+-   "An analytical methodology used to incorporate information regarding uncertainty and/or variability into analyses to provide insight regarding the degree of certainty of a risk estimate and how the risk estimate varies among different members of an exposed population..."
+
+**A group of techniques that incorporate uncertainty and variability into risk assessments**
+
+*EPA, 2014 Risk Assessment Forum White Paper*
+
+## Variability and Uncertainty Review
+
+::: incremental
+-   **Variability**: the inherent natural variation, diversity and heterogeneity across time, space or individuals within a population or lifestage
+
+-   **Uncertainty**: imperfect knowledge or a lack of precise knowledge of the physical world, either for specific values of interest or in the description of the system
+:::
+
+## Probabilistic Approach - Motivation
+
+::: incremental
+-   Risk assessors, risk managers and others, particularly within the scientific and research divisions, have recognized that **more sophisticated statistical and mathematical approaches** could be utilized to **enhance the quality and accuracy of Agency risk assessments**
+
+-   Various stakeholders, inside and outside of the Agency, have called for a more comprehensive characterization of risks, including uncertainties, to **improve the protection of sensitive or vulnerable populations and lifestages**
+
+*EPA, 2014 Risk Assessment Forum White Paper*
+:::
+
+## Deterministic: Point Estimate of Exposure Dose
+
+::: incremental
+-   Deterministic risk assessments express health risks as a single numerical estimate of risk
+    -   Assuming reasonable maximum exposure
+        -   Compounds unrealistically high estimates
+        -   Difficult to know/communicate the level of conservatism
+    -   Assuming average exposure
+        -   May present unacceptable risks
+    -   Mostly qualitative assessment of uncertainty and variability
+:::
+
+## Tiered Approach for Risk Assessment
+
+![](images/tiered_approach.png){fig-align="center"}
+
+Assessments that are high in complexity and regulatory significance benefit from the application of probabilistic techniques
+
+## Probabilistic Approach
+
+![](images/pra_summary.png){width="642"}
+
+## Example Parameter Variability
+
+![](images/body_mass.png){fig-align="center"}
+
+Source: PSU Open Design Lab (NHANES 2010) Adults 20-80 <http://tools.openlab.psu.edu/tools/nhanes.htm>
+
+## Probabilistic Example Scenario: AIRBORNE!
+
+![](images/airborne_pra.png){fig-align="center" width="656"}
+
+<https://www.nrc.gov/about-nrc/regulatory/risk-informed/pra.html>
+
+## Probabilistic Example Scenario: AIRBORNE!
+
+![](images/fault_tree.png){fig-align="center" width="379"}
+
+## Probabilistic Example: Nuclear Power Plant Operations (NRC)
+
+![](images/nuclear_pp.png){fig-align="center"}
+
+## Monte Carlo Simulation
+
+::: incremental
+-   Mathematical technique used to estimate the possible outcomes of an uncertain event
+
+-   Predicts a set of outcomes based on an estimated range of values versus a set of fixed input values 
+
+-   Yields a range of possible outcomes with the probability of each result occurring
+
+-   Sensitivity analysis
+:::
+
+![](images/roulette.png){fig-align="right" width="170"}
+
+## Video: What is Monte Carlo Simulation?
+
+[https://www.youtube.com/watch?v=7TqhmX92P6U"](https://www.youtube.com/watch?v=7TqhmX92P6U%22){.uri}
+
+## Monte Carlo Simulation Applications
+
+::: incremental
+-   Intergovernmental Panel on Climate Change: probability density function analysis of radiative forcing
+-   Computer graphics: Path/ray tracing renders a 3D scene by randomly tracing samples of possible light paths
+-   US Coast Guard: computer modeling software SAROPS calculates the probable locations of vessels during search and rescue operations
+:::
+
+## Monte Carlo Simulation: IPCC (WG1AR5)
+
+![](images/ipcc_forcing_crop.png){fig-align="center"}
+
+## Monte Carlo Simulation: IPCC (WG1AR5)
+
+![](images/ipcc_bar.png){fig-align="center"}
+
+## Monte Carlo Simulation: IPCC (WG1AR5)
+
+![](images/ipcc_pdf.png){fig-align="center" width="370"}
+
+## Monte Carlo Simulation: SAROPS
+
+-   Search and Rescue Optimal Planning System (SAROPS)
+
+-   Software used by the U.S. Coast Guard for Maritime Search Planning
+
+-   SAROPS is a Monte Carlo based system that uses thousands of simulated particles generated by user inputs in a wizard based Graphical User Interface
+
+    -   Handle multiple scenarios and search object types
+    -   Model pre-distress motion and hazards
+    -   Account for the affects of previous searches
+
+## Monte Carlo Simulation: SAROPS Screen
+
+![](images/sarops.png)
+
+## Monte Carlo Simulation: Step 1
+
+Set up the predictive model, identifying both the dependent variable to be predicted and the independent variables (also known as the input, risk or predictor variables) that will drive the prediction.
+
+![](images/intake_crop.png) <https://www.ibm.com/cloud/learn/monte-carlo-simulation>
+
+## Monte Carlo Simulation: Step 2
+
+::: incremental
+-   Specify probability distributions of the independent variables
+
+-   Use historical data and/or the analyst's subjective judgment to define a range of likely values and assign probability weights for each.
+
+-   Probability distribution: mathematical function that gives the probabilities of occurrence of different possible outcomes for an experiment
+
+    -   Type of distribution is useful when you need to know which outcomes are most likely, the spread of potential values, and the likelihood of different results
+    -   Selection of the appropriate distribution depends on the presence or absence of symmetry of the data set with respect to the mean value
+:::
+
+<https://www.ibm.com/cloud/learn/monte-carlo-simulation>
+
+## Monte Carlo Simulation: Step 2 (Distributions)
+
+![](images/distribution_choices.png)
+
+## Monte Carlo Simulation: Step 3
+
+-   Run simulations repeatedly, generating random values of the independent variables
+
+-   Do this until enough results are gathered to make up a representative sample of the near infinite number of possible combinations
+
+## Monte Carlo Simulation: Step 3
+
+![](images/mc_sim_example.jpg)
+
+<https://www.researchgate.net/figure/Monte-Carlo-simulation-procedure-using-ViscoWave_fig7_311982513>
+
+## Monte Carlo Simulation: Step 3
+
+![](images/mc_paths.png){width="584"}
+
+<https://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694>
+
+## Advantages and Disadvantages of Probabilistic Assessment
+
+::: incremental
+-   **Advantages**
+    -   Flexibility for risk managers
+    -   Quantifies uncertainty and variability
+    -   Range of risk opposed to a single point estimate
+    -   Disadvantages may be offset by more informed decisions
+-   **Disadvantages**
+    -   Time
+    -   Resources
+    -   Greater technical expertise (analysts, communicators, and decision makers)
+    -   May require more data
+    -   Communicating results
+:::
+
+## Simulation Programs
+::: incremental
+-   Commercial Software
+
+    -   Argo \[BAH. Open Source\]
+
+    -   @Risk [Palisade, \~\$1,900]
+
+    -   Crystal Ball \[Oracle, \~\$1,000\]
+
+    -   Riskamp \[Structured Data, LLC, \~\$250\]
+
+-   Programming Languages
+
+    -   R
+
+    -   Python
+:::
+
+
+## ARGO Simulation Tool
+
+[https://boozallen.github.io/argo/](https://github.com/boozallen/argo/wiki) [https://github.com/boozallen/argo/wiki](https://boozallen.github.io/argo/)
+
+![](images/argo_infograph.png)
+
+Simulation Example: <https://github.com/boozallen/argo/wiki/First-Argo-Simulation-Model>
+
+## Practical Exercise: R Monte Carlo Simulation {.scrollable}
+
+```{r, echo = TRUE, eval = TRUE, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(mc2d)
+
+# Define variables and distribution parameters
+
+c <- 0.00375 # concentration (mg/L)
+  c_p1 <- 0.00375 # concentration mean
+  c_p2 <- 0.001 # concentration s.d.
+ir <- 1   # ingestion rate
+  ir_p1 <- 0.5  # ingestion rate minimum
+  ir_p2 <- 1  # ingestion rate mode
+  ir_p3 <- 5  # ingestion rate maximum
+ef <- 350  # exposure frequency (days)
+  ef_p1 <- 200   
+  ef_p2 <- 350
+  ef_p3 <- 365
+ed <- 6  # exposure duration (days)
+bw <- 70 # body mass (kg)
+bw_p1 <- 70
+bw_p2 <- 75
+at <- 365*70  # averaging time (days)
+csf <- 1.5  # cancer slope factor
+
+
+## Deterministic
+
+# Daily Intake = (C x IR x EF x ED x) / (BW x AT) Risk = CSF x (C x IR x EF x ED x) / (BW x AT)
+
+
+daily_intake <-
+  (c * ir * ef * ed) / (bw * at) 
+
+daily_intake
+
+risk <-
+  csf * ((c * ir * ef * ed) / (bw * at)) 
+
+risk
+
+
+## Probabilistic
+
+
+# Concentration (C): Lognormal
+
+# reparameterize for `rlnorm`
+c_location <- log(c_p1^2 / sqrt(c_p2^2 + c_p1^2))
+c_shape <- sqrt(log(1 + (c_p2^2 / c_p1^2)))
+
+c_d <- rlnorm(10000, c_location, c_shape)
+ c_d %>% as_tibble()
+hist(c_d)
+
+
+# Intake Rate (IR): Beta-PERT
+ir_d <- mc2d::rpert(n = 10000, min = ir_p1, mode = ir_p2, max = ir_p3, shape = 4)
+  
+# ir_d %>% as_tibble()
+hist(ir_d)
+
+
+# Replicate and Solve for Risk
+
+risk_mc <-
+  replicate(n = 10000, expr = {
+    c_i = sample(c_d, size = 1)
+    ir_i = sample(ir_d, size = 1)
+    csf * ((c_i * ir_i * ef * ed) / (bw * at)) 
+  })
+
+risk_mc %>%
+  as_tibble() %>% 
+  ggplot(aes(x = value)) +
+  geom_histogram(bins = 60) +
+  theme_bw() +
+  xlab("risk")
+
+
+risk_mc %>%
+  as_tibble() %>% 
+  ggplot(aes(x = value)) +
+  geom_boxplot() +
+  theme_bw() +
+  xlab("risk")
+
+
+summary(risk_mc)
+```
+
+## EPA Case Study
+
+Probabilistic Risk Analysis of Exposure to Polychlorinated Biphenyls via Consumption of Fish From a Contaminated Sediment Site
+
+-   EPA Region 2 conducted a preliminary deterministic HHRA at the Hudson River PCBs Superfund site
+
+-   Consumption of fish provided the highest exposure among relevant exposure pathways
+
+-   Cancer risks and noncancer health hazards exceeded regulatory benchmarks
+
+## EPA Case Study: Analysis
+
+::: incremental
+-   Monte Carlo analysis of the variability of exposure as a function of the variability of individual exposure factors
+
+-   Mathematical models of the environmental fate, transport and bioaccumulation of PCBs in the Hudson River previously developed were used to forecast changes in PCB concentration over time
+
+-   Monte Carlo results consistent with deterministic results
+:::
+
+## EPA Case Study: Comparison
+
+![](images/mca_pcb_cancer.png)\
+
+## EPA Case Study: Comparison
+
+![](images/mca_pcb_noncancer.png)

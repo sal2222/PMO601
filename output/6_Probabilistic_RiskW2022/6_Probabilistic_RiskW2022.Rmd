@@ -1,0 +1,233 @@
+---
+title: ' Environmental Health Risk Assessment '
+author: Stephen Lewandowski
+date: 2023-01-10
+output:
+  xaringan::moon_reader:
+  lib_dir: libs
+  nature:
+    highlightStyle: github
+    highlightLines: true
+    countIncrementalSlides: false
+---
+#  Objectives 
+
++ Explain rational for the use of probabilistic risk assessment
+	+ Describe the tiered approach for risk assessment
+	+ Understand the basics of Monte Carlo sampling
+	+ Discuss the advantages and disadvantages of using probabilistic assessments compared to deterministic assessments
+
+---
+#  Probabilistic Risk Assessment 
+
+”An analytical methodology used to incorporate information regarding uncertainty and/or variability into analyses to provide insight regarding the degree of certainty of a risk estimate and how the risk estimate varies among different members of an exposed population…”
+EPA, 2014
+Risk Assessment Forum White Paper
+
+---
+#  Point Estimate of Exposure Dose 
+
++ Deterministic risk assessment express health risks as a single numerical estimate of risk
+	+ Assuming reasonable maximum exposure
+		+ Compounds unrealistically high estimates
+		+ Difficult to know/communicate the level of conservatism
+	+ Assuming average exposure
+		+ May present unacceptable risks
+	+ Mostly qualitative assessment of uncertainty and variability
+![](assets/img/image2.png)
+
+---
+
+![](assets/img/image3.png)
+
+---
+#  Probabilistic Approach 
+
+Zohuri , Bahman, and Nima  Fathi . Thermal-hydraulic analysis of nuclear reactors . Springer International Publishing, 2017.
+![](assets/img/image4.png)
+
+---
+#  Example Parameter 
+
+Source: PSU Open Design Lab (NHANES 2010) Adults 20-80
+http://tools.openlab.psu.edu/tools/nhanes.htm 
+US Adult Body Weight Distribution
+![](assets/img/image5.png)
+[http://tools.openlab.psu.edu/tools/nhanes.htm](http://tools.openlab.psu.edu/tools/nhanes.htm)
+
+---
+#  Probabilistic Example 
+
+https://www.nrc.gov/about-nrc/regulatory/risk-informed/pra.html
+Icon: https://thenounproject.com/ 
+.pull-left[![](assets/img/image7.png)]
+
+.pull-right[![](assets/img/image6.gif)]
+[https://www.nrc.gov/about-nrc/regulatory/risk-informed/pra.html](https://thenounproject.com/)
+[https://thenounproject.com/](https://www.nrc.gov/about-nrc/regulatory/risk-informed/pra.html)
+
+---
+#  Probabilistic Example 
+
+https://www.nrc.gov/about-nrc/regulatory/risk-informed/pra.html
+Icon: https://thenounproject.com/ 
+The NRC uses Probabilistic Risk Assessment (PRA) to estimate risk by computing real numbers to determine what can go wrong, how likely is it, and what are its consequences. Thus, PRA provides insights into the strengths and weaknesses of the design and operation of a nuclear power plant.
+.pull-left[![](assets/img/image9.gif)]
+
+.pull-right[![](assets/img/image8.png)]
+[https://www.nrc.gov/about-nrc/regulatory/risk-informed/pra.html](https://www.nrc.gov/about-nrc/regulatory/risk-informed/pra.html)
+[https://thenounproject.com/](https://thenounproject.com/)
+
+---
+#  Monte Carlo Simulation 
+
+https://www.ibm.com/cloud/learn/monte-carlo-simulation
+Mathematical technique used to estimate the possible outcomes of an uncertain event
+P redicts a set of outcomes based on an estimated range of values versus a set of fixed input values
+Yields a range of possible outcomes with the probability of each result occurring   sensitivity analysis
+![](assets/img/image10.png)
+
+---
+#  Monte Carlo SimulationApplications 
+
+Intergovernmental Panel on Climate Change: probability density function analysis of radiative forcing
+Computer graphics: Path/ray tracing renders a 3D scene by randomly tracing samples of possible light paths
+Artificial intelligence for games (Monte-Carlo tree search)
+US Coast Guard: computer modeling software SAROPS calculates the probable locations of vessels during search and rescue operations
+![](assets/img/image10.png)
+
+---
+#  Monte Carlo Simulation Steps 
+
+https://www.ibm.com/cloud/learn/monte-carlo-simulation
+Set up the predictive model, identifying both the dependent variable to be predicted and the independent variables (also known as the input, risk or predictor variables) that will drive the prediction.
+.pull-left[![](assets/img/image11.png)]
+
+.pull-right[![](assets/img/image10.png)]
+
+---
+#  Monte Carlo Simulation Steps 
+
+https://www.ibm.com/cloud/learn/monte-carlo-simulation
+Specify probability distributions of the independent variables. Use historical data and/or the analyst’s subjective judgment to define a range of likely values and assign probability weights for each.
+https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm
+.pull-left[![](assets/img/image10.png)]
+
+.pull-right[![](assets/img/image12.png)]
+
+---
+#  Monte Carlo Simulation Steps 
+
+https://www.ibm.com/cloud/learn/monte-carlo-simulation
+https://www.researchgate.net/figure/Monte-Carlo-simulation-procedure-using-ViscoWave_fig7_311982513 
+https://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694 
+Run simulations repeatedly, generating random values of the independent variables. Do this until enough results are gathered to make up a representative sample of the near infinite number of possible combinations.
+
+---
+class: inverse
+background-image: url('assets/img/image14.png')
+background-size: cover
+
+
+---
+class: inverse
+background-image: url('assets/img/image13.png')
+background-size: cover
+
+
+---
+class: inverse
+background-image: url('assets/img/image10.png')
+background-size: cover
+
+[https://www.ibm.com/cloud/learn/monte-carlo-simulation](https://www.researchgate.net/figure/Monte-Carlo-simulation-procedure-using-ViscoWave_fig7_311982513)
+[https://www.researchgate.net/figure/Monte-Carlo-simulation-procedure-using-ViscoWave_fig7_311982513](https://www.ibm.com/cloud/learn/monte-carlo-simulation)
+[https://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694](https://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694)
+
+---
+#  Monte Carlo Simulation Steps 
+
+https://www.ibm.com/cloud/learn/monte-carlo-simulation
+Set up the predictive model, identifying both the dependent variable to be predicted and the independent variables (also known as the input, risk or predictor variables) that will drive the prediction.
+Specify probability distributions of the independent variables. Use historical data and/or the analyst’s subjective judgment to define a range of likely values and assign probability weights for each.
+Run simulations repeatedly, generating random values of the independent variables. Do this until enough results are gathered to make up a representative sample of the near infinite number of possible combinations.
+![](assets/img/image10.png)
+
+---
+#  Simulation Programs 
+
++ Argo [Booz Allen, Open Source]
+	+ @Risk [Palisade, ~$1,900]
+	+ Crystal Ball [Oracle, ~$1,000]
+	+ Riskamp [Structured Data, LLC, ~$250]
+	+ Programming Languages
+.pull-left[![](assets/img/image16.png)]
+
+.pull-right[![](assets/img/image15.jpeg)]
+
+---
+
+
+---
+class: inverse
+background-image: url('assets/img/image20.png')
+background-size: cover
+
+
+---
+class: inverse
+background-image: url('assets/img/image19.png')
+background-size: cover
+
+
+---
+class: inverse
+background-image: url('assets/img/image18.png')
+background-size: cover
+
+
+---
+class: inverse
+background-image: url('assets/img/image17.png')
+background-size: cover
+
+[https://boozallen.github.io/argo/](https://github.com/boozallen/argo/wiki)
+[https://github.com/boozallen/argo/wiki](https://boozallen.github.io/argo/)
+
+---
+
+.pull-left[![](assets/img/image22.png)]
+
+.pull-right[![](assets/img/image21.png)]
+[https://www.palisade.com/risk/](https://www.palisade.com/risk/)
+
+---
+#  Practical Exercises: Argo / R  
+
+.pull-left[![](assets/img/image24.png)]
+
+.pull-right[![](assets/img/image23.jpeg)]
+
+---
+#  Advantages and Disadvantages 
+
++ Advantages
+	+ Flexibility for risk managers
+	+ Quantifies uncertainty and variability
+	+ Range of risk opposed to a single point estimate
+	+ Disadvantages may be offset by more informed decisions
+	+ Disadvantages
+	+ Time
+	+ Resources
+	+ Greater technical expertise (analysists, communicators, and decision makers)
+	+ May require more data
+	+ Communicating results
+
+---
+#  Summary 
+
++ Reviewed Tiered approach to risk assessment
+	+ Contrasted Deterministic and Probabilistic Approaches
+	+ Selected Probability Distributions
+	+ Applied Monte Carlo Simulations
+	+ Compared Advantages and Disadvantages of Probabilistic Risk Assessments
