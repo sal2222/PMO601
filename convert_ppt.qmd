@@ -2,6 +2,8 @@
 title: "convert_PP"
 format: html
 editor: visual
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r}
@@ -20,3 +22,11 @@ convert_pptx(path = 'G:/My Drive/PMO601 Risk Assessment/6_Probabilistic_RiskW202
   out_dir = "output")
 ```
 
+
+```{r}
+#pptx <- system.file("examples", "slidedemo.pptx", package = "slidex")
+
+convert_pptx(path = 'G:/My Drive/PMO601 Risk Assessment/7_Risk Management_2023.pptx',
+  author = "Stephen Lewandowski",
+  out_dir = "output")
+```
