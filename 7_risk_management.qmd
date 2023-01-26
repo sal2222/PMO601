@@ -1,0 +1,267 @@
+---
+title: "Risk Management"
+author: "LTC Stephen Lewandowski, PhD, CPH"
+institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
+date: "19 January 2023"
+editor: visual
+format: 
+   revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: "images/USU_logo_color.png"
+    footer: "PMO601 Environmental Health Risk Assessment"
+    theme: simple
+    pdf-page-height-offset: 0.5
+    self-contained: true
+---
+
+## Learning Objectives
+
+-   Discuss approaches used in risk management
+    -   Discuss how benefit cost analysis (BCA) is used in environmental policy decision making
+    -   Define "value of a statistical life"
+    -   Understand how and when discount rates are used
+    -   Discuss the ethical arguments against using BCA for environmental regulations
+    -   Understand the precautionary principle and application/misapplication in decision making
+
+## Framework for Risk-based Decision-making
+
+![](images/risk_framework.png){fig-align="center"}
+
+## Risk Management
+
+The process of evaluating policy/cleanup options and selecting the most appropriate option based on:
+
+-   Risk assessment
+-   Economics
+-   Politics
+-   Technical feasibility
+-   Stakeholder input
+-   Control options
+-   Ethics
+
+## Risk Management Executive Orders
+
+::: incremental
+-   Executive Order 12866 - Regulatory Planning and Review
+    -   Issued by President Clinton in 1993
+    -   "Significant regulatory actions" are submitted for review by Office of Information and Regulatory Affairs (OIRA) and Office of Management and Budget (OMB)
+-   EO 13563 -- Improving Regulation and Regulatory Review
+    -   Issued by President Obama in 2011, reaffirms the intent of EO 12866
+    -   Requires agencies to quantify benefits and costs of proposed rule-making
+    -   Encourages agencies to coordinate their regulatory activities, and to consider regulatory approaches that reduce the burden of regulation while maintaining flexibility and freedom of choice for the public
+
+<https://www.epa.gov/laws-regulations/summary-executive-order-12866-regulatory-planning-and-review>
+:::
+
+## Benefit -- Cost Analysis
+
+::: incremental
+-   Analytical tool used to evaluate public policy options
+
+-   Benefits determined by what individuals would be willing to pay for risk reductions or for other improvements from pollution prevention
+
+-   Provides policy makers and others with detailed information on a wide variety of consequences of environmental policies
+:::
+
+<https://www.epa.gov/environmental-economics/mortality-risk-valuation>
+
+## Basic Steps of Benefit Analysis
+
+::: incremental
+-   Assess the benefits associated with the considered policy
+    -   Determine the physical effects of the pollutants (fate/transport and pathway)
+    -   Estimate the change in effects resulting from the policy (may have multiple options)
+    -   Identify benefit categories (reduced mortality, morbidity, ozone layer, etc )
+    -   Quantify the endpoints (changes in the risk)
+    -   Evaluate worth of the changes
+:::
+
+## Values of Morbidity and Mortality
+
+::: incremental
+-   Willingness to Pay
+-   A common approach: uses survey research
+-   How much are you willing to pay to......
+    -   Reduce your early mortality from 2 in a million to 1 in a million?
+-   Value of a STATISTICAL Life (VSL)
+    -   Local trade-off rate between fatality risk and money
+    -   Based on willingness to pay studies
+    -   \$7.4 million (2006)
+    -   \$10 million (2016)
+:::
+
+<https://www.epa.gov/environmental-economics/mortality-risk-valuation> Figures: <https://www.bloomberg.com/graphics/2017-value-of-life/>
+
+## What does it mean to place a value on life?
+
+-   EPA does not place a dollar value on individual lives
+
+-   When conducting a benefit-cost analysis of new environmental policies, EPA uses estimates of how much people are willing to pay for small reductions in their risks of dying from adverse health conditions that may be caused by environmental pollution
+
+-   Not an estimate of how much money any single individual or group would be willing to pay to prevent the certain death of any particular person
+
+## Discount Rates of Costs and Benefits
+
+-   Benefits that occur in the future
+    -   OMB suggests using 3% and 7% discount rates
+    -   Example:
+        -   Benefit of \$50 million (in present value) in year 15
+
+$Net Present Value = \sum{} Year_n Total Cash Flow / (1 + Discount Rate)^n$
+
+```{r echo = TRUE, eval = TRUE}
+(50*10^6)/((1+0.03)^15)
+(50*10^6)/((1+0.07)^15)
+```
+
+## Other Values: Some Examples
+
+-   Morbidity
+-   Medical Expenditures
+-   Earnings/Lost Work Days
+-   Ecosystem functions (Climate)
+-   Animals
+-   Other things that are difficult to measure
+-   Market Products (Crop yields)
+-   Property damage
+-   Recreational activates and aesthetics
+
+# Example Case: Mercury and Air Toxics Standards
+
+## Regulatory Impact Analysis for the Final Mercury and Air Toxics Standards
+
+::: incremental
+-   Under the Clean Air Act, regulating power plant emissions, the EPA must show that it is "appropriate and necessary"
+
+-   Key Findings of the Regulatory Impact Analysis:
+
+-   Benefits:
+
+-   \$37-\$90 billion using a 3% discount rate
+
+-   \$33-\$81 billion using a 7% discount rate
+
+-   Costs: \$9.6 billion in compliance costs to the electric power industry
+
+-   Benefit/Cost Ratio: 3:1 or 9:1 (based on the estimate and the discount rate)
+:::
+
+Source: Regulatory Impact Analysis for the final Mercury and Air Toxics Standards, 2011
+
+## A Closer Look at the Benefits
+
+::: incremental
+-   Mercury exposure pathway in the risk assessment
+    -   Benefit from the reduction in mercury emissions
+        -   \$0.004 to \$0.006 billion using a 3% discount rate (\$4 to \$6 million)
+        -   \$0.0005 to \$0.001 billion using a 7% discount rate
+        -   511 fewer mercury-related IQ points lost
+            -   Average IQ loss per prenatally exposed child 0.00209 (based on the original proposed reduction)
+            -   Estimated 240,000 prenatally exposed children
+    -   Co-benefit from PM 2.5 reduced emissions (Majority)
+:::
+
+Source: Regulatory Impact Analysis for the final Mercury and Air Toxics Standards, 2011
+
+## Human Health Effects of Pollutants Affected by the Mercury and Air Toxics Standards
+
+![](images/mercury_table.png){fig-align="center"}
+
+Source: Regulatory Impact Analysis for the final Mercury and Air Toxics Standards, 2011
+
+## Co-Benefits
+
+-   Office of Management and Budget definition:
+
+> "a favorable impact of \[a\] rule that is typically unrelated or secondary to the statutory purpose of the rulemaking."
+
+-   *Question*: Should co-benefits be considered in a cost-benefit analysis?
+
+    -   Rule was intended to reduce mercury
+    -   Most of the benefits from PM 2.5
+
+## Supreme Court Ruling: Michigan et al. v. Environmental Protection Agency et al. (2015)
+
+::: incremental
+-   **Holding**: The Environmental Protection Agency interpreted 42 U.S.C. §7412(n)(1)(A) of the Clean Air Act, which requires the agency to regulate power plants when "appropriate and necessary," unreasonably when it refused to consider cost when making that decision
+
+-   **Judgment**: Reversed and remanded, 5-4, in an opinion by Justice Scalia on June 29, 2015. Justice Thomas filed a concurring opinion. Justice Kagan filed a dissenting opinion, in which Justices Ginsburg, Breyer and Sotomayor joined
+:::
+
+<https://www.scotusblog.com/case-files/cases/michigan-v-environmental-protection-agency/>
+
+## 2018 Revised Proposal {.scrollable}
+
+::: incremental
+-   EPA proposed to determine that it is not "appropriate and necessary" to regulate HAP emissions from power plants under Section 112 of the Clean Air Act
+
+-   EPA HQ News Release (06/07/2018):
+
+> Under the leadership of President Trump, EPA has taken steps to improve EPA's cost-benefit calculations. Consistent with the President's Executive Order 13783, EPA updated the social cost of carbon to reflect prior and best practices. While the Obama EPA estimated the social cost of carbon to be an average of \$36 per ton of carbon dioxide emitted, this EPA calculated an average of \$5 per ton.
+
+> EPA has also proposed a different approach to analyzing co-benefits -- benefits from reduced emissions of a pollutant that is not the actual target pollutant of a regulation. Particulate matter was the co-benefit most cited by the Obama EPA. In fact, particulate matter co-benefits accounted for more than 80% of the purported benefits of all of Obama's air rules. The Clean Power Plan (CPP), a rule aimed at carbon dioxide reductions, derived most of its benefits from a reduction in particulate matter. When EPA issued its proposed repeal of CPP, it provided a transparent account of the impact of the rule on the "targeted pollutant" -- carbon dioxide
+:::
+
+<https://www.epa.gov/archive/epa/newsreleases/epa-administrator-pruitt-proposes-cost-benefit-analysis-reform.html>
+
+# Precautionary Principle
+
+::: incremental
+-   Precautionary decision-making approach in the face of uncertainty
+-   Rio Declaration on Environment and Development (1992 United Nations Earth Summit) \> "Where there are threats of serious or irreversible damage, lack of full scientific certainty shall not be used as a reason for postponing cost-effective measures to prevent environmental degradation"
+:::
+
+## Wingspread Statement (1998)
+
+::: incremental
+-   Precautionary principle defined at a weekend meeting at Wingspread, in Racine, Wisconsin
+
+-   Recognized as a foundation for decision making to protect human heath and the environment
+
+-   5 key elements:
+
+    1.  Taking anticipatory action to prevent harm in the face of scientific uncertainty
+    2.  Exploring alternatives, including the alternative of "no action"
+    3.  Considering the full cost of environmental and health impacts over time
+    4.  Increasing public participation in decision making
+    5.  Shifting the responsibility for providing evidence to the proponents of an activity
+:::
+
+## Cass Sunstein: "Beyond the Precautionary Principle" (2003)
+
+::: incremental
+-   Argues that the precautionary principle is incoherent and potentially paralyzing
+
+-   Imposes a burden of proof on those who create potential risks, and it requires regulation of activities even if it cannot be shown that those activities are likely to produce significant harms
+
+-   Suggests that regulation is required whenever there is a possible risk to health, safety, or the environment, even if the supporting evidence is speculative and even if the economic costs of regulation are high
+
+-   Salutary moral and political goals should be promoted through other, more effective methods
+:::
+
+# Cost / Benefits Models and Tools
+
+-   Cost analysis
+-   Economic Analysis
+-   Benefits Analysis
+
+<https://www.epa.gov/economic-and-cost-analysis-air-pollution-regulations>
+
+## Environmental Benefits Mapping and Analysis Program - Community Edition (BenMAP-CE)
+
+-   Estimates the health impacts and economic value of changes in air quality
+-   Full-scale benefits assessment
+-   Open-source
+
+<https://www.epa.gov/benmap>
+
+## BenMAP-CE Webinar Video
+
+-   "Estimating the health burden associated with exposure to ambient PM2.5 levels, a case study in Tehran"
+-   Demonstration of BenMAP-CE version 1.4 (begins at minute 40)
+
+{{< video https://www.youtube.com/embed/Z1XeQDcgqDA >}}
+
+<https://www.youtube.com/watch?v=Z1XeQDcgqDA>
