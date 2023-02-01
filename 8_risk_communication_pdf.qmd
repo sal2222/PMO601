@@ -1,0 +1,234 @@
+---
+title: "Risk Communication"
+author: "LTC Stephen Lewandowski, PhD, CPH"
+institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
+date: "26 January 2023"
+editor: visual
+format: 
+   pdf:
+    #slide-number: c/t
+    #width: 1600
+    #height: 900
+    logo: "images/USU_logo_color.png"
+    footer: "PMO601 Environmental Health Risk Assessment"
+    theme: simple
+    #incremental: true
+    pdf-page-height-offset: 0.5
+    self-contained: true
+---
+
+## Learning Objectives
+
+-   Recognize potential sources of bias and conflicts of interest in risk assessment determinations
+-   Identify key components of a successful risk communication message
+
+## Framework for Risk-based Decision-making
+
+![](images/risk_framework.png)
+
+# Conflicts of Interest and Bias
+
+## Conflict of Interest (COI) and Bias
+
+-   COI: duty of loyalty or responsibility to two distinct parties, both of which are likely to be affected in different ways by the activity in which the individual is engaged
+
+-   COI policies generally address financial conflicts
+
+-   Policies for handling financial COI issues generally rely on disclosure as a mechanism to manage COI
+
+## Bias and values in scientific research
+
+-   **Preference bias**: occurs when a research result unduly reflects the researchers' preference for it over other possible results
+
+    -   *Biased experimental design*: the design of the studies made them unlikely to detect any effects
+    -   *Biased interpretation of outcomes*: outcomes can be declared irrelevant, they can be attributed to a speculative alternative cause, or they can be declared insufficient for the validation of a decisive conclusion
+
+-   **Publication bias** (biased communication and dissemination of results): experiments or trials with significant outcomes are more likely to be published than those with null or weak results
+
+## Preference bias example
+
+Study found that 90% of government-funded experiments on low-dose exposure to bisphenol A reported significant effects, while not a single industry-funded experimental study did
+
+Some industry studies used a strain of rat (the CD-SD strain) insensitive to estrogen
+
+
+Torsten Wilholt, Bias and values in scientific research, *Studies in History and Philosophy of Science Part A*, Volume 40, Issue 1, 2009 <https://doi.org/10.1016/j.shpsa.2008.12.005>
+
+## Research misconduct
+
+-   NIH Reviews of Research Ethics Cases
+
+-   Themes:
+
+    -   Authorship
+    -   Data Management
+    -   Borrowing / Plagiarism
+    -   Ethical Ambiguities
+    -   Research Responsibility
+    -   Socially Responsible Science
+
+    <https://oir.nih.gov/sourcebook/ethical-conduct/responsible-conduct-research-training/annual-review-ethics-case-studies>
+
+## Manufactured Uncertainty: Doubt is their Product Arguments
+
+![](images/doubt.png){fig-align="center" width="232"}
+
+-   2008 book by David Michaels
+    -   Epidemiologist and Professor in the Departments of Environmental and Occupational Health and Epidemiology at the Milken Institute School of Public Health of the George Washington University
+    -   Served as Assistant Secretary of Labor for Occupational Safety and Health
+
+-   Book documents tobacco industry's tactics: spawned a multi-million dollar industry dismantling public health safeguards in areas far from tobacco
+
+-   Industry executives hired unscrupulous scientists and lobbyists to dispute scientific evidence about health risks
+
+-   Product defense consultants:
+
+    -   Increasingly **skewed the scientific literature**
+
+    -   **Manufactured and magnified scientific uncertainty**
+
+    -   **Influenced policy decisions** to the advantage of polluters and the manufacturers of dangerous products
+
+-   Goal: **keep the public confused** about hazards (e.g., climate change, second-hand smoke, asbestos, lead, plastics, many other toxic materials)
+
+-   **Constructed barriers**: harder for lawmakers, government agencies, and courts to respond to future threats
+
+# Risk Communication
+
+## Risk Communication Overview
+
+![](images/risk_comm_fig.png)
+
+<https://www.epa.gov/risk/risk-communication>
+
+## Risk Communication Overview
+
+-   Process of informing people about potential hazards to their person, property, or community
+
+-   Situations of **high stress**, **high concern** or **controversy**
+
+## Composition of message
+
+-   Put a particular risk in context
+-   Compare with other risks
+-   Advise about risk reduction behavior
+-   Encourage a dialogue
+
+## Types of communication environments
+
+![](images/risk_env_types.png){fig-align="center"}
+
+<https://semspub.epa.gov/work/11/174720.pdf>
+
+## Components of Trust
+
+![](images/trust_components.png){fig-align="center"}
+
+
+WHO Regional Office for Europe; 2021
+
+
+## Risk Communication Strategy: Seven Cardinal Rules
+
+1.  **Accept and involve the public as a legitimate partner: early involvement**
+
+2.  **Plan carefully and evaluate your efforts**
+
+-   set clear objectives
+
+-   be attentive to needs and interests
+
+-   train staff in communication skills
+
+-   rehearse and test message
+
+-   assess efforts and lessons learned
+
+
+3.  **Listen to public's specific concerns**
+
+-   find out what people think or want
+
+-   recognize their feelings
+
+
+4.  **Be honest and open**
+
+
+5.  **Coordinate and collaborate with other credible sources**
+
+6.  **Meet the needs of the media**
+
+-   open and accessible to reporters
+
+-   establish relationships of trust
+
+
+7.  **Speak clearly and with compassion**
+
+-   communicate on a personal level
+
+-   use vivid, concrete images or examples
+
+-   make technical risk data come alive
+
+-   acknowledge and respond with words and emotions that people express
+
+
+Covello, V. and F. Allen, 1988
+
+
+## Develop Risk Messages
+
+![](images/message_map.png){fig-align="center"}
+
+## Risk Comparisons
+
+-   Use risk comparisons effectively and cautiously
+
+-   Can be an effective strategy:
+
+    -   provide context for a situation
+    -   help individuals put site-related risks in perspective
+
+-   Inappropriate comparison can have disastrous results for the credibility and efforts of the communicator
+
+## Beneficial Risk Comparisons
+
+![](images/acceptable_risk_compare.png){fig-align="center"}
+
+## Poor Risk Comparisons
+
+![](images/unacceptable_risk_compare.png){fig-align="center"}
+
+<https://semspub.epa.gov/work/11/174720.pdf>
+
+## Risk Matrices
+
+![](images/atp_risk_matrix.png){fig-align="center"}
+
+
+Modified from ATP 5-19 and CJCS MCM 0017-12
+
+
+## Other Example Visual Tools
+
+-   WBGT Work/Rest Times and Fluid Replacement Guide
+
+-   Air Quality Index
+
+# Case Study Videos
+
+## Navy town hall regarding tainted water
+
+<https://www.facebook.com/watch/live/?ref=watch_permalink&v=379143127324214>
+
+## Chaos at town hall meeting as local Hawaii residents address Navy's handling of Red Hill
+
+<https://www.youtube.com/watch?v=Rfu3GsnJgG0>
+
+<https://www.youtube.com/watch?v=oew9WQP4GCc>
+
+## Secretary of the Army Town Hall - Hawaii
+
+<https://fb.watch/ihMGO2fbB6/>

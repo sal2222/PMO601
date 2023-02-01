@@ -1,0 +1,77 @@
+---
+title: "final_data"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+Dataset for Probabilistic Risk Assessment Question
+
+
+## Triangular
+
+
+```{r}
+library(EnvStats)
+library(tidyverse)
+
+set.seed(42)
+
+random <-
+  rtri(500, min = 50 , max = 140, mode = 80)
+
+
+random
+
+
+random %>%
+  as_data_frame() %>% 
+  ggplot(aes(x = random)) +
+    geom_histogram()
+```
+
+
+## Normal
+
+```{r}
+
+set.seed(100)
+
+n = 250
+
+
+# standard error = 0.63
+# standard deviation @ SE * square root of n
+# standard deviation @ n = 500 = 14.08
+# standard deviation @ n = 500 = 9.96
+
+random_n <-
+  rnorm(n, mean = 90.6, sd = 0.63 * n^0.5) 
+
+random_n
+
+random_n %>% 
+  as_data_frame() %>% 
+  ggplot(aes(x = value)) +
+    geom_histogram()
+
+random_n %>%
+  as_data_frame() %>%
+  ggplot(aes(x = value)) +
+    geom_density()
+
+random_n %>% 
+  mean()
+
+random_n %>% 
+  sd()
+
+
+random_n %>% 
+  as_data_frame() %>% 
+  write_csv(., file = "./output/sample_dataset.csv", col_names = FALSE)
+
+
+```
+

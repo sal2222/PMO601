@@ -1,0 +1,2296 @@
+---
+title: "PMO601 Course Review"
+author: "LTC Stephen Lewandowski, PhD, CPH"
+institute: "Department of Preventive Medicine and Biostatistics (OEHS)"
+date: "02 February 2023"
+editor: visual
+format: 
+   pdf:
+    logo: "images/USU_logo_color.png"
+    footer: "PMO601 Environmental Health Risk Assessment"
+    theme: simple
+    pdf-page-height-offset: 0.5
+    toc: true
+    toc-depth: 1
+    number-sections: true
+---
+
+# Introduction to Risk Assessment
+
+## Course Description
+
+> Risk assessment involves many disciplines and tools that are used to evaluate and quantify/qualify risks. Environmental risk assessments typically fall into one of two areas: (1) Human Health; and (2) Ecological.\
+> Focusing on human health, we will cover the fundamentals of environmental health risk assessment in-depth. This course provides the tools for understanding the science and art of the risk assessment process to effectively manage and communicate risk.
+
+## Course Lesson Objectives
+
+1.  Identify and apply fundamental risk assessment concepts and principles.
+2.  Describe the basic steps in the risk assessment process.
+3.  Perform fundamental cancer and noncancer calculations used in human health risk assessments.
+4.  Understand and determine sources of uncertainty and variability in risk assessments.
+5.  Understand ethical dilemmas inherent to human health risk assessment.
+6.  Analyze regulatory applications of risk assessment and decision making.
+
+## Readings
+
+*Risk Assessment in the Federal Government: Managing the Process* (1983) <https://www.nap.edu/read/366/>
+
+*Science and Judgement in Risk Assessment* (1994) <https://www.nap.edu/read/2125/>
+
+*Science and Decisions - Advancing Risk Assessment* (2009) <https://www.nap.edu/catalog/12209/science-and-decisions-advancing-risk-assessment>
+
+*Exposure Science in the 21st Century: A Vision and a Strategy* (2012) <http://nap.nationalacademies.org/13507>
+
+*Risk Assessment Guidance for Superfund Volume I, Human Health Evaluation Manual (Part A)* <https://www.epa.gov/sites/default/files/2015-09/documents/rags_a.pdf>
+
+*EPA Exposure Factors Handbook: 2011 Edition* <https://www.epa.gov/expobox/about-exposure-factors-handbook>
+
+*EPA Guidelines for Human Exposure Assessment* <https://www.epa.gov/risk/guidelines-human-exposure-assessment>
+
+## Supplementary Textbook
+
+*Environmental Risk Assessment: A Toxicological Approach, 2nd Edition* by Ted Simon, CRC Press, 2020, ISBN 9780367250973
+
+Available online through the USU James A. Zimble Learning Resource Center (LRC) at: <https://usuhs.primo.exlibrisgroup.com/permalink/01USUHS_INST/38vr5c/alma991000620119206626>
+
+![](images/simon_text.png){fig-align="center"}
+
+## Lesson Objectives
+
+1.  Define basic risk assessment terms and definitions.
+
+2.  Understand how risk assessment is used in different contexts.
+
+3.  Understand the regulatory basis for human health risk assessments.
+
+## Risk Assessment
+
+Risk assessment is a **scientific process**.
+
+Factors:
+
+-   *How much of a stressor is present in an environmental medium (e.g., soil, water, air) over what geographic area?*
+
+-   *How much contact (exposure) a person or ecological receptor has with the contaminated environmental medium?*
+
+-   *How does a hazard affect the health of humans (e.g., toxicity) or ecological receptors (e.g., fish killed by lack of oxygen)?*
+
+<https://www.epa.gov/risk/about-risk-assessment#whatisrisk>
+
+## Risk Assessment Framework
+
+![](images/risk_framework.png){fig-align="center" fig-alt="A framework for risk-based decision-making that maximizes the utility of risk assessment."}
+
+## EPA Risk Assessment Framework
+
+![](images/epa_framework.png){fig-align="center" fig-alt="Framework for Human Health Risk Assessment to Inform Decision Making."}
+
+## EPA Superfund Risk Assessment Video
+
+{{< video https://clu-in.org/video/sf_risk_assessment.htm width="100%" height="85%" >}}
+
+<https://clu-in.org/video/sf_risk_assessment_overview.htm>\
+View 0:00 - 6:00 minutes
+
+## Risk assessment is a dominant public-policy tool
+
+-   Informs risk managers and the public about different policy options for protecting public health and the environment
+
+-   Instrumental in fulfilling the missions of the U.S. Environmental Protection Agency (EPA) and other federal and state agencies
+
+    -   Evaluating public health concerns
+
+    -   Informing regulatory and technological decisions
+
+    -   Setting priorities for research and funding
+
+    -   Developing approaches for cost-benefit analyses
+
+*Science and Decisions*
+
+## Risk Assessment Challenges
+
+-   Subject to considerable scientific, political, and public scrutiny
+-   The science is increasingly complex
+    -   Multiple chemical exposures
+    -   Multiple risks
+    -   Susceptibility in populations
+    -   Life-cycle analysis
+    -   Costs, benefits, and risk trade-offs
+-   Process is bogged down: major risk assessments for some chemicals take more than 10 years *(e.g., trichloroethylene,formaldehyde, dioxin)*
+-   Tens of thousands of chemical in commerce
+
+## Risk Assessment Development History
+
+![](images/red_book.png) ![](images/blue_book.png) ![](images/silver_book.png)
+
+## "Red Book" (1983)
+
+::: {layout-ncol="2"}
+-   Defines risk assessment as: the use of the factual base to define the health effects of exposure of individuals and populations to hazardous materials and situations
+
+-   Advocated for the separation of risk assessment from risk management
+
+![](images/red_book.png)
+:::
+
+## "Blue Book" (1994)
+
+::: {layout-ncol="2"}
+-   Addressed issues from Clean Air Act Amendments
+-   Themes:
+    -   Default values
+    -   Validation of data and models
+    -   Information and data needs
+    -   Uncertainty
+    -   Variability
+    -   Aggregation of Risks
+
+![](images/blue_book.png)
+:::
+
+## "Silver Book" (2009)
+
+::: {layout-ncol="2"}
+-   Recommendations to improve quality of the technical analysis and utility of risk assessments
+-   Encouraged inclusion of quantitative estimates of uncertainty and variability at all key computational steps
+
+![](images/silver_book.png)
+:::
+
+## Statutes and Regulatory Structure
+
+-   Statutes provide various standards and procedures related to the scientific analyses used to evaluate the risk potential of pollutants subject to the statutes
+
+-   Provide agencies authority to regulate many forms of pollution
+
+-   Enabling legislation for major EPA program offices:
+
+    -   Air and radiation
+    -   Water
+    -   Solid waste
+    -   Pesticides
+    -   Toxic substances
+
+-   Enacted prior to the emergence of risk analysis as an integrative discipline in the late 1970s and early 1980s
+
+## Major U.S. environmental and occupational health laws
+
+![](images/env_laws.png)
+
+## Statutory Language Examples
+
+## Clean Water Act
+
+> "adequate to protect public health and the environment from any reasonably anticipated adverse effects" (CWA § 405 (d)(2)(D))
+
+## Clean Air Act
+
+Addressing criteria pollutants:
+
+> "reflecting the latest scientific knowledge"
+
+> "national primary ambient air quality standards to . . . protect public health with an adequate margin of safety" (CAA §§ 108,109)
+
+## Toxic Substances Control Act
+
+Primary purpose:
+
+> "to assure \[that technologic\] innovation and commerce in such chemical substances and mixtures do not present an unreasonable risk of injury to health or the environment" (TSCA § 2 (b)(3))
+
+## Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA)
+
+Criterion for registering a pesticide:
+
+> "it will perform its intended function without unreasonable adverse effects on human health and the environment" (FIFRA § 3)
+
+## 1996 Safe Drinking Water Act Amendments
+
+> "The Administrator shall, in a document made available to the public in support of a regulation promulgated under this section, specify, to the extent practicable -- Each population addressed by any estimate of public health effects -- The expected risk or central estimate of risk for the specific populations -- Each appropriate upper-bound or lower-bound estimate of risk" (SDWA § 300g-1 (b)(3)).
+
+## Risk Assessment Vocabulary {.scrollable}
+
+-   Agent-based risk assessments
+-   Benchmark Concentration
+-   Benchmark Concentration Limit
+-   Benchmark Dose
+-   Benchmark Dose Limit
+-   Benchmark response
+-   Dose-response assessment
+-   Exposure assessment
+-   Hazard identification
+-   Inhalation unit risk
+-   Lifestage
+-   Lowest-observed-adverse-effect level
+-   No-observed-adverse-effect level
+-   Place-based risk assessments
+-   Probabilistic modeling
+-   Reference concentration
+-   Reference dose
+-   Risk characterization
+-   Risk description
+-   Risk estimation
+-   Sensitivity
+-   Slope factor
+-   Stressor
+-   Susceptibility
+-   Uncertainty
+-   Uncertainty/variability factor
+-   Variability
+-   Vulnerability
+
+## Risk Assessment in the News
+
+-   EPA published the Final Fifth Drinking Water Contaminant Candidate List (CCL 5) <https://www.asdwa.org/2022/11/02/epa-publishes-final-fifth-contaminant-candidate-list-for-potential-drinking-water-regulations/> <https://www.epa.gov/ccl/contaminant-candidate-list-5-ccl-5>
+
+-   European exposure science strategy published <https://doi.org/10.1016/j.envint.2022.107555>
+
+-   Sharm-El-Sheikh Adaptation Agenda launched\
+    <https://unfccc.int/cop27>
+
+# Hazard Identification
+
+## Review: What is Risk Assessment?
+
+> Human-health risk assessment entails the evaluation of scientific information on the hazardous properties of environmental agents and on the extent of human exposure to those agents. The product of the evaluation is a statement regarding the probability that populations so exposed will be harmed, and to what degree.
+
+*Science and Judgment in Risk Assessment (1994, "Blue Book")*
+
+## Lesson Outline
+
+-   Risk Perception
+
+-   Planning & Scoping / Problem Formulation
+
+-   Hazard Identification
+
+## Lesson Objectives
+
+-   Recognize how **risk perception** affects a person's assessment of a risk
+-   Describe the purpose of **planning & scoping** and **problem formulation**
+-   Discuss key considerations in the planning and scoping process
+-   Describe the role **stakeholders** play in the risk assessment process
+-   Discuss the **purpose of hazard identification**
+-   Discuss the **types of evidence** used in hazard identification
+-   Discuss strengths and limitations of epidemiological studies
+-   Discuss strengths and limitations of animal testing
+
+## Risk Perception
+
+> Risk perceptions are beliefs about potential harm or the possibility of a loss. It is a subjective judgment that people make about the characteristics and severity of a risk.
+
+*Darker C. (2013) Risk Perception. In: Gellman M.D., Turner J.R. (eds) Encyclopedia of Behavioral Medicine. Springer, New York, NY*
+
+## Risk Perception Dimensions
+
+-   **Cognitive**: "Knowledge and understanding of risks"
+
+-   **Emotional**: "Feelings about the risks"
+
+*Peak and Hove, 2017*
+
+## Risk Evaluations
+
+-   Layperson:
+    -   subjective
+    -   intuition
+    -   influenced by media
+    -   low information
+-   Experts:
+    -   research
+    -   statistical evidence
+
+*Peak and Hove, 2017*
+
+## Public Risk Perception {.scrollable}
+
+-   Dreaded vs. not dreaded
+-   Uncontrollable vs. controllable
+-   Fatal consequences vs. not fatal consequences
+-   Not equitable vs. equitable
+-   High risk to future generations vs. low risk to future generations
+-   Involuntary vs. voluntary
+-   Affects me vs. doesn't affect me
+-   Not preventable vs. preventable
+-   Not observable vs. observable
+-   Delayed vs. immediate effect
+-   New risk vs. old risk
+-   Risks unknown to science vs. risks known to science
+
+*Slovic et al. (1980)*
+
+## Risk Factors and Characteristics
+
+![](images/risk_factors.png)
+
+*Slovic et al. (1980)*
+
+## Risk Hazards
+
+::: {layout-ncol="2"}
+![](images/risk_hazards81.png)
+
+Location of 81 hazards on factors 1 and 2 derived from the relationships among 18 risk characteristics. *Slovic et al. (1980)*
+:::
+
+## Unknown and dreaded risks (in 1980)
+
+![](images/dread_unknown_quad.png)
+
+## What is an acceptable lifetime excess cancer risk?
+
+-   1 in 1,000 (10^-3^)
+-   1 in 10,000 (10^-4^)
+-   1 in 100,000 (10^-5^)
+-   **1 in 1 million (10^-6^)**
+-   1 in 100 million (10^-8^)
+
+## Risk of death and acceptability
+
+![](images/risk_death.png)
+
+*Richard Wilson, Science, Technology, & Human Values Vol. 9, No. 2 (Spring, 1984), pp. 11-22*
+
+## Risk Comparison {.scrollable}
+
+Richard Wilson (1979): risks that increase a person's chance of death by one in one million
+
+-   Smoking 1.4 cigarettes (cancer, heart disease)
+-   Drinking ½ liter of wine (cirrhosis of the liver)
+-   Spending 1 hour in a coal mine (black lung disease)
+-   Spending 3 hours in a coal mine (accident)
+-   Living 2 days in New York or Boston (air pollution)
+-   Traveling 6 minutes by canoe (accident)
+-   Traveling 10 miles by bicycle (accident)
+-   Traveling 300 miles by jet (accident)
+-   Flying 1,000 miles by jet (accident)
+-   Flying 6,000 miles by jet (cancer caused by cosmic radiation)
+-   Living 2 months in Denver (cancer caused by cosmic radiation)
+-   One chest X-ray taken in a good hospital (cancer caused by radiation)
+-   Living 2 months with a cigarette smoker (cancer, heart disease)
+-   Eating 40 tablespoons of peanut butter (liver cancer caused by aflatoxin B)
+
+## Acceptable Levels of Risk
+
+-   Delaney Clause:
+
+    -   Zero tolerance guidance:
+
+    > the Secretary of the Food and Drug Administration shall not approve for use in food any chemical additive found to induce cancer in man, or, after tests, found to induce cancer in animals
+
+    -   "*De minimis*" exception: carcinogenic food additive present at a concentration of less than 1 part in 1,000,000 --\> risk considered negligible
+
+    -   Applied to diethylstilbestrol (DES) in meat
+
+-   Comprehensive Environmental Response, Compensation, and Liability Act of 1980 (CERCLA / Superfund): 10^-4^ to 10^-6^
+
+-   OSHA: 10^-3^
+
+## Initiation of Risk Assessment Process: Planning & Scoping / Problem Formulation
+
+> If you don't know where you are going, you'll end up someplace else.
+
+-   Yogi Berra (Seaman Second Class, 1943-1945)
+
+![1953 Bowman Color Yogi Berra #121](images/yogi.png){fig-align="center" width="147"}
+
+## EPA Framework for Human Health Risk Assessment to Inform Decision Making
+
+![](images/epa_framework.png){fig-align="center"}
+
+## Overall Risk Assessment Process
+
+![EPA, 2014](images/overall_process.png)
+
+## Formative stages schematic
+
+![](images/formative_schematic.png){fig-align="center"}
+
+## Comparison: NATO Problem Formulation
+
+![<http://www.dodccrp.org/files/NATO_COBP.pdf>](images/nato_formulation.png){width="619"}
+
+## Risk Assessment Stakeholders
+
+::: {layout-ncol="2"}
+-   Public
+-   Community
+-   Scientists
+-   Industry
+-   States and Tribal nations
+-   Interest groups
+-   Other Government Agencies
+-   Internal Stakeholders
+-   Legal
+:::
+
+## Example Stakeholders: Sulfur Dioxide National Ambient Air Quality Standard Docket
+
+![](images/so2_docket.png){fig-align="center"}
+
+<https://www.regulations.gov/docket?D=EPA-HQ-OAR-2013-0566>
+
+## Stakeholders: Interest Group
+
+![](images/interest_group.png){fig-align="center"}
+
+## Stakeholders: Industry
+
+![](images/industry.png){fig-align="center"}
+
+## Stakeholders: Environmental Group
+
+![](images/env_group.png){fig-align="center"}
+
+## Stakeholders: Public
+
+![](images/public_comment.png){fig-align="center"}
+
+## Planning and Scoping
+
+::: {layout-ncol="2"}
+-   Relatively new to human health risk assessment
+-   Establishes the goals and focus of the assessment
+-   Scope includes:
+    -   hazards
+    -   exposures
+    -   conditions of use
+    -   potentially exposed or susceptible subpopulations
+
+![](images/scope.png)
+:::
+
+## Planning and Scoping Considerations
+
+-   What decision is informed by risk assessment, when is decision anticipated, what are the risk management options?
+-   What legal/statutory requirements affect risk management options and level/type of analysis?
+-   What other considerations (e.g., environmental justice, life stage, cumulative risk, sustainability) or countervailing risks may influence risk management options and analyses? • What assessments (e.g., risk, economic) are needed to address decision-making needs?
+-   What expertise, resources and timelines are available to conduct the assessments(s)?
+
+## Examples of EPA Planning and Scoping
+
+-   National Ambient Air Quality Standards: an Integrated Review Plan developed that describes all phases of the review, including the risk/exposure assessment
+-   National Emissions Standards for Hazardous Air Pollutants residual risk review: encompasses a set of emissions source categories for which risk assessments are of generally similar scope and basic design, while differing in specific aspects of the sources and the chemicals emitted
+-   CERCLA / Superfund human health risk assessments
+
+## Problem Formulation
+
+-   Translation of the planning and scoping phase
+-   Generates two products:
+    -   Conceptual model
+    -   Analysis plan
+
+## Conceptual Model
+
+-   Identifies:
+    -   Known or potential sources of contamination (soil, groundwater, surface water, air)
+    -   Release mechanisms and receptor routes
+    -   All potential exposure pathways
+    -   Media and receptors associated with each
+-   Maps out a framework that demonstrates the theoretical links between the pollutant source or agent and exposure points
+-   Provides a convenient format to present an overall understanding of the problem and organizes available information in a structure that facilitates identifying missing data or uncertainty
+-   Has features of both a scientific hypothesis and a work plan
+
+## Generalized Conceptual Model
+
+![EPA, 2014](images/generalized_conceptual.png)
+
+## Conceptual Site Model
+
+![](images/csm.png)
+
+## Analysis Plan
+
+-   Intentions and technical aspect of the risk assessment
+-   Determines how conceptional model hypotheses will be assessed
+-   May determine the level of confidence needed
+-   Uncertainty and variability analysis
+-   Addresses assessments of the hazard, dose-response, exposure and characterization
+
+## Hazard Identification
+
+> The determination of whether a particular chemical is or is not causally linked to particular health effects
+
+> Process of determining whether exposure to an agent can cause an increase in the incidence of a health condition
+
+*Risk Assessment in the Federal Government: Managing the Process*, 1983 ("Red Book")
+
+## Hazard Identification (Blue Book Definition)
+
+> identification of the contaminates that are suspected to pose health hazards, quantification on the concentration which they are present in the environment, a description of specific forms of toxicity that can be caused by the contaminates of concern, and an evaluation of the conditions in which these forms of toxicity be be expressed in exposed humans
+
+*Science and Judgment in Risk Assessment*, 1994 ("Blue Book")
+
+## Hazard Identification Questions
+
+-   Can an exposure increase the incidence of specific adverse health effects?
+-   Is it likely to occur in humans?
+-   What **evidence** is there to characterize the link between the agent and effects?
+
+## Sources of Evidence
+
+-   Epidemiologic
+-   Toxicity Testing
+    -   *In vitro*: Under glass (i.e. cells)
+    -   *In vivo*: Whole animal
+-   Quantitative Structure-Activity Relationships
+
+## Epidemiological Studies
+
+-   May provide evidence linking chemical exposure and human adverse health effect
+-   Statistical associations
+-   Limitations
+    -   Difficult to prove causation
+    -   Mechanism of disease
+    -   Latency periods
+    -   Generalizable
+    -   Confounding and bias
+    -   Exposure characterization
+
+## In-Vivo Testing (Animal models)
+
+-   Toxicity testing by endpoint
+    -   Acute (7-14 days)
+    -   Sub chronic (2-4 months)
+    -   Chronic (at least 12 months)
+-   Limitations:
+    -   High doses are used, which may not reflect true mechanism or exposure
+    -   May not reflect human response
+    -   Extrapolation from high to low dose
+    -   Life span of animal
+    -   Cost
+
+![](images/mouse.png){fig-align="right" width="138"}
+
+## In-Vitro Testing
+
+::: {layout-ncol="2"}
+-   Bioassay (i.e., Ames test for Genotoxicity)
+-   Low cost, fast
+-   Chemical screening
+-   Used for mechanism of toxicity
+-   Limitations:
+    -   Biological interactions
+    -   Predictive value
+    -   Toxicity pathway
+
+![](images/ames.png)
+:::
+
+## Tox21 Program
+
+-   Developed and validated *in-vitro* cell-based assays using quantitative high-throughput screening
+-   More than 70 assays developed
+
+![](images/tox21.png){fig-align="center" width="389"}
+
+<https://tox21.gov/overview/>
+
+## Weight of Evidence (Predictive Validity)
+
+-   Used to characterize the hazardous properties, mode of action (MOA), and dose response relationships using scientific data
+-   Approaches:
+    -   *Metaphorical*: examination of scientific evidence without prescribed methods
+    -   *Methodological*: e.g., systematic review, quality criteria, meta-analysis, causal criteria
+    -   *Theoretical*: serves as a label for a conceptual framework
+
+Weed, D. L. (2005). Weight of evidence: a review of concept and methods.*Risk Analysis: An International Journal*,25(6), 1545-1557.
+
+## Weight of Evidence: Conﬁdence of Causation
+
+![](images/woe_causation.png)
+
+Weed, D. L. (2005)
+
+## Summary: Planning and scoping
+
+> Systematic and transparent planning and scoping promotes efficient time and resource management; agreement on the assessment's purpose; communication within the team and with stakeholders; stakeholder buy-in and realistic expectations; better-informed decisions with high-quality data based on established objectives and using sound methods; participation from multiple disciplines; and documentation of decisions made and the rationales.
+
+EPA *Guidelines for Human Exposure Assessment*
+
+## Summary: Problem formulation
+
+> Problem formulation has three key components: (1) identification of the individual, lifestage(s), group(s) or population(s) of concern; (2) a conceptual model presenting the anticipated pathway of the agent from the source to receptor of concern; and (3) an analysis plan that charts the approach for conducting the assessment.
+
+EPA *Guidelines for Human Exposure Assessment*
+
+## Hazard Identification
+
+> Hazard Identification entails identification of the contaminants that are suspected to pose health hazards, quantification of the concentrations at which they are present in the environment, a description of the specific forms of toxicity (neurotoxicity, carcinogenicity, etc.) that can be caused by the contaminants of concern, and an evaluation of the conditions under which these forms of toxicity might be expressed in exposed humans.
+
+EPA *Guidelines for Human Exposure Assessment*
+
+# Dose-Response
+
+## Lesson Outline
+
+-   Dose-Response overview
+    -   Mode of Action
+    -   Mechanism of Action
+-   Dose-Response Curves
+    -   Non-linear Threshold
+    -   Linear No-Threshold
+-   Uncertainty Factors
+-   Quantification
+    -   Reference Dose
+    -   Slope Factors
+-   Toxicology Advancements
+
+## Lesson Objectives
+
+-   Know toxicological acronyms and key terms
+-   Analyze and compare dose-response curves
+-   Understand basic dose-response calculations and concepts
+-   Understand the "threshold" assumption and when its used
+-   Describe the difference between a slope factor and unit risk
+
+## Overall Risk Assessment Process
+
+![](images/risk_framework.png)
+
+## Dose-Response Assessment Step
+
+> For each determining adverse effect, what is the relationship between dose and the probability of the occurrence of the adverse effect in the range of doses identified in the exposure assessment?
+
+## Dose-Response
+
+-   Quantification of the relationship between the dose of an environmental contaminant and the human response (adverse health effect)
+-   Knowledge of the dose-response relationship establishes:
+    -   Causality: that the chemical has induced the observed effects
+    -   Threshold effect: the lowest dose where an induced effect occurs
+    -   Slope for the dose-response: the rate at which injury builds up
+
+![*Acute Effects of Carbon Monoxide*](images/co.png){width="624"}
+
+## Mode of Action (MOA)
+
+-   Central organizing principle for understanding the biological underpinnings of toxicity
+-   Sequence of key events and processes, starting with interaction of an agent with a cell, proceeding through operational and anatomical changes, and resulting in cancer formation
+-   Consideration of MOA guides dose-response approach, enabling:
+    -   understanding of the human relevance of tumor responses observed in animals
+    -   identification of potentially sensitive sub-groups or life stages
+    -   determination of whether low-dose extrapolation should be conducted using a linear non-threshold approach or a nonlinear approach that uses a presumed threshold
+    -   application of safety factors
+
+## MOA: Key events, D-R, and temporal relationships
+
+::: {layout-ncol="2"}
+![](images/dt_concordance.png)
+
+\- Understand dose--response and temporal relationships between the key events and the apical event
+:::
+
+## Mechanism of Action
+
+-   More specific description of the toxic action of a chemical action than Mode of Action
+-   Specific sequence of events at the molecular, cellular, organ, and organism level leading from the absorption of an effective dose of a chemical to the production of a specific biological response in the target organ
+
+## Mechanism of Action: Data needed
+
+![\*Simon, pg. 194\*](images/mechanism_of_action_data.png){fig-align="center" width="410"}
+
+## Dose-Response Curves: Risk Bites Intro
+
+{{< video https://www.youtube.com/embed/yyvX5hDBPBY >}}
+
+"What is dose response, and what's a dose response model? \| Andrew Maynard"
+
+<https://www.youtube.com/watch?v=yyvX5hDBPBY>
+
+## Dose-Response Curves: Dependent Variable Types
+
+-   Continuous data
+    -   Single dose-response curves
+    -   Multiple dose-response curves
+-   Binary / binomial data
+-   Count data
+-   Time-to-event data
+
+## Dose-Response Curve Example
+
+![](images/dr_curve.png){width="399"}
+
+## Dose-Response Curve: Key Points
+
+![](images/dr_curve_label.png){width="551"}
+
+## Non-linear / Threshold Curves
+
+-   Generally **non-carcinogenic** endpoints
+-   No Observed Adverse Effect Level (**NOAEL**): Highest dose without an adverse effect over background
+-   Lowest Observed Adverse Effect Level (**LOAEL**): Lowest dose with an observed adverse effect
+
+## Limitations of NOAEL and LOAEL
+
+-   Limited to one of the doses (single data point)
+-   Dependent on study design
+-   Does not account for slope of the dose-response curve
+-   LOAEL used in absence of a NOAEL
+
+## Example: Nicotine
+
+```{r}
+#| warning: false
+#| message: false
+
+devtools::install_github("DoseResponse/drcData")
+library(tidyverse)
+library(drc)
+# drcData::nicotine
+
+nicotine <- drcData::nicotine %>%
+  mutate(mortality = num.dead/total)
+  
+nicotine
+
+```
+
+## Example: Nicotine Plot
+
+```{r}
+#| warning: false
+ggplot2::ggplot(nicotine, aes(x = conc, y = mortality)) +
+  geom_point(size = 1.5) +
+  ylab("Mortality (%)") +
+  xlab ("Nicotine Concentration")
+```
+
+## Model Selection
+
+-   Log logistic: Symmetrical about the midpoint
+
+-   Weibull type 1: Asymmetrical, its first shoulder (at the EC05-EC10) starts later than a log-logistic
+
+-   Weibull type 2: Asymmetrical, its first shoulder (at the EC05-EC10) starts earlier than a log-logistic model
+
+-   Parameters:
+
+    -   Slope (between the EC10 and EC90)
+    -   Upper limit
+    -   Lower limit
+    -   Mid point (ED50)
+
+## Nicotine model fit
+
+```{r}
+#| warning: false
+
+model.LL3 <- drm(mortality~conc, data = nicotine, fct = LL.3(fixed = c(NA, 100, NA), names = c("Slope", "Upper Limit", "ED50")))
+mselect(model.LL3, fctList = list(W1.3(fixed=c(NA, 100, NA)),W1.4(), W2.3(fixed=c(NA, 100, NA)), W2.4(),  LL.4()),linreg=TRUE) 
+
+model.W23 <-  drm(mortality~conc, data = nicotine, fct = W2.3(names = c("Slope", "Upper Limit",  "ED50")))
+model.W24 <-  drm(mortality~conc, data = nicotine, fct = W2.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+model.LL4 <-  drm(mortality~conc, data = nicotine, fct = LL.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+model.W14 <-  drm(mortality~conc, data = nicotine, fct = W1.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+
+plot(model.LL3, broken = TRUE, xlab = "Concentration", ylab = "Percent Mortality", type='all',lty = 1, lwd = 2)
+plot(model.W23, add = TRUE, col = "orange",lty = 1, lwd = 2)
+plot(model.W24, add = TRUE, col = "blue",lty = 2, lwd = 2)
+plot(model.LL4, add = TRUE, col = "forestgreen",lty = 2, lwd = 2)
+plot(model.W14, add = TRUE, col = "pink",lty = 2 , lwd = 2)
+```
+
+## Non-cancer reference values
+
+-   Exposure level that is likely below the threshold for adverse health effects
+
+-   Reference Concentration (**RfC**): Inhalation exposure (mg/m^3^)
+
+-   Reference Dose (**RfD**): Oral and Dermal (mg/kg-BW/day)
+
+-   General Approach
+
+    -   Requires epidemiological or toxicological data
+    -   Point of Departure (POD) -- NOAEL, LOAEL, BMDL\*
+    -   Uncertainty Factors (UF) applied $$  RfD = POD / (UF1 * UF2 * ...UFn) $$
+
+## Uncertainty Factors
+
+![](images/uf.png)
+
+## Uncertainty Factor Default Values
+
+-   Variation in human sensitivity (10)
+-   Extrapolative animal data to humans (10)
+-   Extrapolation from less than chronic studies (3 or 10)
+-   Use of LOAEL rather than NOAEL (3 or 10)
+-   Incomplete toxicity database (up to 10)
+
+## Linear / No-Threshold Curves
+
+-   Generally **carcinogenic** endpoints
+-   Linear low-dose extrapolation to predict cancer risk
+-   Used to develop a *cancer slope factor* or *inhalation unit risk*
+-   May be extrapolated from a **Point of Departure**
+-   Adjustments:
+    -   Human equivalent dose (HED)
+    -   Timing (hours/day, days/week)
+    -   Animal-to-human (PBPK Modeling and Epidemiology)
+
+## Example: TCDD
+
+Liver tumor incidence in Sprague-Dawley rats exposed to 2,3,7,8-tetrachlorodibenzo-pdioxin (TCDD).
+
+```{r}
+#| warning: false
+
+# devtools::install_github("DoseResponse/drcData")
+
+# drcData::TCDD
+
+tcdd <- drcData::TCDD %>%
+  mutate(pct_tumor = incidence/total)
+  
+tcdd
+
+```
+
+Source: R. Kociba, D. Keyes, J. Beyer, R. Carreon, C. Wade, D. Dittenber, R. Kalnins, L. Frauson, C. Park, S. Barnard, R. Hummel, and C. Humiston (1978). Results of a two-year chronic toxicity and oncogenicity study of 2,3,7,8-tetrachlorodibenzo-p-dioxin in rats. Toxicology and Applied Pharmacology, 46(2):279--303.
+
+<https://doseresponse.github.io/drcData/reference/TCDD.html>
+
+## Example: TCDD Plot
+
+```{r}
+
+ggplot2::ggplot(tcdd, aes(x = conc, y = pct_tumor)) +
+  geom_point(size = 1.5) +
+  ylab("Liver tumor (%)") +
+  xlab ("TCDD Concentration")
+
+```
+
+## TCDD model fit
+
+```{r}
+#| warning: false
+
+model.LL3 <- drm(pct_tumor~conc, data = tcdd, fct = LL.3(fixed = c(NA, 100, NA), names = c("Slope", "Upper Limit", "ED50")))
+mselect(model.LL3, fctList = list(W1.3(fixed=c(NA, 100, NA)),W1.4(), W2.3(fixed=c(NA, 100, NA)), W2.4(),  LL.4()),linreg=TRUE) 
+
+model.W23 <-  drm(pct_tumor~conc, data = tcdd, fct = W2.3(names = c("Slope", "Upper Limit",  "ED50")))
+model.W24 <-  drm(pct_tumor~conc, data = tcdd, fct = W2.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+model.LL4 <-  drm(pct_tumor~conc, data = tcdd, fct = LL.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+model.W14 <-  drm(pct_tumor~conc, data = tcdd, fct = W1.4(names = c("Slope", "Lower Limit", "Upper Limit", "ED50")))
+
+plot(model.LL3, broken = TRUE, xlab = "TCDD Concentration", ylab = "Liver Tumor %", type='all',lty = 1, lwd = 2)
+plot(model.W23, add = TRUE, col = "orange",lty = 1, lwd = 2)
+plot(model.W24, add = TRUE, col = "blue",lty = 2, lwd = 2)
+plot(model.LL4, add = TRUE, col = "forestgreen",lty = 2, lwd = 2)
+plot(model.W14, add = TRUE, col = "pink",lty = 2 , lwd = 2)
+```
+
+## Cancer slope factor (CSF)
+
+-   Upper-bound estimate of the probability of developing cancers per unit intake of a chemical over a lifetime
+
+-   Used to predict cancer risk based on a measured or estimated dose
+
+-   Units: (mg/kg/day)^-1^
+
+    ![](images/csf.png){width="665"}
+
+## Inhalation unit risk (IUR)
+
+-   Upper-bound excess lifetime cancer risk estimated to result from continuous exposure to a chemical at a concentration of 1 microgram per cubic meter in air
+
+## Benchmark Dose (BMD)
+
+-   Chemical dose or concentration that produces a predetermined change in the response rate of an adverse effect, such as weight loss or tumor incidence
+-   Alternative to NOAEL and LOAEL to fit dose-response data
+-   Calculated from the curve fit to the data, including confidence intervals
+-   Used to estimate RfD, RfC, and cancer slope factors
+-   Many modeling tools available, including *BMDS* from EPA <https://www.epa.gov/bmds>
+
+## BMD: Example model fit to dichotomous data (non-threshold)
+
+![](images/bmd_example.png)
+
+## BMD: Example model fit to dichotomous data (non-threshold) \[Previous slide\]
+
+-   Fraction of animals affected in each group is indicated by diamonds, and the error bars indicate 95% confidence intervals for the fraction affected
+
+-   Benchmark response (BMR) in this example is an extra risk of 10% (or 0.1 fraction responding)
+
+-   Fitted model shown by the solid curve, and the BMD corresponding to 10% extra risk on this curve is notated BMD~10~
+
+-   Lower bound on BMD~10~, (BMDL~10~), comes from the dashed curve to the left of the fitted model curve, indicating the estimated lower bound on doses for a range of BMRs
+
+    <https://www.epa.gov/risk/benchmark-dose-technical-guidance>
+
+## BMD: Example model fit (Threshold)
+
+![](images/bmd_threshold.png)
+
+## Toxicology in the 21st Century (Tox21)
+
+-   Collaboration between several federal agencies to develop new ways to rapidly test whether substances adversely affect human health
+-   Testing diverse range of substances:
+    -   commercial chemicals
+    -   pesticides
+    -   food additives/contaminants
+    -   medical compounds
+
+<https://youtu.be/CjQTVfXQ8N4>
+
+<https://ntp.niehs.nih.gov/whatwestudy/tox21/index.html>
+
+## Predictive Toxicology
+
+-   Develop and apply innovative approaches to predict human-relevant health effects from agents of interest
+-   Development, validation, and application of computational tools, dose-response models, and systems toxicology models
+    -   Alternative toxicological methods (to animal use for chemical safety testing)
+    -   Spatiotemporal methods and applications in exposure science and toxicology
+    -   Toxicoinformatics
+
+<https://www.niehs.nih.gov/research/atniehs/labs/ptb/index.cfm>
+
+## Summary: current D-R Assessment
+
+![*SCIENCE AND DECISIONS: ADVANCING RISK ASSESSMENT*](images/dr_summary.png){width="684"}
+
+# Exposure Assessment
+
+## Lesson Objectives
+
+-   Describe the **exposure pathway model**
+-   Discuss methods to measure exposure concentrations in environmental media
+-   Understand the difference between **absorbed dose** and **exposure dose**
+-   Understand general daily intake formulas and their inputs
+-   Contrast formulas for **carcinogens** and **non-carcinogens**
+-   Describe **uncertainty** and **variability** in exposure assessment
+
+## Exposure Science
+
+> Describes the environment, behaviors of the the agent in the environment, characteristic and activities of human receptors and processes that lead to contact and uptake of an agent by humans.
+
+*EPA Guidelines for Human Exposure Assessment, 2016*
+
+## Exposure Assessment
+
+> Process of measuring or estimating the intensity, frequency, and duration of human exposures to an agent currently present in the environment or of estimating hypothetical exposures that might arise from the release of new chemicals into the environment.
+
+*Risk Assessment in the Federal Government: Managing the Process, 1983*
+
+## Exposure Assessment Components
+
+```{r}
+#| echo: false
+#| message: false
+
+library(VennDiagram)
+
+# your data
+A <- c('Fate and Transport','Exposure Assessment')
+B <- c('Human Behavior','Exposure Assessment')
+
+# Generate plot
+v <- venn.diagram(list(A=A, B=B),
+                  fill = c("orange", "blue"),
+                  alpha = c(0.5, 0.5), cat.cex = 1.5, cex=1.5,
+                  filename=NULL)
+
+
+# Over-write labels (5 to 7 chosen by manual check of labels)
+# in A only
+v[[5]]$label  <- paste(setdiff(A, B), collapse="\n")  
+# in B only
+v[[6]]$label <- paste(setdiff(B, A)  , collapse="\n")  
+# intesection
+v[[7]]$label <- paste(intersect(A, B), collapse="\n")  
+
+# plot  
+grid.newpage()
+grid.draw(v)
+```
+
+## Physical Environment
+
+> How does the concentration and composition of the pollutant vary over spatially and temporally?
+
+::: {layout-ncol="2"}
+-   **Subsurface**: water table, hydraulic gradient, soil type
+
+-   **Atmosphere**: climate, prevailing winds, average precipitation and temperature
+
+-   **Terrain**: topography, presence of water, forests
+
+![](images/windrose.png)
+:::
+
+## Potentially Exposed Populations
+
+-   Worker, adults, children, and other susceptible populations
+
+-   Consider land use (homes, schools, business, parks, access)
+
+-   Populations down wind or water drawn down gradient
+
+-   Proximity of agriculture, dairy, fish
+
+-   Strategies:
+
+    -   Log activities of each population (child, adult, worker)
+    -   Use published "Exposure Factors" for defined population
+    -   Best judgement (drinks X liters of water/day)
+
+## Exposure Pathways
+
+![](images/exposure_pathways_old.png){fig-align="center"}
+
+## Exposure-effect continuum
+
+![](images/exposure_effect.png){fig-align="center"}
+
+*2011 Exposure Factors Handbook*
+
+## Measuring Exposures
+
+-   **Sample size**: Statistical power
+-   **Sampling location**: Purposive, Random, Systematic
+-   **Media**: Air, Water, Soil
+-   **Method**: Grab, Composite
+-   **Timing**: One-time, Longitudinal, Continuous
+-   **Design**: Systematic, Random, Field screening
+
+## Measuring Exposures: Detection
+
+::: {layout-ncol="2"}
+-   **Quantification limit (QL)** --\> Trusted
+
+-   **Trace** --\> Observed but not quantified
+
+-   **Detection limit** --\> "Seen"
+
+-   **Not detected** --\> Not seen
+
+![](images/data_qualifiers.png)
+:::
+
+## Dose Terms
+
+-   **Exposure Dose**: Amount in the outer boundary (Air sampling)
+-   **Potential Dose**: Amount contained in a material that enters the body (Air, ingestion, skin)
+-   **Applied Dose**: Amount available at absorption barrier (Skin, lungs, GI)
+-   **Internal Dose**: Amount penetrating across an absorption barrier
+-   **Delivered Dose (biologically effective dose)**: Amount available for interaction at an organ or cell
+
+## Dose Illustration
+
+![](images/inhalation_dose.png){width="536"}
+
+<https://www.epa.gov/expobox/exposure-assessment-tools-routes-inhalation>
+
+## Exposure Time
+
+-   Duration
+    -   Short-term (acute) vs. Long-term (chronic)
+    -   Default assumptions:
+        -   350 days/year at home
+        -   30 years of residence
+        -   Occupational
+            -   40-60 hours/week
+            -   Military operations: 24 hours/day(?)
+-   Match Dose/Toxicity and Exposure timescales
+
+![](images/time.png)
+
+## Scenario Evaluation
+
+-   Indirect estimation method: Relies on an exposure scenario to estimate exposures or doses
+-   **Exposure scenario**: set of facts, assumptions, and inferences about how exposure takes place
+-   Relies on data or assumptions about:
+    -   sources and releases of a stressor of interest
+    -   fate and transport mechanisms
+    -   concentrations of contaminants at the point of exposure
+    -   information about receptor populations
+    -   exposure factors (e.g., activities and time frame over which exposure occurs)
+
+## Estimation of Potential Dose (General Equation)
+
+![](images/dose_estimation.png){fig-align="center" width="581"}
+
+## Potential Dose General Equation
+
+![](images/potential_dose.png){fig-align="center" width="642"}
+
+## Exposure Descriptors
+
+![](images/expo_descriptors.png){fig-align="center" width="615"}
+
+## Central Tendency Estimates
+
+-   Represents the exposure of the average or typical individual in a population, usually the mean or median of the population distribution
+
+-   **Arithmetic mean**: uses average values for all of the factors that comprise the exposure of interest
+
+-   **Median**: useful descriptor of central tendency, especially when data on the receptor or exposure of interest are skewed as they are in a log normal distribution
+
+## High-end Estimates
+
+-   Intended to assess exposures that are higher than average, but still within a realistic, reasonable anticipated range
+
+-   **Reasonable maximum exposure (RME)**: the highest exposure reasonably likely to occur, generally assumed to be in the range of the 90th and 99.9th percentiles
+
+-   **Reasonable worst-case exposure**: the lower part of the high-end exposure range, which is above the 90th percentile but below the 98th percentile
+
+-   **Maximum exposure**: the range above the 98th percentile
+
+## Calculating Daily Intake
+
+![](images/intake_calc.png){width="635"}
+
+*Formulas in Risk Assessment Guidance for Superfund(RAGS)*
+
+## Time Variables
+
+-   **Frequency**
+    -   Usually 350 days/yr for residence (2 wk vacations)
+    -   Usually 250 days/yr for worker exposure frequency
+-   **Duration**
+    -   Chronic (carcinogen or non-carcinogen)
+    -   Acute, Short-term, sub-chronic (non-carcinogen)
+
+## Averaging Time
+
+-   Total days over which the exposure is averaged
+-   Based on toxic effect
+
+![](images/at_calc.png){width="645"}
+
+## Multiple Routes/Pathways and Resources
+
+**ATSDR**:\
+
+-   [Estimating Site-Specific Ingestion and Dermal Exposure Doses](https://www.atsdr.cdc.gov/pha-guidance/conducting_scientific_evaluations/epcs_and_exposure_calculations/estimating-site-specific-ingestion-and-dermal-exposure-doses.html)
+
+-   [Estimating Site-Specific Inhalation Exposures](https://www.atsdr.cdc.gov/pha-guidance/conducting_scientific_evaluations/epcs_and_exposure_calculations/estimating_inhalation_exposures.html)
+
+**EPA**:\
+
+-   [Exposure Factors Handbook](https://www.epa.gov/expobox/about-exposure-factors-handbook)
+
+-   [Exposure Assessment Tools by Routes - Inhalation](https://www.epa.gov/expobox/exposure-assessment-tools-routes-inhalation)
+
+-   [Exposure Assessment Tools by Routes - Ingestion](https://www.epa.gov/expobox/exposure-assessment-tools-routes-ingestion)
+
+-   [Exposure Assessment Tools by Routes - Dermal](https://www.epa.gov/expobox/exposure-assessment-tools-routes-dermal)
+
+-   [RAGS Part A](https://www.epa.gov/sites/default/files/2015-09/documents/rags_a.pdf) \[Download\]
+
+## Dermal contact doses {.scrollable}
+
+-   Absorption factors (ABS): used to reflect the desorption of the chemical from soil and the absorption of the chemical across the skin and into the bloodstream
+
+-   RAGS equation used to estimate exposure from dermal contact with soil:
+
+$AD = ( CS x CF x SA x AF x ABS x EF x ED)/(BW x AT)$
+
+**AD** = Absorbed dose (mg/kg/day)\
+**CS** = Chemical concentration in soil (mg/kg)\
+**CF** = Conversion factor (10^-6^ kg/mg)\
+**SA** = Skin surface area available for contact (cm^2^/event)\
+**AF** = Soil-to-skin adherence factor (mg/cm^2^)\
+**ABS** = Absorption factor (unitless)\
+**EF** = Exposure frequency (events/year)\
+**ED** = Exposure duration (years)\
+**BW** = Body weight (kg)\
+**AT** = Averaging time (period over which exposure is averaged-days)
+
+-   Potential lifetime average daily dose (mg/kg-day): *without ABS*
+-   Absorbed lifetime average daily dose (mg/kg-day): *with ABS*
+
+## Example Scenario: Drinking Water Intake (arsenic) {.scrollable}
+
+Estimate the **average daily potential dose (mg/kg-day)** of arsenic from drinking water intake of a water supply with an arsenic concentration of 0.010 mg/L over a 24 year period for a bladder cancer endpoint.
+
+![](images/dwir_arguments.png){width="566"}
+
+```{r}
+#| echo: true
+#| code-fold: true
+
+DWIR <- function ( CW = CW, IRW = 2, EF = 350, ED = 24, BW = 80, AT = 365 * 70){
+  
+  I = ( CW * IRW * EF * ED ) / ( BW * AT )
+  return (I)
+}
+
+# For a carcinogenic effect:
+DWIR (CW = 0.01)
+
+# For a systemic (non-carcinogenic) effect:
+
+DWIR (CW = 0.01, AT = 24 * 365)
+
+```
+
+*Ref: <https://rdrr.io/cran/EnviroPRA/man/DWIR.html>*
+
+## Example Scenario: Drinking Water Intake (xylenes) {.scrollable}
+
+Estimate the **average daily potential dose (mg/kg-day)** of xylenes (total) from drinking water intake of a water supply with a xylene concentration of 10 mg/L over a 24 year period for a non-cancer (nervous system damage) endpoint.
+
+```{r}
+#| echo: true
+#| code-fold: true
+
+DWIR <- function ( CW = CW, IRW = 2, EF = 350, ED = 24, BW = 80, AT = 365 * 70){
+  
+  I = ( CW * IRW * EF * ED ) / ( BW * AT )
+  return (I)
+}
+
+
+# For a non-carcinogenic effect:
+
+DWIR (CW = 10, AT = 24 * 365, BW = 70, IRW = 2.5)
+
+```
+
+## Example Scenario: Dermal contact with chemicals in soil {.scrollable}
+
+Estimate the **absorbed dose (mg/kg-day)** due to dermal contact with soil for carcinogenic effects using the default variables (EPA 2011) for a chemical soil concentration of 0.2 mg/Kg.
+
+![](images/ad_arguments.png){width="598"}
+
+```{r}
+#| echo: true
+#| code-fold: true
+
+AD <- function (CS = 1, SA = 2800, AF = 0.2, ABS = 0.001, EF = 350, ED = 24, BW = 70, AT = 365*70){
+  CF = 1e-06
+  I = ( CS * SA * AF* ABS* EF * ED * CF ) / ( BW * AT )
+  return (I)
+}
+
+
+# For a non-carcinogenic effect:
+
+AD(CS = 0.2)
+
+```
+
+## Example Scenario: Inhalation {.scrollable}
+
+Estimate the **average daily potential dose (mg/kg-day)** of mercury from inhalation of indoor air in a home contaminated with a mercury concentration of 50 micrograms per cubic meter.
+
+![](images/air_arguments.png){width="598"}
+
+```{r}
+#| echo: true
+#| code-fold: true
+
+AIR <- function (CA =1, IR= 20, ET=24, EF=350, ED=24, BW=70, AT=365*70){
+  I = ( CA * IR * ET*  EF * ED ) / ( BW * AT )
+  return (I)
+}
+
+# For a non-carcinogenic effect:
+
+AIR(CA = 50 / 1000, ET = 8, EF = 30, ED = 1, BW = 32, IR = 0.9, AT = 30)
+
+```
+
+## Uncertainty and Variability
+
+![](images/uncertainty_variability.png){width="636"}
+
+## Uncertainty and Variability Example
+
+![](images/uncertainty_water_intake.png){width="609"}
+
+# Risk Characterization
+
+## Lesson Objectives
+
+-   Calculate hazard quotient / hazard index and cancer risk given the daily intake and appropriate toxicological values (RfD or slope factor)
+-   Interpret hazard index and cancer risk values
+-   Describe the uncertainty associated with risk estimates
+-   Discuss potential ethical dilemmas involved with risk assessment
+
+## Risk Characterization
+
+EPA's risk-characterization step has four elements:
+
+::: incremental
+-   Generation of a quantitative estimate of risk
+-   Qualitative description of uncertainty
+-   Presentation of the risk estimate
+-   Communication of the results of risk analysis
+:::
+
+*Science and Judgement in Risk Assessment*, 1994
+
+## Principles of Conducting Risk Characterizations
+
+**TCCR:**
+
+::: incremental
+-   **Transparent** with methods, assumptions, logic, rational, extrapolations, and uncertainty
+-   **Clear**: understood by readers internal and external to the process
+-   **Consistent** with the RA policies of the organization and program
+-   **Reasonable**: based on sound judgment and current science
+:::
+
+## Quantitative Estimates of Risk
+
+::: incremental
+-   **Threshold**
+
+    -   Traditionally noncarcinogens
+
+    -   Ratio that compares the exposure dose to the RfD
+
+-   **Non-threshold**
+
+    -   Traditionally carcinogens
+
+    -   Probability of the incremental risk of developing cancer over a lifetime of exposure
+:::
+
+## Risk Characterization: Threshold
+
+![](images/dr_curve_label.png){fig-align="center" width="498"}
+
+## Risk Characterization: Threshold
+
+::: incremental
+$Hazard Quotient = [\frac{Daily Intake}{RfD}]$
+
+$HQ=\frac{0.07 [\frac{mg}{kg-day}]}{0.14[\frac{mg}{kg-day}]} = 0.5$
+
+-   HQ: the ratio of the environmental exposure to the RfD or RfC
+    -   Values greater than unity indicate the potential for systemic toxicity leading to adverse effects
+
+    -   Less than 1: Generally considered "safe"
+:::
+
+## Hazard Index
+
+-   Sum of hazard quotients of chemicals to which a person is exposed that affect the same target organ or operate by the same mechanism of action
+-   An HI less than unity is generally understood as being indicative of lack of appreciable risk, and a value over unity indicates some increased risk
+-   The larger the HI, the greater the risk, but the index is not related to the likelihood of adverse effect except in qualitative terms
+
+![](images/hazard_index.png){fig-align="center" width="151"}
+
+## Example: Ethyl Benzene
+
+![](images/ethyl_benzene.png)
+
+UF: Interspecies; Intraspecies; Less than Chronic
+
+<https://cfpub.epa.gov/ncea/iris2/chemicalLanding.cfm?substance_nmbr=51>
+
+## Example: Ethyl Benzene Exposure
+
+![](images/dw_eqn.png){fig-align="center" width="442"}
+
+## Example: Ethyl Benzene Exposure
+
+$Intake= \frac{\frac{0.00375 mg}{L} * \frac{1L}{day} * 6 years * \frac{350 days}{year} } {15 kg * 6 years * \frac{365 days}{year}} = 2.4*10^{-4} \frac{mg}{kg-day}$
+
+## Example: Ethyl Benzene Risk Characterization Calculation
+
+$HQ=\frac{2.4*10^{-4} [\frac{mg}{kg-day}]}{1*10^{-1}[\frac{mg}{kg-day}]} = 0.0024$
+
+## Risk Characterization: Non-Threshold
+
+![](images/csf.png){fig-align="center" width="498"}
+
+## Risk Characterization: Non-Threshold
+
+$𝑪𝒂𝒏𝒄𝒆𝒓 𝑹𝒊𝒔𝒌=𝑫𝒂𝒊𝒍𝒚 𝑰𝒏𝒕𝒂𝒌𝒆∗𝑺𝒍𝒐𝒑𝒆 𝑭𝒂𝒄𝒕𝒐𝒓$
+
+$Risk= 0.0016 \frac{mg}{kg-day} * 0.09\frac{kg-day}{mg} = 1.4*10^{-4}$
+
+## Example: Arsenic Exposure
+
+$Intake= \frac{\frac{0.00375 mg}{L} * \frac{1L}{day} * 6 years * \frac{350 days}{year} } {15 kg * 70 years * \frac{365 days}{year}} = 2*10^{-5} \frac{mg}{kg-day}$
+
+## Example: Arsenic Risk Characterization
+
+![](images/arsenic_csf.png) <https://cfpub.epa.gov/ncea/iris2/chemicalLanding.cfm?&substance_nmbr=278>
+
+## Example: Arsenic Risk Characterization Calculation
+
+$Risk= 2*10^{-5} \frac{mg}{kg-day} * 1.5\frac{kg-day}{mg} = 3*10^{-5}$
+
+Carcinogenic risk from oral exposure (unitless)
+
+## Cumulative HQ and Risk
+
+-   For multiple chemicals, hazard quotients can be summed to estimate an overall hazard index
+
+-   Because cancer risks are expressed as unitless probabilities, their summation across multiple chemicals and exposure routes is mathematically appropriate
+
+-   The EPA cautions that summing risks across multiple exposure pathways should be carefully considered
+
+## Summing HQ and Cancer Risk
+
+![](images/sum_HQ.png)
+
+## Mixture Approaches
+
+![](images/mixture_assessments.png) [Supplementary Guidance for Conducting Health Risk Assessment of Chemical Mixtures](https://archive.epa.gov/raf/web/pdf/chem_mix_08_2001-2.pdf)
+
+## Uncertainty and Variability
+
+> Risk estimates calculated using the "Red Book" paradigm of combining exposure and toxicity are conditional estimates based on many assumptions about exposure and toxicity
+
+![](images/uncertainty_variability.png)
+
+## Uncertainty in Risk Characterization Step
+
+-   What do other assessors, decision-makers, and the public need to know about the primary conclusions and assumptions, and about the balance between confidence and uncertainty in the assessment?
+
+-   What are the strengths and limitations of the assessment?
+
+*Science and Judgment in Risk Assessment*
+
+## Uncertainty in Risk Characterization Step: Decision-Making
+
+-   Numerical estimates should never be separated from the descriptive information that is integral to the risk assessment
+
+-   For decisionmakers, a complete characterization (key descriptive elements along with numerical estimates) should be retained in all discussions and papers relating to an assessment used in decision-making
+
+-   Differences in assumptions and uncertainties, coupled with non-scientific considerations called for in various environmental statutes, can clearly lead to different risk management decisions in cases with ostensibly identical quantitative risks; i.e., the "number" alone does not determine the decisions
+
+*Science and Judgment in Risk Assessment*
+
+## Uncertainty in Risk Characterization Step: Alternative Approaches
+
+-   Consideration of alternative approaches involves examining selected plausible options for addressing a given uncertainty
+
+-   The strengths and weaknesses of each alternative approach and as appropriate, estimates of central tendency and variability (e.g., mean, percentiles, range, variance)
+
+-   The description of the option chosen should include the rationale for the choice, the effect of option selected on the assessment, a comparison with other plausible options, and the potential impacts of new research.
+
+*Science and Judgment in Risk Assessment*
+
+## Case Study: Lead and Cadmium Could Be in Your Dark Chocolate
+
+-   Consumer Reports found dangerous heavy metals in chocolate from Hershey's, Theo, Trader Joe's and other popular brands
+
+-   Cocoa solids
+
+-   Rich in flavanol antioxidants linked to improved blood vessel function, reduced inflammation, and lower cholesterol
+
+-   Source of heavy metals, especially cadmium
+
+<https://www.consumerreports.org/health/food-safety/lead-and-cadmium-in-dark-chocolate-a8480295550/>
+
+## Case Study: Lead and Cadmium Could Be in Your Dark Chocolate
+
+-   CR compared to California's maximum allowable dose level (MADL) for lead (0.5 $\mu g$) and cadmium (4.1 $\mu g$)
+
+-   TJ's 85% Cacao
+
+-   Lead: 127%
+
+-   Cadmium: 229%
+
+*Assume*: based on full single package (article does not specify) Net WT. 3.5 oz (100 g)
+
+-   Cadmium Oral food RfD = ?
+
+-   Scenario: Adult/you eating **1 chocolate bar per day** for **20 years**
+
+-   What is the Hazard Quotient?
+
+## Case Study Calculation
+
+```{r}
+#| echo: true
+#| code-fold: true
+
+ADD <- function ( Cd_bar = 4.1 * 2.29 / 1000, EF = 350, ED = 20, BW = 80, AT = 365 * ED){
+  
+  I = ( Cd_bar * EF * ED ) / ( BW * AT )
+  return (I)
+}
+
+# Cadmium per bar: percent exceedance of CA MADL; convert µg to mg
+
+# For a systemic (non-carcinogenic) effect:
+
+ADD ()
+```
+
+#  Probabilistic Risk Assessment
+
+## Lesson Objectives
+
+-   Explain rational for the use of probabilistic risk assessment
+-   Describe the tiered approach for risk assessment
+-   Understand the basics of Monte Carlo sampling
+-   Discuss the advantages and disadvantages of using probabilistic assessments compared to deterministic assessments
+
+## Probabilistic Risk Assessment
+
+-   "An analytical methodology used to incorporate information regarding uncertainty and/or variability into analyses to provide insight regarding the degree of certainty of a risk estimate and how the risk estimate varies among different members of an exposed population..."
+
+**A group of techniques that incorporate uncertainty and variability into risk assessments**
+
+*EPA, 2014 Risk Assessment Forum White Paper*
+
+## Variability and Uncertainty Review
+
+::: incremental
+-   **Variability**: the inherent natural variation, diversity and heterogeneity across time, space or individuals within a population or lifestage
+
+-   **Uncertainty**: imperfect knowledge or a lack of precise knowledge of the physical world, either for specific values of interest or in the description of the system
+:::
+
+## Probabilistic Approach - Motivation
+
+::: incremental
+-   Risk assessors, risk managers and others, particularly within the scientific and research divisions, have recognized that **more sophisticated statistical and mathematical approaches** could be utilized to **enhance the quality and accuracy of Agency risk assessments**
+
+-   Various stakeholders, inside and outside of the Agency, have called for a more comprehensive characterization of risks, including uncertainties, to **improve the protection of sensitive or vulnerable populations and lifestages**
+
+*EPA, 2014 Risk Assessment Forum White Paper*
+:::
+
+## Deterministic: Point Estimate of Exposure Dose
+
+::: incremental
+-   Deterministic risk assessments express health risks as a single numerical estimate of risk
+    -   Assuming reasonable maximum exposure
+        -   Compounds unrealistically high estimates
+        -   Difficult to know/communicate the level of conservatism
+    -   Assuming average exposure
+        -   May present unacceptable risks
+    -   Mostly qualitative assessment of uncertainty and variability
+:::
+
+## Tiered Approach for Risk Assessment
+
+![](images/tiered_approach.png){fig-align="center"}
+
+Assessments that are high in complexity and regulatory significance benefit from the application of probabilistic techniques
+
+## Probabilistic Approach
+
+![](images/pra_summary.png){width="642"}
+
+## Example Parameter Variability
+
+![](images/body_mass.png){fig-align="center"}
+
+Source: PSU Open Design Lab (NHANES 2010) Adults 20-80 <http://tools.openlab.psu.edu/tools/nhanes.htm>
+
+## Probabilistic Example Scenario: AIRBORNE!
+
+![](images/airborne_pra.png){fig-align="center" width="656"}
+
+<https://www.nrc.gov/about-nrc/regulatory/risk-informed/pra.html>
+
+## Probabilistic Example Scenario: AIRBORNE!
+
+![](images/fault_tree.png){fig-align="center" width="379"}
+
+## Probabilistic Example: Nuclear Power Plant Operations (NRC)
+
+![](images/nuclear_pp.png){fig-align="center"}
+
+## Monte Carlo Simulation
+
+::: incremental
+-   Mathematical technique used to estimate the possible outcomes of an uncertain event
+
+-   Predicts a set of outcomes based on an estimated range of values versus a set of fixed input values
+
+-   Yields a range of possible outcomes with the probability of each result occurring
+
+-   Sensitivity analysis
+:::
+
+![](images/roulette.png){fig-align="right" width="170"}
+
+## Video: What is Monte Carlo Simulation?
+
+[https://www.youtube.com/watch?v=7TqhmX92P6U"](https://www.youtube.com/watch?v=7TqhmX92P6U%22){.uri}
+
+## Monte Carlo Simulation Applications
+
+::: incremental
+-   Intergovernmental Panel on Climate Change: probability density function analysis of radiative forcing
+-   Computer graphics: Path/ray tracing renders a 3D scene by randomly tracing samples of possible light paths
+-   US Coast Guard: computer modeling software SAROPS calculates the probable locations of vessels during search and rescue operations
+:::
+
+## Monte Carlo Simulation: IPCC (WG1AR5)
+
+![](images/ipcc_forcing_crop.png){fig-align="center"}
+
+## Monte Carlo Simulation: IPCC (WG1AR5)
+
+![](images/ipcc_bar.png){fig-align="center"}
+
+## Monte Carlo Simulation: IPCC (WG1AR5)
+
+![](images/ipcc_pdf.png){fig-align="center" width="370"}
+
+## Monte Carlo Simulation: SAROPS
+
+-   Search and Rescue Optimal Planning System (SAROPS)
+
+-   Software used by the U.S. Coast Guard for Maritime Search Planning
+
+-   SAROPS is a Monte Carlo based system that uses thousands of simulated particles generated by user inputs in a wizard based Graphical User Interface
+
+    -   Handle multiple scenarios and search object types
+    -   Model pre-distress motion and hazards
+    -   Account for the affects of previous searches
+
+## Monte Carlo Simulation: SAROPS Screen
+
+![](images/sarops.png)
+
+## Monte Carlo Simulation: Step 1
+
+Set up the predictive model, identifying both the dependent variable to be predicted and the independent variables (also known as the input, risk or predictor variables) that will drive the prediction.
+
+![](images/intake_crop.png) <https://www.ibm.com/cloud/learn/monte-carlo-simulation>
+
+## Monte Carlo Simulation: Step 2
+
+::: incremental
+-   Specify probability distributions of the independent variables
+
+-   Use historical data and/or the analyst's subjective judgment to define a range of likely values and assign probability weights for each.
+
+-   Probability distribution: mathematical function that gives the probabilities of occurrence of different possible outcomes for an experiment
+
+    -   Type of distribution is useful when you need to know which outcomes are most likely, the spread of potential values, and the likelihood of different results
+    -   Selection of the appropriate distribution depends on the presence or absence of symmetry of the data set with respect to the mean value
+:::
+
+<https://www.ibm.com/cloud/learn/monte-carlo-simulation>
+
+## Monte Carlo Simulation: Step 2 (Distributions)
+
+![](images/distribution_choices.png)
+
+## Monte Carlo Simulation: Step 3
+
+-   Run simulations repeatedly, generating random values of the independent variables
+
+-   Do this until enough results are gathered to make up a representative sample of the near infinite number of possible combinations
+
+## Monte Carlo Simulation: Step 3
+
+![](images/mc_sim_example.jpg)
+
+<https://www.researchgate.net/figure/Monte-Carlo-simulation-procedure-using-ViscoWave_fig7_311982513>
+
+## Advantages and Disadvantages of Probabilistic Assessment
+
+::: incremental
+-   **Advantages**
+    -   Flexibility for risk managers
+    -   Quantifies uncertainty and variability
+    -   Range of risk opposed to a single point estimate
+    -   Disadvantages may be offset by more informed decisions
+-   **Disadvantages**
+    -   Time
+    -   Resources
+    -   Greater technical expertise (analysts, communicators, and decision makers)
+    -   May require more data
+    -   Communicating results
+:::
+
+## Simulation Programs
+
+::: incremental
+-   Commercial Software
+
+    -   Argo \[BAH. Open Source\]
+
+    -   @Risk [Palisade, \~\$1,900]
+
+    -   Crystal Ball \[Oracle, \~\$1,000\]
+
+    -   Riskamp \[Structured Data, LLC, \~\$250\]
+
+-   Programming Languages
+
+    -   R
+
+    -   Python
+:::
+
+## ARGO Simulation Tool
+
+[https://boozallen.github.io/argo/](https://github.com/boozallen/argo/wiki) [https://github.com/boozallen/argo/wiki](https://boozallen.github.io/argo/)
+
+![](images/argo_infograph.png)
+
+Simulation Example: <https://github.com/boozallen/argo/wiki/First-Argo-Simulation-Model>
+
+## Practical Exercise: R Monte Carlo Simulation
+
+```{r, echo = TRUE, eval = TRUE, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(mc2d)
+
+# Define variables and distribution parameters
+
+c <- 0.00375 # concentration (mg/L)
+  c_p1 <- 0.00375 # concentration mean
+  c_p2 <- 0.001 # concentration s.d.
+ir <- 1   # ingestion rate
+  ir_p1 <- 0.5  # ingestion rate minimum
+  ir_p2 <- 1  # ingestion rate mode
+  ir_p3 <- 5  # ingestion rate maximum
+ef <- 350  # exposure frequency (days)
+  ef_p1 <- 200   
+  ef_p2 <- 350
+  ef_p3 <- 365
+ed <- 6  # exposure duration (days)
+bw <- 70 # body mass (kg)
+bw_p1 <- 70
+bw_p2 <- 75
+at <- 365*70  # averaging time (days)
+csf <- 1.5  # cancer slope factor
+
+
+## Deterministic
+
+# Daily Intake = (C x IR x EF x ED x) / (BW x AT) Risk = CSF x (C x IR x EF x ED x) / (BW x AT)
+
+
+daily_intake <-
+  (c * ir * ef * ed) / (bw * at) 
+
+daily_intake
+
+risk <-
+  csf * ((c * ir * ef * ed) / (bw * at)) 
+
+risk
+
+
+## Probabilistic
+
+
+# Concentration (C): Lognormal
+
+# reparameterize for `rlnorm`
+c_location <- log(c_p1^2 / sqrt(c_p2^2 + c_p1^2))
+c_shape <- sqrt(log(1 + (c_p2^2 / c_p1^2)))
+
+c_d <- rlnorm(10000, c_location, c_shape)
+ c_d %>% as_tibble()
+hist(c_d)
+
+
+# Intake Rate (IR): Beta-PERT
+ir_d <- mc2d::rpert(n = 10000, min = ir_p1, mode = ir_p2, max = ir_p3, shape = 4)
+  
+# ir_d %>% as_tibble()
+hist(ir_d)
+
+
+# Replicate and Solve for Risk
+
+risk_mc <-
+  replicate(n = 10000, expr = {
+    c_i = sample(c_d, size = 1)
+    ir_i = sample(ir_d, size = 1)
+    csf * ((c_i * ir_i * ef * ed) / (bw * at)) 
+  })
+
+risk_mc %>%
+  as_tibble() %>% 
+  ggplot(aes(x = value)) +
+  geom_histogram(bins = 60) +
+  theme_bw() +
+  xlab("risk")
+
+
+risk_mc %>%
+  as_tibble() %>% 
+  ggplot(aes(x = value)) +
+  geom_boxplot() +
+  theme_bw() +
+  xlab("risk")
+
+
+summary(risk_mc)
+```
+
+## EPA Case Study
+
+Probabilistic Risk Analysis of Exposure to Polychlorinated Biphenyls via Consumption of Fish From a Contaminated Sediment Site
+
+-   EPA Region 2 conducted a preliminary deterministic HHRA at the Hudson River PCBs Superfund site
+
+-   Consumption of fish provided the highest exposure among relevant exposure pathways
+
+-   Cancer risks and noncancer health hazards exceeded regulatory benchmarks
+
+## EPA Case Study: Analysis
+
+::: incremental
+-   Monte Carlo analysis of the variability of exposure as a function of the variability of individual exposure factors
+
+-   Mathematical models of the environmental fate, transport and bioaccumulation of PCBs in the Hudson River previously developed were used to forecast changes in PCB concentration over time
+
+-   Monte Carlo results consistent with deterministic results
+:::
+
+## EPA Case Study: Comparison
+
+![](images/mca_pcb_cancer.png)\
+
+## EPA Case Study: Comparison
+
+![](images/mca_pcb_noncancer.png)
+
+# Risk Management
+
+## Learning Objectives
+
+-   Discuss approaches used in risk management
+    -   Discuss how benefit cost analysis (BCA) is used in environmental policy decision making
+    -   Define "value of a statistical life"
+    -   Understand how and when discount rates are used
+    -   Discuss the ethical arguments against using BCA for environmental regulations
+    -   Understand the precautionary principle and application/misapplication in decision making
+
+## Framework for Risk-based Decision-making
+
+![](images/risk_framework.png){fig-align="center"}
+
+## Risk Management
+
+The process of evaluating policy/cleanup options and selecting the most appropriate option based on:
+
+-   Risk assessment
+-   Economics
+-   Politics
+-   Technical feasibility
+-   Stakeholder input
+-   Control options
+-   Ethics
+
+## Risk Management Executive Orders
+
+::: incremental
+-   Executive Order 12866 - Regulatory Planning and Review
+    -   Issued by President Clinton in 1993
+    -   "Significant regulatory actions" are submitted for review by Office of Information and Regulatory Affairs (OIRA) and Office of Management and Budget (OMB)
+-   EO 13563 -- Improving Regulation and Regulatory Review
+    -   Issued by President Obama in 2011, reaffirms the intent of EO 12866
+    -   Requires agencies to quantify benefits and costs of proposed rule-making
+    -   Encourages agencies to coordinate their regulatory activities, and to consider regulatory approaches that reduce the burden of regulation while maintaining flexibility and freedom of choice for the public
+
+<https://www.epa.gov/laws-regulations/summary-executive-order-12866-regulatory-planning-and-review>
+:::
+
+## Benefit -- Cost Analysis
+
+::: incremental
+-   Analytical tool used to evaluate public policy options
+
+-   Benefits determined by what individuals would be willing to pay for risk reductions or for other improvements from pollution prevention
+
+-   Provides policy makers and others with detailed information on a wide variety of consequences of environmental policies
+:::
+
+<https://www.epa.gov/environmental-economics/mortality-risk-valuation>
+
+## Basic Steps of Benefit Analysis
+
+::: incremental
+-   Assess the benefits associated with the considered policy
+    -   Determine the physical effects of the pollutants (fate/transport and pathway)
+    -   Estimate the change in effects resulting from the policy (may have multiple options)
+    -   Identify benefit categories (reduced mortality, morbidity, ozone layer, etc )
+    -   Quantify the endpoints (changes in the risk)
+    -   Evaluate worth of the changes
+:::
+
+## Values of Morbidity and Mortality
+
+::: incremental
+-   Willingness to Pay
+-   A common approach: uses survey research
+-   How much are you willing to pay to......
+    -   Reduce your early mortality from 2 in a million to 1 in a million?
+-   Value of a STATISTICAL Life (VSL)
+    -   Local trade-off rate between fatality risk and money
+    -   Based on willingness to pay studies
+    -   \$7.4 million (2006)
+    -   \$10 million (2016)
+:::
+
+<https://www.epa.gov/environmental-economics/mortality-risk-valuation> Figures: <https://www.bloomberg.com/graphics/2017-value-of-life/>
+
+## What does it mean to place a value on life?
+
+-   EPA does not place a dollar value on individual lives
+
+-   When conducting a benefit-cost analysis of new environmental policies, EPA uses estimates of how much people are willing to pay for small reductions in their risks of dying from adverse health conditions that may be caused by environmental pollution
+
+-   Not an estimate of how much money any single individual or group would be willing to pay to prevent the certain death of any particular person
+
+## Discount Rates of Costs and Benefits
+
+-   Benefits that occur in the future
+    -   OMB suggests using 3% and 7% discount rates
+    -   Example:
+        -   Benefit of \$50 million (in present value) in year 15
+
+$Net Present Value = \sum{} Year_n Total Cash Flow / (1 + Discount Rate)^n$
+
+```{r echo = TRUE, eval = TRUE}
+(50*10^6)/((1+0.03)^15)
+(50*10^6)/((1+0.07)^15)
+```
+
+## Other Values: Some Examples
+
+-   Morbidity
+-   Medical Expenditures
+-   Earnings/Lost Work Days
+-   Ecosystem functions (Climate)
+-   Animals
+-   Other things that are difficult to measure
+-   Market Products (Crop yields)
+-   Property damage
+-   Recreational activates and aesthetics
+
+## Regulatory Impact Analysis for the Final Mercury and Air Toxics Standards
+
+::: incremental
+-   Under the Clean Air Act, regulating power plant emissions, the EPA must show that it is "appropriate and necessary"
+
+-   Key Findings of the Regulatory Impact Analysis:
+
+-   Benefits:
+
+-   \$37-\$90 billion using a 3% discount rate
+
+-   \$33-\$81 billion using a 7% discount rate
+
+-   Costs: \$9.6 billion in compliance costs to the electric power industry
+
+-   Benefit/Cost Ratio: 3:1 or 9:1 (based on the estimate and the discount rate)
+:::
+
+Source: Regulatory Impact Analysis for the final Mercury and Air Toxics Standards, 2011
+
+## A Closer Look at the Benefits
+
+::: incremental
+-   Mercury exposure pathway in the risk assessment
+    -   Benefit from the reduction in mercury emissions
+        -   \$0.004 to \$0.006 billion using a 3% discount rate (\$4 to \$6 million)
+        -   \$0.0005 to \$0.001 billion using a 7% discount rate
+        -   511 fewer mercury-related IQ points lost
+            -   Average IQ loss per prenatally exposed child 0.00209 (based on the original proposed reduction)
+            -   Estimated 240,000 prenatally exposed children
+    -   Co-benefit from PM 2.5 reduced emissions (Majority)
+:::
+
+Source: Regulatory Impact Analysis for the final Mercury and Air Toxics Standards, 2011
+
+## Human Health Effects of Pollutants Affected by the Mercury and Air Toxics Standards
+
+![](images/mercury_table.png){fig-align="center"}
+
+Source: Regulatory Impact Analysis for the final Mercury and Air Toxics Standards, 2011
+
+## Co-Benefits
+
+-   Office of Management and Budget definition:
+
+> "a favorable impact of \[a\] rule that is typically unrelated or secondary to the statutory purpose of the rulemaking."
+
+-   *Question*: Should co-benefits be considered in a cost-benefit analysis?
+
+    -   Rule was intended to reduce mercury
+    -   Most of the benefits from PM 2.5
+
+## Supreme Court Ruling: Michigan et al. v. Environmental Protection Agency et al. (2015)
+
+-   **Holding**: The Environmental Protection Agency interpreted 42 U.S.C. §7412(n)(1)(A) of the Clean Air Act, which requires the agency to regulate power plants when "appropriate and necessary," unreasonably when it refused to consider cost when making that decision
+
+-   **Judgment**: Reversed and remanded, 5-4, in an opinion by Justice Scalia on June 29, 2015. Justice Thomas filed a concurring opinion. Justice Kagan filed a dissenting opinion, in which Justices Ginsburg, Breyer and Sotomayor joined
+
+<https://www.scotusblog.com/case-files/cases/michigan-v-environmental-protection-agency/>
+
+## 2018 Revised Proposal {.scrollable}
+
+-   EPA proposed to determine that it is not "appropriate and necessary" to regulate HAP emissions from power plants under Section 112 of the Clean Air Act
+
+-   EPA HQ News Release (06/07/2018):
+
+> Under the leadership of President Trump, EPA has taken steps to improve EPA's cost-benefit calculations. Consistent with the President's Executive Order 13783, EPA updated the social cost of carbon to reflect prior and best practices. While the Obama EPA estimated the social cost of carbon to be an average of \$36 per ton of carbon dioxide emitted, this EPA calculated an average of \$5 per ton.
+
+> EPA has also proposed a different approach to analyzing co-benefits -- benefits from reduced emissions of a pollutant that is not the actual target pollutant of a regulation. Particulate matter was the co-benefit most cited by the Obama EPA. In fact, particulate matter co-benefits accounted for more than 80% of the purported benefits of all of Obama's air rules. The Clean Power Plan (CPP), a rule aimed at carbon dioxide reductions, derived most of its benefits from a reduction in particulate matter. When EPA issued its proposed repeal of CPP, it provided a transparent account of the impact of the rule on the "targeted pollutant" -- carbon dioxide
+
+<https://www.epa.gov/archive/epa/newsreleases/epa-administrator-pruitt-proposes-cost-benefit-analysis-reform.html>
+
+## Precautionary Principle
+
+-   Precautionary decision-making approach in the face of uncertainty
+-   Rio Declaration on Environment and Development (1992 United Nations Earth Summit) \> "Where there are threats of serious or irreversible damage, lack of full scientific certainty shall not be used as a reason for postponing cost-effective measures to prevent environmental degradation"
+
+## Wingspread Statement (1998)
+
+-   Precautionary principle defined at a weekend meeting at Wingspread, in Racine, Wisconsin
+
+-   Recognized as a foundation for decision making to protect human heath and the environment
+
+-   5 key elements:
+
+    1.  Taking anticipatory action to prevent harm in the face of scientific uncertainty
+    2.  Exploring alternatives, including the alternative of "no action"
+    3.  Considering the full cost of environmental and health impacts over time
+    4.  Increasing public participation in decision making
+    5.  Shifting the responsibility for providing evidence to the proponents of an activity
+
+## Cass Sunstein: "Beyond the Precautionary Principle" (2003)
+
+::: incremental
+-   Argues that the precautionary principle is incoherent and potentially paralyzing
+
+-   Imposes a burden of proof on those who create potential risks, and it requires regulation of activities even if it cannot be shown that those activities are likely to produce significant harms
+
+-   Suggests that regulation is required whenever there is a possible risk to health, safety, or the environment, even if the supporting evidence is speculative and even if the economic costs of regulation are high
+
+-   Salutary moral and political goals should be promoted through other, more effective methods
+:::
+
+## Cost / Benefits Models and Tools
+
+-   Cost analysis
+-   Economic Analysis
+-   Benefits Analysis
+
+<https://www.epa.gov/economic-and-cost-analysis-air-pollution-regulations>
+
+## Environmental Benefits Mapping and Analysis Program - Community Edition (BenMAP-CE)
+
+-   Estimates the health impacts and economic value of changes in air quality
+-   Full-scale benefits assessment
+-   Open-source
+
+<https://www.epa.gov/benmap>
+
+## BenMAP-CE Webinar Video
+
+-   "Estimating the health burden associated with exposure to ambient PM2.5 levels, a case study in Tehran"
+-   Demonstration of BenMAP-CE version 1.4 (begins at minute 40)
+
+{{< video https://www.youtube.com/embed/Z1XeQDcgqDA >}}
+
+<https://www.youtube.com/watch?v=Z1XeQDcgqDA>
+
+# Risk Communication
+
+## Learning Objectives
+
+-   Recognize potential sources of bias and conflicts of interest in risk assessment determinations
+-   Identify key components of a successful risk communication message
+
+## Framework for Risk-based Decision-making
+
+![](images/risk_framework.png)
+
+## Conflict of Interest (COI) and Bias
+
+-   COI: duty of loyalty or responsibility to two distinct parties, both of which are likely to be affected in different ways by the activity in which the individual is engaged
+
+-   COI policies generally address financial conflicts
+
+-   Policies for handling financial COI issues generally rely on disclosure as a mechanism to manage COI
+
+## Bias and values in scientific research
+
+-   **Preference bias**: occurs when a research result unduly reflects the researchers' preference for it over other possible results
+
+    -   *Biased experimental design*: the design of the studies made them unlikely to detect any effects
+    -   *Biased interpretation of outcomes*: outcomes can be declared irrelevant, they can be attributed to a speculative alternative cause, or they can be declared insufficient for the validation of a decisive conclusion
+
+-   **Publication bias** (biased communication and dissemination of results): experiments or trials with significant outcomes are more likely to be published than those with null or weak results
+
+## Preference bias example
+
+Study found that 90% of government-funded experiments on low-dose exposure to bisphenol A reported significant effects, while not a single industry-funded experimental study did
+
+Some industry studies used a strain of rat (the CD-SD strain) insensitive to estrogen
+
+Torsten Wilholt, Bias and values in scientific research, *Studies in History and Philosophy of Science Part A*, Volume 40, Issue 1, 2009 <https://doi.org/10.1016/j.shpsa.2008.12.005>
+
+## Research misconduct
+
+-   NIH Reviews of Research Ethics Cases
+
+-   Themes:
+
+    -   Authorship
+    -   Data Management
+    -   Borrowing / Plagiarism
+    -   Ethical Ambiguities
+    -   Research Responsibility
+    -   Socially Responsible Science
+
+    <https://oir.nih.gov/sourcebook/ethical-conduct/responsible-conduct-research-training/annual-review-ethics-case-studies>
+
+## Manufactured Uncertainty: Doubt is their Product Arguments
+
+![](images/doubt.png){fig-align="center" width="232"}
+
+-   2008 book by David Michaels
+
+    -   Epidemiologist and Professor in the Departments of Environmental and Occupational Health and Epidemiology at the Milken Institute School of Public Health of the George Washington University
+    -   Served as Assistant Secretary of Labor for Occupational Safety and Health
+
+-   Book documents tobacco industry's tactics: spawned a multi-million dollar industry dismantling public health safeguards in areas far from tobacco
+
+-   Industry executives hired unscrupulous scientists and lobbyists to dispute scientific evidence about health risks
+
+-   Product defense consultants:
+
+    -   Increasingly **skewed the scientific literature**
+
+    -   **Manufactured and magnified scientific uncertainty**
+
+    -   **Influenced policy decisions** to the advantage of polluters and the manufacturers of dangerous products
+
+-   Goal: **keep the public confused** about hazards (e.g., climate change, second-hand smoke, asbestos, lead, plastics, many other toxic materials)
+
+-   **Constructed barriers**: harder for lawmakers, government agencies, and courts to respond to future threats
+
+## Risk Communication Overview
+
+![](images/risk_comm_fig.png)
+
+<https://www.epa.gov/risk/risk-communication>
+
+## Risk Communication Overview
+
+-   Process of informing people about potential hazards to their person, property, or community
+
+-   Situations of **high stress**, **high concern** or **controversy**
+
+## Composition of message
+
+-   Put a particular risk in context
+-   Compare with other risks
+-   Advise about risk reduction behavior
+-   Encourage a dialogue
+
+## Types of communication environments
+
+![](images/risk_env_types.png){fig-align="center"}
+
+<https://semspub.epa.gov/work/11/174720.pdf>
+
+## Components of Trust
+
+![](images/trust_components.png){fig-align="center"}
+
+WHO Regional Office for Europe; 2021
+
+## Risk Communication Strategy: Seven Cardinal Rules
+
+1.  **Accept and involve the public as a legitimate partner: early involvement**
+
+2.  **Plan carefully and evaluate your efforts**
+
+-   set clear objectives
+
+-   be attentive to needs and interests
+
+-   train staff in communication skills
+
+-   rehearse and test message
+
+-   assess efforts and lessons learned
+
+3.  **Listen to public's specific concerns**
+
+-   find out what people think or want
+
+-   recognize their feelings
+
+4.  **Be honest and open**
+
+5.  **Coordinate and collaborate with other credible sources**
+
+6.  **Meet the needs of the media**
+
+-   open and accessible to reporters
+
+-   establish relationships of trust
+
+7.  **Speak clearly and with compassion**
+
+-   communicate on a personal level
+
+-   use vivid, concrete images or examples
+
+-   make technical risk data come alive
+
+-   acknowledge and respond with words and emotions that people express
+
+Covello, V. and F. Allen, 1988
+
+## Develop Risk Messages
+
+![](images/message_map.png){fig-align="center"}
+
+## Risk Comparisons
+
+-   Use risk comparisons effectively and cautiously
+
+-   Can be an effective strategy:
+
+    -   provide context for a situation
+    -   help individuals put site-related risks in perspective
+
+-   Inappropriate comparison can have disastrous results for the credibility and efforts of the communicator
+
+## Beneficial Risk Comparisons
+
+![](images/acceptable_risk_compare.png){fig-align="center"}
+
+## Poor Risk Comparisons
+
+![](images/unacceptable_risk_compare.png){fig-align="center"}
+
+<https://semspub.epa.gov/work/11/174720.pdf>
+
+## Risk Matrices
+
+![](images/atp_risk_matrix.png){fig-align="center"}
+
+Modified from ATP 5-19 and CJCS MCM 0017-12
+
+## Other Example Visual Tools
+
+-   WBGT Work/Rest Times and Fluid Replacement Guide
+
+-   Air Quality Index
+
+## Case Study Videos
+
+## Navy town hall regarding tainted water
+
+<https://www.facebook.com/watch/live/?ref=watch_permalink&v=379143127324214>
+
+## Chaos at town hall meeting as local Hawaii residents address Navy's handling of Red Hill
+
+<https://www.youtube.com/watch?v=Rfu3GsnJgG0>
+
+<https://www.youtube.com/watch?v=oew9WQP4GCc>
+
+## Secretary of the Army Town Hall - Hawaii
+
+<https://fb.watch/ihMGO2fbB6/>
